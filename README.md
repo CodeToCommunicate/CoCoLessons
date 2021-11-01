@@ -31,8 +31,8 @@ We will teach Python using the JupyterLab, a programming environment that runs i
 For this to work you will need a reasonably up-to-date browser. 
 The current versions of the Chrome, Safari and Firefox browsers are all supported (some older browsers, including Internet Explorer version 9 and below, are not). 
 
-Please follow the instructions designed by [Software Carpentry] (https://software-carpentry.org) to install Python:
-[https://swcarpentry.github.io/python-novice-gapminder/setup.html] (https://swcarpentry.github.io/python-novice-gapminder/setup.html).
+Please follow the instructions designed by [Software Carpentry](https://software-carpentry.org) to install Python:
+https://swcarpentry.github.io/python-novice-gapminder/setup.html.
 
 ---
 Python es un lenguaje popular para la informática de investigación y también es excelente para la programación de propósito general.
@@ -45,14 +45,14 @@ Para que esto funcione, necesitará un navegador razonablemente actualizado.
 Las versiones actuales de los navegadores Chrome, Safari y Firefox son compatibles (algunos navegadores más antiguos, incluido Internet Explorer versión 9 y anteriores, no lo son).
 
 Por favor siga las instrucciones diseñada por [Software Carpentry](https://software-carpentry.org) para instalar Python:
-[https://swcarpentry.github.io/python-novice-gapminder/setup.html](https://swcarpentry.github.io/python-novice-gapminder/setup.html).
+https://swcarpentry.github.io/python-novice-gapminder/setup.html.
 
 
 ## License / Licencia
 
-[! [CC BY 4.0] [cc-by-image]] [cc-by]
+[![CC BY 4.0][cc-by-image]][cc-by]
 
-The content of this repository is available under the [Creative Commons Attribution 4.0 International License] [cc-by] license with the exception of `assets / ideas-logo.png`. 
+The content of this repository is available under the [Creative Commons Attribution 4.0 International License][cc-by] license with the exception of `assets / ideas-logo.png`. 
 
 [cc-by]: http://creativecommons.org/licenses/by/4.0/
 [cc-by-image]: https://i.creativecommons.org/l/by/4.0/88x31.png
