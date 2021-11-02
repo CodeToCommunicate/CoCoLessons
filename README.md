@@ -3,18 +3,14 @@
 ## Requirements / Requisitos
 
 - Personal computer with internet connection and browser.
-- Have a Python distribution installed
-   [Anaconda] (https://www.anaconda.com/products/individual)
-   ([see instructions] (# how-to-install-anaconda))
+- Have a Python distribution installed (see instructions below).
 - ~It isn't necessary to have a camera and microphone, although it would be beneficial to
    exchange ideas.~
 - It is not necessary to have programming knowledge.
 
 ---
 - Computadora personal con conexión a internet y navegador.
-- Tener instalada una distribución de Python
-  [Anaconda](https://www.anaconda.com/products/individual)
-  ([ver instrucciones](#cómo-instalar-anaconda))
+- Tener instalada una distribución de Python (ver instrucciones a continuación).
 - ~No es necesario tener cámara y micrófono, aunque sería beneficioso para poder
   intercambiar ideas.~
 - No es necesario tener conocimientos de programación.
@@ -52,7 +48,7 @@ https://swcarpentry.github.io/python-novice-gapminder/setup.html.
 
 [![CC BY 4.0][cc-by-image]][cc-by]
 
-The content of this repository is available under the [Creative Commons Attribution 4.0 International License][cc-by] license with the exception of `assets / ideas-logo.png`. 
+The content of this repository is available under the [Creative Commons Attribution 4.0 International License][cc-by]. 
 
 [cc-by]: http://creativecommons.org/licenses/by/4.0/
 [cc-by-image]: https://i.creativecommons.org/l/by/4.0/88x31.png
