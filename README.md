@@ -54,3 +54,9 @@ The content of this repository is available under the [Creative Commons Attribut
 
 [cc-by]: http://creativecommons.org/licenses/by/4.0/
 [cc-by-image]: https://i.creativecommons.org/l/by/4.0/88x31.png
+
+## Acknowledgment / Reconocimiento
+
+This work is supported by the National Science Foundation under Award No.
+[2118272](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2118272),
+*Collaborative Research: CyberTraining: Pilot: A Cybertraining Program to Advance Knowledge and Equity in the Geosciences*.
