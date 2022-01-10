@@ -1,0 +1,21 @@
+# A conda environment for CoCo coding sessions.
+#
+# Usage:
+#   $ conda env create --file=environment.yaml
+#   $ source activate coco
+
+name: coco
+channels:
+  - conda-forge
+dependencies:
+  - python =3
+  - pip
+  - numpy
+  - scipy
+  - pandas
+  - matplotlib
+  - jupyterlab
+  - xarray
+  - pygmt
+  - pyproj
+  - seaborn
