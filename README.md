@@ -1,3 +1,5 @@
+![CoCo banner](./media/coco-banner.jpg)
+
 # First Semester Course / Primer semestre del curso
 
 ## Requirements / Requisitos
