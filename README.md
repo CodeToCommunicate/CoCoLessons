@@ -17,6 +17,12 @@
   intercambiar ideas.~
 - No es necesario tener conocimientos de programación.
 
+## The CSDMS JupyterHub
+
+The [Community Surface Dynamics Modeling System][csdms] (CSDMS)
+provides a [JupyterHub][jhub] where the notebooks in this repository can be run.
+Click this button [![Run on CSDMS JupyterHub][badge]][nbgitpuller-link]
+to open this repository directly on the CSDMS JupyterHub!
 
 ## Installing Python Using Anaconda / Instalación de Python con Anaconda
 
@@ -52,11 +58,20 @@ https://swcarpentry.github.io/python-novice-gapminder/setup.html.
 
 The content of this repository is available under the [Creative Commons Attribution 4.0 International License][cc-by]. 
 
-[cc-by]: http://creativecommons.org/licenses/by/4.0/
-[cc-by-image]: https://i.creativecommons.org/l/by/4.0/88x31.png
-
 ## Acknowledgment / Reconocimiento
 
-This work is supported by the National Science Foundation under Award No.
-[2118272](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2118272),
+This work is supported by the National Science Foundation
+under Award No. [2118272][nsf-award],
 *Collaborative Research: CyberTraining: Pilot: A Cybertraining Program to Advance Knowledge and Equity in the Geosciences*.
+
+
+<!-- Links -->
+
+[badge]: https://img.shields.io/badge/CSDMS-JupyterHub-orange.svg
+[cc-by]: http://creativecommons.org/licenses/by/4.0/
+[cc-by-image]: https://i.creativecommons.org/l/by/4.0/88x31.png
+[csdms]: https://csdms.colorado.edu
+[jhub]: https://lab.openearthscape.org
+[nbgitpuller-link]: https://lab.openearthscape.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FCodeToCommunicate%2FFirst_Semester_Course_Notebooks&urlpath=lab%2Ftree%2FFirst_Semester_Course_Notebooks%2F%3Fautodecode&branch=main
+[notebook]: ./lessons/jupyter/general_jupyter_notebook_tutorial.ipynb
+[nsf-award]: https://www.nsf.gov/awardsearch/showAward?AWD_ID=2118272
