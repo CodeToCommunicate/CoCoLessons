@@ -61,7 +61,7 @@ The content of this repository is available under the [Creative Commons Attribut
 ## Acknowledgment / Reconocimiento
 
 This work is supported by the National Science Foundation
-under Award No. [2118272][nsf-award],
+under Award Nos. [2118272][nsf-award-nicole], [2117519][nsf-award-julie], and [2118171][nsf-award-mark],
 *Collaborative Research: CyberTraining: Pilot: A Cybertraining Program to Advance Knowledge and Equity in the Geosciences*.
 
 
@@ -74,4 +74,6 @@ under Award No. [2118272][nsf-award],
 [jhub]: https://lab.openearthscape.org
 [nbgitpuller-link]: https://lab.openearthscape.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FCodeToCommunicate%2FFirst_Semester_Course_Notebooks&urlpath=lab%2Ftree%2FFirst_Semester_Course_Notebooks%2F%3Fautodecode&branch=main
 [notebook]: ./lessons/jupyter/general_jupyter_notebook_tutorial.ipynb
-[nsf-award]: https://www.nsf.gov/awardsearch/showAward?AWD_ID=2118272
+[nsf-award-nicole]: https://www.nsf.gov/awardsearch/showAward?AWD_ID=2118272
+[nsf-award-julie]: https://www.nsf.gov/awardsearch/showAward?AWD_ID=2117519
+[nsf-award-mark]: https://www.nsf.gov/awardsearch/showAward?AWD_ID=2118171
