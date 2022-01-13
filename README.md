@@ -72,7 +72,7 @@ under Award Nos. [2118272][nsf-award-nicole], [2117519][nsf-award-julie], and [2
 [cc-by-image]: https://i.creativecommons.org/l/by/4.0/88x31.png
 [csdms]: https://csdms.colorado.edu
 [jhub]: https://lab.openearthscape.org
-[nbgitpuller-link]: https://lab.openearthscape.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FCodeToCommunicate%2FCoCoTerm1&urlpath=lab%2Ftree%2FCoCoTerm1%2F%3Fautodecode&branch=main
+[nbgitpuller-link]: https://lab.openearthscape.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FCodeToCommunicate%2FCoCoLessons&urlpath=lab%2Ftree%2FCoCoLessons%2F%3Fautodecode&branch=main
 [notebook]: ./lessons/jupyter/general_jupyter_notebook_tutorial.ipynb
 [nsf-award-nicole]: https://www.nsf.gov/awardsearch/showAward?AWD_ID=2118272
 [nsf-award-julie]: https://www.nsf.gov/awardsearch/showAward?AWD_ID=2117519
