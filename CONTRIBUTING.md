@@ -7,7 +7,7 @@ Every little bit helps, and credit will always be given.
 
 ### Report Bugs
 
-Report bugs at https://github.com/CodeToCommunicate/CoCoTerm1/issues.
+Report bugs at https://github.com/CodeToCommunicate/CoCoLessons/issues.
 
 If you are reporting a bug, please include:
 
@@ -28,7 +28,7 @@ implement it.
 ### Submit Feedback
 
 The best way to send feedback is to file an issue at
-https://github.com/CodeToCommunicate/CoCoTerm1/issues.
+https://github.com/CodeToCommunicate/CoCoLessons/issues.
 
 If you are proposing a feature:
 
@@ -43,7 +43,7 @@ Ready to contribute? Here's how to set up CoCo for local development.
 1.  Clone your fork locally:
 
     ```
-    $ git clone git@github.com:your_github_handle/CoCoTerm1.git
+    $ git clone git@github.com:your_github_handle/CoCoLessons.git
     ```
 
 1.  Create a branch for local development:
