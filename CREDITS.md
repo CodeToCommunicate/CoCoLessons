@@ -10,6 +10,7 @@ Project leads
 Contributors
 ------------
 
+* Andrea Balza
 * Isamar Cort&eacute;s
 * Agustina Pesce
 * Mark Piper
