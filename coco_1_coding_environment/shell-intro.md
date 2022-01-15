@@ -286,3 +286,9 @@ described in this lesson.
 
 * This lesson is loosely based on the Software Carpentry shell lesson, available in [English](https://swcarpentry.github.io/shell-novice/) and [Spanish](https://swcarpentry.github.io/shell-novice-es/)
 * For a deeper dive into shell commands, see the [Bash Guide for Beginners](http://www.tldp.org/LDP/Bash-Beginners-Guide/html/) from the Linux Documentation Project, as well as the [GNU Bash Manual](https://www.gnu.org/software/bash/manual/)
+
+
+___
+
+[Setting up a scientific coding environment](./index.md) |
+Previous: [Project Jupyter](./jupyter.md)
