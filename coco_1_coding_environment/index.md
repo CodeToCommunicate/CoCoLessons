@@ -1,9 +1,9 @@
 ![CoCo logo](https://github.com/CodeToCommunicate/CoCoLessons/blob/main/media/coco-banner.jpg)
 
-# Setting Up a Scientific Coding Environment
+# Setting up a scientific coding environment
 
-In this lesson we'll present an overview of setting up
-a scientific coding environment that you can use in CoCo
+In this lesson, we'll set up
+an environment for scientific coding that you can use in CoCo
 and beyond.
 
 *Primary goals:*
@@ -13,30 +13,31 @@ and beyond.
 1. Use a Jupyter Notebook
 1. Open a terminal and use basic shell commands
 
-*Stretch goals:*
+*Stretch goals (if we have time):*
 
-* Anaconda
+* Anaconda and `conda`
 * Text editors and integrated development environments (IDEs)
 
 
 ## Topics
 
-1. JupyterHub
-1. JupyterLab
-1. Jupyter Notebook
-1. [Terminal and shell commands](./shell-intro.md)
+1. [Project Jupyter](./jupyter.md): JupyterHub, JupyterLab, and Jupyter Notebook
+1. [The terminal and shell commands](./shell-intro.md)
 
 
-### Homework
+## Further reading
 
-* Make a short Jupyter Notebook that includes Python code and Markdown text
+See the lists of resources at the end of each of the topics listed above.
+
+
+## Homework
+
 * Read about Jupyter Notebook
-* Skim over the Software Carpentry shell lesson
+* Make a short Jupyter Notebook that includes Python code and Markdown text
+* Skim over the Software Carpentry shell lesson ([English](https://swcarpentry.github.io/shell-novice/), [Spanish](https://swcarpentry.github.io/shell-novice-es/))
 
-## Resources
-
-* Jupyter Notebook -- https://jupyter-notebook.readthedocs.io
-* JupyterLab -- https://jupyterlab.readthedocs.io
-
-* The shell lesson is loosely based on the Software Carpentry [shell lesson](https://swcarpentry.github.io/shell-novice/)
-* For more on shell commands, see the [Bash Guide for Beginners](http://www.tldp.org/LDP/Bash-Beginners-Guide/html/) from the Linux Documentation Project and the [GNU Bash Manual](https://www.gnu.org/software/bash/manual/)
+These are open-ended assignments;
+you can do as little or as much as you'd like,
+you will not be graded.
+The important thing is to try these--they are tools we'll be using through CoCo,
+so the work you put in now will pay off later!

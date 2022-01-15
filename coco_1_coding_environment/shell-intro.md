@@ -56,7 +56,7 @@ on which this lesson is based.
 The command prompt (or shell prompt) is where we enter commands into a terminal.
 It's typically denoted with a dollar sign `$`.
 
-We use a terminal in a **read-evaluate-print loop (REPL)**;
+We use a terminal in a [read-evaluate-print loop](https://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop) (REPL);
 that is, when we enter a command at the prompt, the shell
 
 1. reads the command
@@ -228,7 +228,7 @@ However, the directory must be empty before it can be removed.
 
 
 
-# Making and removing directories
+## Making and removing directories
 
 The filesystem is comprised of directories and files.
 Here, we'll see how to make them.
@@ -279,3 +279,10 @@ described in this lesson.
 | rm                | deletes a file (permanently)
 | mkdir             | creates a directory
 | rmdir             | deletes a directory (permanently)
+
+
+
+## Resources
+
+* This lesson is loosely based on the Software Carpentry shell lesson, available in [English](https://swcarpentry.github.io/shell-novice/) and [Spanish](https://swcarpentry.github.io/shell-novice-es/)
+* For a deeper dive into shell commands, see the [Bash Guide for Beginners](http://www.tldp.org/LDP/Bash-Beginners-Guide/html/) from the Linux Documentation Project, as well as the [GNU Bash Manual](https://www.gnu.org/software/bash/manual/)
