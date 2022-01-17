@@ -1,7 +1,7 @@
 # A conda environment for CoCo coding sessions.
 #
 # Usage:
-#   $ conda env create --file=environment.yaml
+#   $ conda env create --file=environment.yml
 #   $ source activate coco
 
 name: coco
