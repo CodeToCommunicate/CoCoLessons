@@ -98,25 +98,28 @@ the home directory on a macOS or Windows machine will be slightly different.
 Next, let's look at the contents of this directory.
 ```
 $ ls
-anaconda3  build  Desktop  local  packages  scratch  tmp
-bin        data   dist     nb     projects  testing
+CoCoLessons  bin          bmi-topography  espin     scratch
+README.md    bmi-geotiff  data            projects  tmp
 ```
 The `ls` command provides a directory listing.
 This home directory holds a set of subdirectories.
 
 We can drill down through directories by providing arguments to `ls`.
-For example, to see the contents of the **Desktop** directory, type:
+For example, to see the contents of the **CoCoLessons** directory, type:
 ```
-$ ls Desktop
-data-shell  data-shell.zip
+$ ls CoCoLessons
+CODE-OF-CONDUCT.md  Coco_Session2.ipynb  LICENSE.md                 environment.yaml
+CONTRIBUTING.md     Coco_Session3.ipynb  README.md                  media
+CREDITS.md          Coco_Session4.ipynb  coco_1_coding_environment
+Coco_Session1.pptx  Coco_Session5.ipynb  data
 ```
-You can see the sample files we downloaded earlier.
+You can see the CoCo lesson files that have been added to the JupyterHub.
 We can drill further; for example, to see into the directory containing
-the sample files:
+data files:
 ```
-$ ls Desktop/data-shell
-creatures  molecules           notes.txt  solar.pdf
-data       north-pacific-gyre  pizza.cfg  writing
+$ ls CoCoLessons/data
+RPC_4_lithologies_Messy.csv  south-africa-topography.nc.xz  temperature-central-park.dat
+hawaii-profile.csv           temperature-berkeley.dat       winemag-data-130k-v2.csv
 ```
 
 
@@ -127,126 +130,57 @@ we remain in the home directory.
 To change directories,
 use the `cd` command:
 ```
-$ cd Desktop
+$ cd CoCoLessons
 $ pwd
-/home/mpiper/Desktop
+/home/jupyter-mpiper/CoCoLessons
 ```
-The `pwd` command shows that we've switched to the **Desktop** directory.
+The `pwd` command shows that we've switched to the **CoCoLessons** directory.
 
 The `cd` command can take a directory name as an argument.
 It can also take no arguments:
 ```
 $ cd
 $ pwd
-/home/mpiper
+/home/jupyter-mpiper
 ```
 With no arguments, `cd` always returns to your home directory.
 
-The `cd` command can also take a set of special characters.
+The `cd` command can also take a set of special characters as arguments.
 To switch to the previous directory,
 use a dash `-`:
 ```
 $ cd -
-$ pwd
-/home/mpiper/Desktop
+/home/jupyter-mpiper/CoCoLessons
 ```
 
 When working with directories,
 a dot `.` is a shortcut for the current directory,
-while dot dot `..` is a shortcut for the parent directory:
+while two dots `..` are a shortcut for the parent directory:
 ```
 $ cd .
 $ pwd
-/home/mpiper/Desktop
+/home/jupyter-mpiper/CoCoLessons
 $ cd ..
 $ pwd
-/home/mpiper
+/home/jupyter-mpiper
 ```
 Likewise,
 the tilde `~` is a shortcut for the user's home directory:
 ```
 $ cd ~
 $ pwd
-/home/mpiper
+/home/jupyter-mpiper
 ```
 
+## Making a directory
 
-## Copying, moving, removing
-
-Let's make a copy of our haiku:
-```
-$ cp haiku haiku-1
-$ ls
-haiku  haiku-1
-```
-The `cp` makes a duplicate of a file.
-
-The `mv` command moves a file from one location to another.
-Let's move **haiku-1** up to the **Desktop** directory:
-```
-$ mv haiku-1 ~/Desktop
-$ ls
-haiku
-$ ls ~/Desktop/
-shell-lesson-data  shell-lesson-data.zip  haiku-1  new
-```
-Note that **haiku-1** has been moved from the **new** directory to **Desktop**.
-
-The `mv` command can also be used to rename a file.
-```
-$ mv ../haiku-1 haiku.copy
-$ ls
-haiku  haiku.copy
-```
-Here, we moved the file back to the **new** directory and renamed it.
-
-Files can be deleted with the `rm` command.
-Remove our haiku copy with
-```
-$ rm haiku.copy
-$ ls
-haiku
-```
-There is no concept of a "trash" or "recycle" bin in the shell.
-Once a file is removed, it's gone, irrevocably.
-
-As a last step,
-let's move our haiku up to the parent directory,
-change to the parent directory,
-then delete the **new** directory:
-```
-$ mv haiku ..
-$ cd ..
-$ rmdir new
-$ ls
-shell-lesson-data  shell-lesson-data.zip  haiku
-```
-As `rm` removes files,
-the `rmdir` command removes directories.
-However, the directory must be empty before it can be removed.
-
-
-
-
-## Making and removing directories
-
-The filesystem is comprised of directories and files.
-Here, we'll see how to make them.
-
-To start, change to the **Desktop** directory:
-```
-$ cd ~/Desktop
-/home/mpiper/Desktop
-```
-Note that by using the tilde `~`,
-we'll get to the Desktop from wherever we are in the filesystem.
-
-Next,
+From your home directory,
 use the `mkdir` command to make a new directory:
 ```
 $ mkdir new
 $ ls
-shell-lesson-data  shell-lesson-data.zip  new
+CoCoLessons  bin          bmi-topography  espin  projects  tmp
+README.md    bmi-geotiff  data            new    scratch
 ```
 Change to the new directory and get a listing:
 ```
@@ -256,7 +190,66 @@ $ ls
 The new directory is empty.
 
 
+## Copying, moving, and removing
 
+Let's copy a file from the **CoCoLessons** directory to our **new** directory:
+```
+$ cp ../CoCoLessons/README.md .
+$ ls
+README.md
+```
+Here, we instructed the `cp` command to go up a directory
+and over to the **CoCoLessons** directory to get a file and copy it to the current directory.
+Note that the copy and the original both exist, and are the same:
+```
+$ $ diff -s README.md ../CoCoLessons/README.md
+Files README.md and ../CoCoLessons/README.md are identical
+```
+The `diff` command compares files and reports how they differ.
+
+
+The `mv` command can be used to rename a file.
+```
+$ mv README.md readme.md
+$ ls
+readme.md
+```
+The `mv` command can also be used to move a file from one location to another.
+Let's move **readme.md** up to the home directory:
+```
+$ mv readme.md ~
+$ ls
+$ ls ~
+CoCoLessons  bin          bmi-topography  espin  projects   scratch
+README.md    bmi-geotiff  data            new    readme.md  tmp
+```
+Note that the **new** directory is now empty because **readme.md** has been moved up to the home directory.
+Also note that **README.md** and **readme.md** in the home directory are different files!
+The filesystems in Linux and macOS are case-sensitive.
+
+Files can be deleted with the `rm` command.
+Remove our **readme.md** file with
+```
+$ cd
+$ rm readme.md
+```
+There is no concept of a "trash" or "recycle" bin in the shell.
+Once a file is removed, it's gone, irrevocably.
+
+
+## Removing a directory
+
+As a last step,
+let's delete the **new** directory:
+```
+$ rmdir new
+$ ls
+CoCoLessons  bin          bmi-topography  espin     scratch
+README.md    bmi-geotiff  data            projects  tmp
+```
+As `rm` removes files,
+the `rmdir` command removes directories.
+However, the directory must be empty before it can be removed.
 
 
 ## Summary
@@ -276,17 +269,16 @@ described in this lesson.
 | -                 | previous directory
 | cp                | copies a file
 | mv                | moves or renames a file
+| diff              | compares contents of files
 | rm                | deletes a file (permanently)
 | mkdir             | creates a directory
 | rmdir             | deletes a directory (permanently)
-
 
 
 ## Resources
 
 * This lesson is loosely based on the Software Carpentry shell lesson, available in [English](https://swcarpentry.github.io/shell-novice/) and [Spanish](https://swcarpentry.github.io/shell-novice-es/)
 * For a deeper dive into shell commands, see the [Bash Guide for Beginners](http://www.tldp.org/LDP/Bash-Beginners-Guide/html/) from the Linux Documentation Project, as well as the [GNU Bash Manual](https://www.gnu.org/software/bash/manual/)
-
 
 ___
 
