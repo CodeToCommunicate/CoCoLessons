@@ -2,7 +2,7 @@
 
 # Project Jupyter
 
-<a href="https://jupyter.org/"><img style="float: right; width: 15%; margin: 0 0 0 20px" src="https://jupyter.org/assets/homepage/main-logo.svg"></a>
+<img align="right" width="150" height="150" src="https://jupyter.org/assets/homepage/main-logo.svg">
 
 [Project Jupyter][jupyter] is a non-profit, open-source, community-driven organization that oversees the development of a software ecosystem for interactive scientific coding, learning, and discovery.
 Project Jupyter grew out of the [IPython project][ipython] started by Fernando P&eacute;rez when we was a graduate student in physics at the University of Colorado Boulder.
