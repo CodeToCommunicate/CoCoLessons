@@ -1,4 +1,4 @@
-![CoCo logo](./media/coco-banner.jpg)
+<img align="center" style="margin:0 0 20px 0" width="100%" height="100%" src="https://raw.githubusercontent.com/CodeToCommunicate/CoCoLessons/main/media/coco-banner.jpg">
 
 # Project Jupyter
 
@@ -67,6 +67,7 @@ The estimate is presented, of course, in a notebook.
 * JupyterHub [documentation][jupyterhub-docs]
 * JupyterLab [documentation][jupyterlab-docs] and [an entertaining demonstration](https://youtu.be/A5YyoCKxEOU) on YouTube
 * Jupyter Notebook [documentation][jupyter-notebook-docs]
+* The [first section][swc-ppp-1] of the Software Carpentry [Plotting and Programming in Python][swc-ppp] lesson has a great section on JupyterLab and Jupyter Notebook
 * A collection of [notable Jupyter Notebooks](https://github.com/jupyter/jupyter/wiki) and a comprehensive [tutorial](https://www.dataquest.io/blog/jupyter-notebook-tutorial/)
 
 
@@ -89,3 +90,5 @@ Next: [Introduction to the shell](./shell-intro.md)
 [jupyterlab-docs]: (https://jupyterlab.readthedocs.io)
 [jupyter-notebook-docs]: https://jupyter-notebook.readthedocs.io
 [oes]: https://openearthscape.org/
+[swc-ppp]: https://swcarpentry.github.io/python-novice-gapminder/
+[swc-ppp-1]: https://swcarpentry.github.io/python-novice-gapminder/01-run-quit/index.html
