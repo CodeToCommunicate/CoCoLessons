@@ -1,4 +1,4 @@
-![CoCo logo](https://github.com/CodeToCommunicate/CoCoLessons/blob/main/media/coco-banner.jpg)
+![CoCo logo](./media/coco-banner.jpg)
 
 # Introduction to the shell
 
