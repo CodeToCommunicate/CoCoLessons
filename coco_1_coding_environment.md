@@ -110,7 +110,7 @@ Un JupyterHub se puede instalar en la nube o localmente.
 A través del proyecto [OpenEarthscape][oes] financiado por la NSF,
 el [Community Surface Dynamics Modeling System][csdms] (CSDMS) proporciona un
 [JupyterHub][csdms-jhub] donde se pueden ejecutar los portátiles del programa CoCo.
-Haga clic en este botón [![Ejecutar en CSDMS JupyterHub][insignia]][csdms-jhub-link]
+Haga clic en este botón [![Ejecutar en CSDMS JupyterHub][badge]][csdms-jhub-link]
 para abrir las lecciones de CoCo directamente en CSDMS JupyterHub.
 
 ## JupyterLab
