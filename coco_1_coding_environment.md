@@ -1,6 +1,6 @@
 <img align="center" style="margin:0 0 20px 0" width="100%" height="100%" src="https://raw.githubusercontent.com/CodeToCommunicate/CoCoLessons/main/media/coco-banner.jpg">
 
-# Setting up a scientific coding environment / Configuración de un entorno de programación científica
+# Setting up a scientific coding environment / Configurando un entorno de programación científica
 
 In this lesson, we'll set up an environment for scientific coding that you can
 use in CoCo and beyond.
