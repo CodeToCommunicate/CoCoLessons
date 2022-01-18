@@ -642,7 +642,7 @@ La siguiente tabla resume los comandos y caracteres especiales descritos en esta
 | ls              | directory listing / muestra el contenido del directorio                   |
 | cd              | change directory / cambia el directorio                                   |
 | /               | path delimiter / delimitador de dirección                                 |
-| ~               | home directory / directorio de inicio                                     |
+| ~               | home directory / carpeta de usuario                                       |
 | .               | current directory / directorio actual                                     |
 | ..              | one directory up / subir un directorio                                    |
 | -               | previous directory / el directorio anterior                                 |
