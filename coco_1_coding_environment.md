@@ -645,7 +645,7 @@ La siguiente tabla resume los comandos y caracteres especiales descritos en esta
 | ~               | home directory / directorio de inicio                                     |
 | .               | current directory / directorio actual                                     |
 | ..              | one directory up / subir un directorio                                    |
-| -               | previous directory / un directorio arriba                                 |
+| -               | previous directory / el directorio anterior                                 |
 | cp              | copies a file / copia un archivo                                          |
 | mv              | moves or renames a file / mueve o renombra un archivo                     |
 | diff            | compares contents of files / compara el contenido de un archivo           |
