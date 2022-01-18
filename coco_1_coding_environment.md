@@ -602,7 +602,7 @@ Once a file is removed, it's gone, irrevocably.
 
 ---
 
-No existe el concepto de "papelera" o papelera de "reciclaje" en el shell.
+No existe el concepto de "papelera" o "papelera de reciclaje" en el shell.
 Una vez que se elimina un archivo, desaparece irrevocablemente.
 
 ## Removing a directory / Eliminar un directorio
