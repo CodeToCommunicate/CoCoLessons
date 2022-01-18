@@ -20,7 +20,7 @@ use in CoCo and beyond.
 ---
 
 En Esta lección configuraremos un entorno para realizar programación científica
-que puedes usar en CoCo y mucho mas.
+que puedes usar en CoCo y para otras cosas también.
 
 _Objetivos principales:_
 
