@@ -26,14 +26,14 @@ to open this repository directly on the CSDMS JupyterHub!
 
 ## Installing Python Using Anaconda / Instalación de Python con Anaconda
 
-Python is a popular language for research computing, and great for general-purpose programming as well. 
+Python is a popular language for research computing, and great for general-purpose programming as well.
 Installing all of its research packages individually can be a bit difficult, so we recommend Anaconda, an all-in-one installer.
 
 Regardless of how you choose to install it, please make sure you install Python version 3.9.
 
 We will teach Python using the JupyterLab, a programming environment that runs in a web browser (JupyterLab will be installed by Anaconda).
-For this to work you will need a reasonably up-to-date browser. 
-The current versions of the Chrome, Safari and Firefox browsers are all supported (some older browsers, including Internet Explorer version 9 and below, are not). 
+For this to work you will need a reasonably up-to-date browser.
+The current versions of the Chrome, Safari and Firefox browsers are all supported (some older browsers, including Internet Explorer version 9 and below, are not).
 
 Please follow the instructions designed by [Software Carpentry](https://software-carpentry.org) to install Python:
 https://swcarpentry.github.io/python-novice-gapminder/setup.html.
@@ -44,8 +44,8 @@ Instalar todos sus paquetes de investigación individualmente puede ser un poco 
 
 Independientemente de cómo elija instalarlo, asegúrese de instalar Python versión 3.9.
 
-Enseñaremos Python usando JupyterLab, un entorno de programación que se ejecuta en un navegador web (JupyterLab será instalado por Anaconda). 
-Para que esto funcione, necesitará un navegador razonablemente actualizado. 
+Enseñaremos Python usando JupyterLab, un entorno de programación que se ejecuta en un navegador web (JupyterLab será instalado por Anaconda).
+Para que esto funcione, necesitará un navegador razonablemente actualizado.
 Las versiones actuales de los navegadores Chrome, Safari y Firefox son compatibles (algunos navegadores más antiguos, incluido Internet Explorer versión 9 y anteriores, no lo son).
 
 Por favor siga las instrucciones diseñada por [Software Carpentry](https://software-carpentry.org) para instalar Python:
@@ -56,7 +56,8 @@ https://swcarpentry.github.io/python-novice-gapminder/setup.html.
 
 [![CC BY 4.0][cc-by-image]][cc-by]
 
-The content of this repository is available under the [Creative Commons Attribution 4.0 International License][cc-by]. 
+All Code to Communicate (CoCo) instructional material is made available under
+the [Creative Commons Attribution 4.0 International License][cc-by].
 
 ## Acknowledgment / Reconocimiento
 
