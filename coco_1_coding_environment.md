@@ -77,14 +77,14 @@ JupyterHub, JupyterLab, and Jupyter Notebook.
 ---
 
 [Project Jupyter][jupyter] es una organización sin fines de lucro, de código
-abierto e impulsada por la comunidad que supervisa el desarrollo de un
+abierto e impulsada por la comunidad, que supervisa el desarrollo de un
 ecosistema de software para programación científica interactiva, el aprendizaje
 y el descubrimiento.
 El proyecto Jupyter surgió del [proyecto IPython][ipython] iniciado por Fernando
-Pérez cuando éramos estudiantes de posgrado en física en la Universidad de
+Pérez cuando era estudiante de posgrado en física en la Universidad de
 Colorado Boulder.
 
-En Coco, usaremos tres herramientas del ecosistema proyecto Jupyter:
+En CoCo, usaremos tres herramientas del ecosistema Jupyter:
 JupyterHub, JupyterLab y Jupyter Notebook.
 
 ## JupyterHub
@@ -102,14 +102,14 @@ to open the CoCo lessons directly on the CSDMS JupyterHub!
 
 ---
 
-[JupyterHub](https://jupyter.org/hub) es un sistema de servidor que permite que
-múltiples usuarios accedan a un recurso computacionales, donde cada usuario
+[JupyterHub](https://jupyter.org/hub) es un servicio que permite que
+múltiples usuarios accedan a recursos computacionales, donde cada usuario
 puede ejecutar Jupyter Notebook y otro software en su propio espacio de trabajo.
 Un JupyterHub se puede instalar en la nube o localmente.
 
 A través del proyecto [OpenEarthscape][oes] financiado por la NSF,
 el [Community Surface Dynamics Modeling System][csdms] (CSDMS) proporciona un
-[JupyterHub][csdms-jhub] donde se pueden ejecutar los portátiles del programa CoCo.
+[JupyterHub][csdms-jhub] donde se pueden ejecutar los Notebooks de CoCo.
 Haga clic en este botón [![Ejecutar en CSDMS JupyterHub][badge]][csdms-jhub-link]
 para abrir las lecciones de CoCo directamente en CSDMS JupyterHub.
 
@@ -128,15 +128,15 @@ Like JupyterHub, JupyterLab can be installed in the cloud or locally.
 
 ---
 
-JupyterLab es un entorno de desarrollo interactivo basado para el navegador.
+JupyterLab es un entorno de desarrollo interactivo que se utiliza desde el navegador.
 Proporciona herramientas para escribir código y crear notebooks, como también:
 
 - un explorador de archivos,
 - lanzadores para notebooks, archivos de datos e imágenes,
-- aplicaciones de terminal, editor de texto y consola/terminales de código, y
+- aplicaciones de terminal, editor de texto, y
 - atajos de teclado para acelerar su trabajo.
 
-JupyterLab es la interfaz de usuario predeterminada para JupyterHub.
+JupyterLab es la interfaz predeterminada de JupyterHub.
 Al igual que JupyterHub, JupyterLab se puede instalar en la nube o localmente.
 
 ## Jupyter Notebook
@@ -156,7 +156,7 @@ The estimate is presented, of course, in a notebook.
 
 ---
 
-Jupyter Notebook es un documento interactivo para escribir, explicar y ejecutar
+Un Jupyter Notebook es un documento interactivo para escribir, explicar y ejecutar
 código, y para comunicar resultados.
 
 Los notebooks son documentos dinámicos, con la capacidad de mostrar gráficos y
@@ -215,7 +215,7 @@ sistema operativo de una computadora a través de comandos de texto concisos.
 - macOS: Terminal.app (integrado) o [iTerm.app](https://www.iterm2.com/) (mejor)
 - Windows: Git Bash Shell en [Git para Windows](https://gitforwindows.org/)
 
-En este momento, si aún no lo ha hecho, abra una terminal.
+En este momento, si aún no lo has hecho, abre una terminal.
 
 ## Why are we using a terminal? / ¿Por qué usamos la terminal?
 
@@ -231,7 +231,7 @@ if you want to change from one application to another, it's much faster to hit
 to go find the other application window.
 
 Commands tend to be terse to the point of being cryptic, not that different
-from texting shorthand: instead of brb or ttyl, it's `cd` or `rm`.
+from texting shorthand: instead of brb or ttyl, it's `cd` (change directory) or `rm` (remove).
 And it's done for the same reason: speed.
 
 Commands can also be gathered into _scripts_ that can be executed as a single unit.
@@ -245,24 +245,24 @@ this lesson is based.
 
 Porque funciona realmente bien.
 
-Cuando utiliza los comandos de shell en una terminal, puede realizar tareas
+Cuando utilizas los comandos de shell en una terminal, puedes realizar tareas
 específicas del sistema de archivos (mover, copiar, renombrar, eliminar archivos
 y directorios) mucho más rápido y eficientemente que con una aplicación gráfica.
 
-Por analogía, piense en los atajos de teclado en su computadora:
+Por analogía, piensa en los atajos de teclado en su computadora:
 si desea cambiar de una aplicación a otra, es mucho más rápido presionar
 `Cmd-Tab` (en macOS; `Alt-Tab` en Linux y Windows) que usar un mouse para buscar
 la ventana de la otra aplicación.
 
 Los comandos tienden a ser concisos hasta el punto de ser crípticos, no tan
 diferentes de los mensajes de texto abreviados: en lugar de tkm (te quiero mucho)
-o tmb (también), es `cd` o `rm`.
+o tmb (también), es `cd` (cambiar de directorio) o `rm` (remover).
 Y se hace por la misma razón: la velocidad.
 
 Los comandos también se pueden agrupar en _scripts_ que se pueden ejecutar como
 una sola unidad.
-Con un script, puede automatizar una tarea repetitiva.
-Los scripts son maravillosos para las canalizaciones de procesamiento de datos
+Con un script, se puede automatizar una tarea repetitiva.
+Los scripts son maravillosos para construir flujos de procesamiento de datos
 y pueden mejorar la reproducibilidad.
 No cubriremos la creación de scripts aquí, pero hay más información en Software
 Carpentry's [The Unix Shell lección](https://swcarpentry.github.io/shell-novice/),
@@ -285,7 +285,7 @@ This process is repeated every time we enter a command.
 
 ---
 
-El prompt del sistema es donde ingresamos los comandos en una terminal.
+El _prompt_ es donde ingresamos los comandos en una terminal.
 Por lo general, se denota con un signo de dólar `$`.
 
 Usamos una terminal en un
@@ -339,13 +339,13 @@ El comando `pwd` imprime en la terminal el directorio donde se encuentra actualm
 Puedes ver que estamos en el directorio `jupyter-mpiper` debajo del directorio `home`.
 La barra inclinada `/` se utiliza como delimitador entre los nombres de los directorios.
 
-Este directorio `/home/jupyter-mpiper` es especial. Éste es el
-_directorio de inicio_ para el usuario `jupyter-mpiper`.
-Cada usuario tiene un directorio de inicio, que es la ubicación predeterminada
+Este directorio `/home/jupyter-mpiper` es especial. Éste es la
+_carpeta de usuario_ para el usuario `jupyter-mpiper`.
+Cada usuario tiene una _carpeta de usuario_ propia, que es la ubicación predeterminada
 para crear y almacenar información.
 
 Tenga en cuenta que en este caso se ejecuta este comando en JupyterHub,
-que ejecuta Linux; el directorio de inicio en una máquina macOS o Windows será
+que ejecuta Linux; la carpeta de usuario en una máquina macOS o Windows será
 ligeramente diferente.
 
 ## Directory listings / Listados de directorios
@@ -370,8 +370,8 @@ For example, to see the contents of the **CoCoLessons** directory, type:
 
 ---
 
-El comando `ls` proporciona una lista de directorios.
-Este directorio de inicio contiene un conjunto de subdirectorios.
+El comando `ls` proporciona una lista de directorios y archivos.
+La carpeta de usuario contiene un conjunto de subdirectorios.
 
 Podemos profundizar en los directorios proporcionando argumentos a `ls`.
 Por ejemplo, para ver el contenido del directorio **CoCoLessons**, escriba:
@@ -390,7 +390,7 @@ We can drill further; for example, to see into the directory containing data fil
 ---
 
 Puede ver los archivos de las lecciones de CoCo se agregaron a JupyterHub.
-Podemos indagar más; por ejemplo, para ver el contenido del directorio llamado data:
+Podemos indagar más; por ejemplo, para ver el contenido del directorio llamado `data`:
 
 ```
 $ ls CoCoLessons/data
@@ -405,8 +405,8 @@ To change directories, use the `cd` command:
 
 ---
 
-Aunque hemos mirado en el directorio de archivos de muestra, permanecemos en el
-directorio de inicio.
+Aunque hemos mirado en el directorio de archivos de muestra, permanecemos en la
+carpeta de usuario.
 Para cambiar de directorio, use el comando `cd`:
 
 ```
@@ -425,7 +425,7 @@ It can also take no arguments:
 El comando `pwd` muestra que hemos cambiado al directorio **CoCoLessons**.
 
 El comando `cd` puede tomar un nombre de directorio como argumento.
-También puede tomar sin argumentos:
+También se puede usar sin argumentos:
 
 ```
 $ cd
@@ -440,7 +440,7 @@ To switch to the previous directory, use a dash `-`:
 
 ---
 
-Sin argumentos, `cd` siempre regresa a su directorio de inicio.
+Sin argumentos, `cd` siempre regresa a su carpeta de usuario.
 
 El comando `cd` también puede tomar un conjunto de caracteres especiales como argumentos.
 Para cambiar al directorio anterior, use un guión `-`:
@@ -456,7 +456,7 @@ while two dots `..` are a shortcut for the parent directory:
 ---
 
 Cuando se trabaja con directorios, un punto `.` es un atajo para el directorio
-actual, mientras que dos puntos `..` son un atajo para el directorio principal:
+actual, mientras que dos puntos `..` son un atajo para el directorio-padre (_parent directory_):
 
 ```
 $ cd .
@@ -471,7 +471,7 @@ Likewise, the tilde `~` is a shortcut for the user's home directory:
 
 ---
 
-Asimismo, la tilde `~` es un atajo para el directorio de inicio del usuario:
+Asimismo, la tilde `~` es un atajo para la carpeta de usuario:
 
 ```
 $ cd ~
@@ -485,7 +485,7 @@ From your home directory, use the `mkdir` command to make a new directory:
 
 ---
 
-Desde su directorio de inicio, use el comando `mkdir` para crear un nuevo directorio:
+Desde tu carpeta de usuario, usa el comando `mkdir` para crear un nuevo directorio:
 
 ```
 $ mkdir new
@@ -498,7 +498,7 @@ Change to the new directory and get a listing:
 
 ---
 
-Cambie al nuevo directorio y obtenga su contenido:
+Cambia al nuevo directorio y obtén su contenido:
 
 ```
 $ cd new
@@ -533,7 +533,7 @@ Note that the copy and the original both exist, and are the same:
 
 Aquí, le indicamos al comando `cp` que subiera un directorio y fuera al
 directorio **CoCoLessons** para obtener un archivo y copiarlo en el directorio actual.
-Tenga en cuenta que la copia y el original existen y son los mismos:
+Tenga en cuenta que la copia y el original existen y tiene el mismo contenido:
 
 ```
 $ $ diff -s README.md ../CoCoLessons/README.md
@@ -562,7 +562,7 @@ Let's move **readme.md** up to the home directory:
 ---
 
 El comando `mv` también se puede usar para mover un archivo de una ubicación a otra.
-Movamos **readme.md** hasta el directorio de inicio:
+Movamos **readme.md** hasta la carpeta de usuario:
 
 ```
 $ mv readme.md ~
@@ -583,10 +583,10 @@ Remove our **readme.md** file with:
 
 ---
 
-Tenga en cuenta que el directorio **new** ahora está vacío porque **readme.md**
-se ha movido al directorio de inicio.
-¡También tenga en cuenta que **README.md** y **readme.md** en el directorio de
-inicio son archivos diferentes!
+Ten en cuenta que el directorio **new** ahora está vacío porque **readme.md**
+se ha movido a la carpeta de usuario.
+¡También ten en cuenta que **README.md** y **readme.md** en la carpeta de
+usuario son archivos diferentes!
 Los sistemas de archivos en Linux y macOS distinguen entre mayúsculas y minúsculas.
 
 Los archivos se pueden eliminar con el comando `rm`.
