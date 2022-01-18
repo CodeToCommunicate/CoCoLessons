@@ -26,7 +26,7 @@ _Objetivos principales:_
 
 1. Iniciar una sesión en JupyterHub
 1. Familiarizarse con JupyterLab
-1. Usar un Jupyter notebook
+1. Usar un Jupyter Notebook
 1. Abrir una terminal y usar comandos básicos de shell
 
 ## Homework
