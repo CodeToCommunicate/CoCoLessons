@@ -634,7 +634,7 @@ The table below summarizes the commands and special characters described in this
 
 ---
 
-La siguiente tabla resume los comandos y caracteres especiales descrito en esta lección.
+La siguiente tabla resume los comandos y caracteres especiales descritos en esta lección.
 
 | Command/Comando | Description / Descripción                                                 |
 | --------------- | ------------------------------------------------------------------------- |
