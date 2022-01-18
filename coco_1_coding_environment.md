@@ -641,7 +641,7 @@ La siguiente tabla resume los comandos y caracteres especiales descritos en esta
 | pwd             | print working directory / imprime el directorio de trabajo                |
 | ls              | directory listing / muestra el contenido del directorio                   |
 | cd              | change directory / cambia el directorio                                   |
-| /               | path delimiter / delimitado de dirección                                  |
+| /               | path delimiter / delimitador de dirección                                 |
 | ~               | home directory / directorio de inicio                                     |
 | .               | current directory / directorio actual                                     |
 | ..              | one directory up / subir un directorio                                    |
