@@ -47,7 +47,7 @@ will pay off later!
 
 ---
 
-Después de completar esta lección, intente lo siguiente tareas:
+Después de completar esta lección, realiza las siguiente tareas:
 
 - Cree un Jupyter Notebook corto que incluya código Python y texto Markdown,
   luego ejecútelo en JupyterHub
