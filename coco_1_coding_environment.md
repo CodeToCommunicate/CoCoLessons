@@ -51,7 +51,7 @@ Después de completar esta lección, realiza las siguiente tareas:
 
 - Crea un Jupyter Notebook corto que incluya código Python y texto Markdown,
   luego ejecútalo en JupyterHub
-- Lea la lección de shell de Software Carpentry
+- Lee la lección de shell de Software Carpentry
   ([inglés](https://swcarpentry.github.io/shell-novice/),
   [español](https://swcarpentry.github.io/shell-novice-es/) )
 
