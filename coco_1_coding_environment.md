@@ -29,11 +29,6 @@ _Objetivos principales:_
 1. Usar un Jupyter notebook
 1. Abrir una terminal y usar comandos básicos de shell
 
-_Objetivos ambiciosos (si tenemos tiempo):_
-
-- Anaconda y `conda`
-- Editores de texto y entornos de desarrollo integrados (IDEs)
-
 ## Homework
 
 After completing this lesson, please try the following:
