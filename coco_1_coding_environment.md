@@ -55,8 +55,8 @@ Después de completar esta lección, realiza las siguiente tareas:
   ([inglés](https://swcarpentry.github.io/shell-novice/),
   [español](https://swcarpentry.github.io/shell-novice-es/) )
 
-Estas son asignaciones abiertas: puede hacer tanto o tan poco como quieras;
-no serás calificado. Lo importante es probarlos.
+Estas son tareas sugeridas de forma abierta: puedes hacer tanto como quieras;
+no serás calificado o calificada. Lo importante es intentarlo.
 Estas son herramientas que usaremos en todo CoCo,
 ¡así que el trabajo que haces ahora valdrá la pena más tarde!
 
