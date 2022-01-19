@@ -5,12 +5,22 @@
 In this lesson, we'll set up an environment for scientific coding that you can
 use in CoCo and beyond.
 
+---
+
+En Esta lección configuraremos un entorno para realizar programación científica
+que puedes usar en CoCo y para otras cosas también.
+
 ## Topics
 
 1. Project Jupyter: JupyterHub, JupyterLab, and Jupyter Notebook
 1. The terminal application and shell commands
 
-## Goals
+---
+
+1. Proyecto Jupyter: JupyterHub, JupyterLab y Jupyter Notebook
+1. Uso de la terminal y comandos de shell
+
+## Goals / Objetivos
 
 1. Login to a JupyterHub
 1. Get familiar with JupyterLab
@@ -19,17 +29,12 @@ use in CoCo and beyond.
 
 ---
 
-En Esta lección configuraremos un entorno para realizar programación científica
-que puedes usar en CoCo y para otras cosas también.
-
-_Objetivos principales:_
-
 1. Iniciar una sesión en JupyterHub
 1. Familiarizarse con JupyterLab
 1. Usar un Jupyter Notebook
 1. Abrir una terminal y usar comandos básicos de shell
 
-## Homework
+## Homework /Tarea
 
 After completing this lesson, please try the following:
 
@@ -53,7 +58,7 @@ Después de completar esta lección, realiza las siguiente tareas:
   luego ejecútalo en JupyterHub
 - Lee la lección de shell de Software Carpentry
   ([inglés](https://swcarpentry.github.io/shell-novice/),
-  [español](https://swcarpentry.github.io/shell-novice-es/) )
+  [español](https://swcarpentry.github.io/shell-novice-es/))
 
 Estas son tareas sugeridas de forma abierta: puedes hacer tanto como quieras;
 no serás calificado o calificada. Lo importante es intentarlo.
@@ -170,7 +175,7 @@ Para tener una idea de su popularidad,
 que actualmente hay más de 7,5 millones de notebooks alojados en GitHub.
 La estimación se presenta, por supuesto, en un notebook.
 
-## Resources /Recursos
+## Resources / Recursos
 
 - [Project Jupyter][jupyter]
 - JupyterHub [documentation][jupyterhub-docs]
