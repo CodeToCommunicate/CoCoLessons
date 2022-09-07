@@ -12,14 +12,14 @@ Este repositorio contiene el material que se usara en las lecciones de coding.
 
 | Week | Material           | Topics                                                                            |
 | ---- | ------------------ | --------------------------------------------------------------------------------- |
-| 1°   | Installation       | Check the python installation.                                                    |
-| 2°   | The shell          | What is a command shell and why would I use one? Files, directories and locations |
-| 3°   | First part of Git  | What is? Set up. Hoe to use it?                                                   |
-| 4°   | Python basics      | What is ? Variables, types data, structure, Numpy                                 |
+| 1°   | Installation       | Check the Python installation.                                                    |
+| 2°   | The shell          | What is a command shell and why would I use one? Files, directories and locations. |
+| 3°   | Git, part 1  | What is `git`? Setup. How to use it?                                                   |
+| 4°   | Python basics      | Variables, data types, data structures, NumPy                                 |
 | 5°   | Matplotlib         | ???                                                                               |
-| 6°   | Functions and more | For loops, conditional statements, factions                                       |
+| 6°   | Functions and more | For loops, conditional statements, function definition, arguments, and return types                                       |
 | 7°   | Pandas             | ???                                                                               |
-| 8°   | Second part of Git | ???                                                                               |
+| 8°   | Git, part 2 | ???                                                                               |
 | 9°   | Rasterio/GDAL      | ???                                                                               |
 | 0°   | rioxarray/xarray   | ???                                                                               |
 
@@ -47,7 +47,7 @@ Installing all of its research packages individually can be a bit difficult,
 so we recommend Anaconda, an all-in-one installer.
 
 Regardless of how you choose to install it, please make sure you install Python
-version 3.9.
+version 3.
 
 We will teach Python using the JupyterLab, a programming environment that runs
 in a web browser (JupyterLab will be installed by Anaconda).
@@ -68,7 +68,7 @@ Instalar todos sus paquetes de investigación individualmente puede ser un poco
 difícil, por lo que recomendamos Anaconda, un instalador todo en uno.
 
 Independientemente de cómo elija instalarlo, asegúrese de instalar Python
-versión 3.9.
+versión 3.
 
 Enseñaremos Python usando JupyterLab, un entorno de programación que se
 ejecuta en un navegador web (JupyterLab será instalado por Anaconda).
