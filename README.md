@@ -17,7 +17,6 @@ alt="Digital Object Identifier for the Zenodo archive"
 />
 </a>
 
-<<<<<<< HEAD
 <a href="https://www.codecommunicate.org/">
 <img
 src="https://img.shields.io/badge/website-www.codecomunicate.org-blue.svg?style=flat-square"
