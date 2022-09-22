@@ -2,33 +2,51 @@
 
 # Material for the Coding lesson | Material para las lecciones de coding
 
-This repository contains the material that we will use in the coding lessons.
+This repository contains the material that we will use in the coding lessons to
+learn about Bash, Git/GitHub and Python.
 
 ---
 
-Este repositorio contiene el material que se usara en las lecciones de coding.
+Este repositorio contiene el material que se usará en las lecciones de coding
+para aprender sobre Bash, Git/GitHub y Python.
 
-### Schedule | Cronograma
+<a href="https://doi.org/10.5281/zenodo.7102509">
+<img
+src="https://img.shields.io/badge/doi-10.5281%2Fzenodo.7102509-blue.svg?style=flat-square"
+alt="Digital Object Identifier for the Zenodo archive"
+/>
+</a>
 
-| Week | Material           | Topics                                                                            |
-| ---- | ------------------ | --------------------------------------------------------------------------------- |
-| 1°   | Installation       | Check the python installation.                                                    |
-| 2°   | The shell          | What is a command shell and why would I use one? Files, directories and locations |
-| 3°   | First part of Git  | What is? Set up. Hoe to use it?                                                   |
-| 4°   | Python basics      | What is ? Variables, types data, structure, Numpy                                 |
-| 5°   | Matplotlib         | ???                                                                               |
-| 6°   | Functions and more | For loops, conditional statements, factions                                       |
-| 7°   | Pandas             | ???                                                                               |
-| 8°   | Second part of Git | ???                                                                               |
-| 9°   | Rasterio/GDAL      | ???                                                                               |
-| 0°   | rioxarray/xarray   | ???                                                                               |
+<a href="https://www.codecommunicate.org/">
+<img
+src="https://img.shields.io/badge/website-www.codecomunicate.org-blue.svg?style=flat-square"
+alt="Code to communicate website"
+/>
+</a>
+
+## Schedule | Cronograma
+
+| Week | Material                                                                    | Topics                                                                                                       |
+| ---- | --------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
+| 1°   | Installation                                                                | Check installation - Login to a JupyterHub - Get familiar with JupyterLab and Jupyter Notebook               |
+| 2°   | The shell                                                                   | What is a command shell and why would I use one? - Files, directories and locations                          |
+| 3°   | Start to work with Git: from configuration to create a repository in GitHub | What is? - Set up - How to use it?                                                                           |
+| 4°   | Introduction to Python an Numpy                                             | Variables - Types of data and structures - Numpy arrays                                                      |
+| 5°   | Data visualization with matplotlib                                          | How can we open a file? - How can we plot our data? - Plots types - How can we save our plot for publishing? |
+| 6°   | Mor about Python                                                            | For loops - Conditional statements - Write our own functions                                                 |
+|      |
+| 7°   | Pandas                                                                      | How to create and store a DataFrame - How to open a file - Some way to work with a DataFrame - Plots         |
+|      |
+| 8°   | Collaborative work with Git                                                 | How to work collaboratively - Solve conflicts                                                                |
+| 9°   | Rasterio/GDAL                                                               | ???                                                                                                          |
+| 10°  | rioxarray/xarray                                                            | ???                                                                                                          |
 
 ## Requirements | Requisitos
 
 - Personal computer with internet connection and browser.
 - Have a Python distribution installed (see instructions below).
-- ~It isn't necessary to have a camera and microphone, although it would be
-  beneficial to exchange ideas.~
+- It isn't necessary to have a camera and microphone, although it would be
+  beneficial to exchange ideas.
 - It is not necessary to have programming knowledge.
 
 ---
@@ -81,7 +99,7 @@ Por favor siga las instrucciones diseñada por
 [Software Carpentry](https://software-carpentry.org) para instalar Python:
 https://swcarpentry.github.io/python-novice-gapminder/setup.html.
 
-## The CSDMS JupyterHub
+### The CSDMS JupyterHub
 
 The [Community Surface Dynamics Modeling System][csdms] (CSDMS)
 provides a [JupyterHub][jhub] where the notebooks in this repository can be run.
