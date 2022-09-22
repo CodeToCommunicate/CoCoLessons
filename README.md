@@ -17,6 +17,7 @@ alt="Digital Object Identifier for the Zenodo archive"
 />
 </a>
 
+<<<<<<< HEAD
 <a href="https://www.codecommunicate.org/">
 <img
 src="https://img.shields.io/badge/website-www.codecomunicate.org-blue.svg?style=flat-square"
@@ -26,22 +27,21 @@ alt="Code to communicate website"
 
 ## Schedule | Cronograma
 
-| Week | Material                                                                    | Topics                                                                                                       |
-| ---- | --------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
-| 1°   | Installation                                                                | Check installation - Login to a JupyterHub - Get familiar with JupyterLab and Jupyter Notebook               |
-| 2°   | The shell                                                                   | What is a command shell and why would I use one? - Files, directories and locations                          |
-| 3°   | Start to work with Git: from configuration to create a repository in GitHub | What is? - Set up - How to use it?                                                                           |
-| 4°   | Introduction to Python an Numpy                                             | Variables - Types of data and structures - Numpy arrays                                                      |
-| 5°   | Data visualization with matplotlib                                          | How can we open a file? - How can we plot our data? - Plots types - How can we save our plot for publishing? |
-| 6°   | Mor about Python                                                            | For loops - Conditional statements - Write our own functions                                                 |
-|      |
-| 7°   | Pandas                                                                      | How to create and store a DataFrame - How to open a file - Some way to work with a DataFrame - Plots         |
-|      |
-| 8°   | Collaborative work with Git                                                 | How to work collaboratively - Solve conflicts                                                                |
-| 9°   | Rasterio/GDAL                                                               | ???                                                                                                          |
-| 10°  | rioxarray/xarray                                                            | ???                                                                                                          |
-
-## Requirements | Requisitos
+| Week            | Material                                                                    | Topics                                                                                                       |
+| --------------- | --------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
+| 1°              | Installation                                                                | Check installation - Login to a JupyterHub - Get familiar with JupyterLab and Jupyter Notebook               |
+| 2°              | The shell                                                                   | What is a command shell and why would I use one? - Files, directories and locations                          |
+| 3°              | Start to work with Git: from configuration to create a repository in GitHub | What is? - Set up - How to use it?                                                                           |
+| 4°              | Introduction to Python an Numpy                                             | Variables - Types of data and structures - Numpy arrays                                                      |
+| 5°              | Data visualization with matplotlib                                          | How can we open a file? - How can we plot our data? - Plots types - How can we save our plot for publishing? |
+| 6°              | Mor about Python                                                            | For loops - Conditional statements - Write our own functions                                                 |
+|                 |
+| 7°              | Pandas                                                                      | How to create and store a DataFrame - How to open a file - Some way to work with a DataFrame - Plots         |
+|                 |
+| 8°              | Collaborative work with Git                                                 | How to work collaboratively - Solve conflicts                                                                |
+| 9°              | Rasterio/GDAL                                                               | ???                                                                                                          |
+| 10°             | rioxarray/xarray                                                            | ???                                                                                                          |
+| ## Requirements | Requisitos                                                                  |
 
 - Personal computer with internet connection and browser.
 - Have a Python distribution installed (see instructions below).
@@ -65,7 +65,7 @@ Installing all of its research packages individually can be a bit difficult,
 so we recommend Anaconda, an all-in-one installer.
 
 Regardless of how you choose to install it, please make sure you install Python
-version 3.9.
+version 3.
 
 We will teach Python using the JupyterLab, a programming environment that runs
 in a web browser (JupyterLab will be installed by Anaconda).
@@ -86,7 +86,7 @@ Instalar todos sus paquetes de investigación individualmente puede ser un poco
 difícil, por lo que recomendamos Anaconda, un instalador todo en uno.
 
 Independientemente de cómo elija instalarlo, asegúrese de instalar Python
-versión 3.9.
+versión 3.
 
 Enseñaremos Python usando JupyterLab, un entorno de programación que se
 ejecuta en un navegador web (JupyterLab será instalado por Anaconda).
