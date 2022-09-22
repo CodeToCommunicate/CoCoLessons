@@ -1,15 +1,6 @@
 ![CoCo banner](./media/coco-banner.jpg)
 
-# Material for the Coding lesson | Material para las lecciones de coding
-
-This repository contains the material that we will use in the coding lessons to
-learn about Bash, Git/GitHub and Python.
-
----
-
-Este repositorio contiene el material que se usará en las lecciones de coding
-para aprender sobre Bash, Git/GitHub y Python.
-
+<p align="center">
 <a href="https://doi.org/10.5281/zenodo.7102509">
 <img
 src="https://img.shields.io/badge/doi-10.5281%2Fzenodo.7102509-blue.svg?style=flat-square"
@@ -23,6 +14,17 @@ src="https://img.shields.io/badge/website-www.codecomunicate.org-blue.svg?style=
 alt="Code to communicate website"
 />
 </a>
+</p>
+
+# Material for the Coding lesson | Material para las lecciones de coding
+
+This repository contains the material that we will use in the coding lessons to
+learn about Bash, Git/GitHub and Python.
+
+---
+
+Este repositorio contiene el material que se usará en las lecciones de coding
+para aprender sobre Bash, Git/GitHub y Python.
 
 ## Schedule | Cronograma
 
