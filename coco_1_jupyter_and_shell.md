@@ -1,14 +1,17 @@
 <img align="center" style="margin:0 0 20px 0" width="100%" height="100%" src="https://raw.githubusercontent.com/CodeToCommunicate/CoCoLessons/main/media/coco-banner.jpg">
 
-# Setting up a scientific coding environment / Configurando un entorno de programación científica
+# Project Jupyter and the shell
 
 In this lesson, we'll set up an environment for scientific coding that you can
 use in CoCo and beyond.
 
+In this lesson,
+we'll learn about Project Jupyter and the tools it provides for scientific coding.
+We'll also learn how to use one old but very efficient tool,
+the terminal, to execute commands on a computer.
+
 ---
 
-En Esta lección configuraremos un entorno para realizar programación científica
-que puedes usar en CoCo y para otras cosas también.
 
 ## Topics
 
