@@ -37,37 +37,6 @@ the terminal, to execute commands on a computer.
 1. Usar un Jupyter Notebook
 1. Abrir una terminal y usar comandos básicos de shell
 
-## Homework /Tarea
-
-After completing this lesson, please try the following:
-
-- Create a short Jupyter Notebook that includes Python code and Markdown text,
-  then run it on the JupyterHub
-- Skim over the Software Carpentry shell lesson
-  ([English](https://swcarpentry.github.io/shell-novice/),
-  [Spanish](https://swcarpentry.github.io/shell-novice-es/))
-
-These are open-ended assignments: you can do as much or as little as you'd like,
-you will not be graded.
-The important thing is to try them;
-they're tools that we'll be using throughout CoCo, so the work you put in now
-will pay off later!
-
----
-
-Después de completar esta lección, realiza las siguiente tareas:
-
-- Crea un Jupyter Notebook corto que incluya código Python y texto Markdown,
-  luego ejecútalo en JupyterHub
-- Lee la lección de shell de Software Carpentry
-  ([inglés](https://swcarpentry.github.io/shell-novice/),
-  [español](https://swcarpentry.github.io/shell-novice-es/))
-
-Estas son tareas sugeridas de forma abierta: puedes hacer tanto como quieras;
-no serás calificado o calificada. Lo importante es intentarlo.
-Estas son herramientas que usaremos en todo CoCo,
-¡así que el trabajo que haces ahora valdrá la pena más tarde!
-
 # Project Jupyter / Proyecto Jupyter
 
 <img align="right" width="150" height="150" src="https://jupyter.org/assets/homepage/main-logo.svg">
@@ -670,6 +639,38 @@ La siguiente tabla resume los comandos y caracteres especiales descritos en esta
   [Bash Guide for Beginners](http://www.tldp.org/LDP/Bash-Beginners-Guide/html/)
   from the Linux Documentation Project, as well as the
   [GNU Bash Manual](https://www.gnu.org/software/bash/manual/)
+
+
+# Homework / Tarea
+
+After completing this lesson, please try the following:
+
+- Create a short Jupyter Notebook that includes Python code and Markdown text,
+  then run it on the JupyterHub
+- Skim over the Software Carpentry shell lesson
+  ([English](https://swcarpentry.github.io/shell-novice/),
+  [Spanish](https://swcarpentry.github.io/shell-novice-es/))
+
+These are open-ended assignments: you can do as much or as little as you'd like,
+you will not be graded.
+The important thing is to try them;
+they're tools that we'll be using throughout CoCo, so the work you put in now
+will pay off later!
+
+---
+
+Después de completar esta lección, realiza las siguiente tareas:
+
+- Crea un Jupyter Notebook corto que incluya código Python y texto Markdown,
+  luego ejecútalo en JupyterHub
+- Lee la lección de shell de Software Carpentry
+  ([inglés](https://swcarpentry.github.io/shell-novice/),
+  [español](https://swcarpentry.github.io/shell-novice-es/))
+
+Estas son tareas sugeridas de forma abierta: puedes hacer tanto como quieras;
+no serás calificado o calificada. Lo importante es intentarlo.
+Estas son herramientas que usaremos en todo CoCo,
+¡así que el trabajo que haces ahora valdrá la pena más tarde!
 
 <!-- Links, by alpha -->
 
