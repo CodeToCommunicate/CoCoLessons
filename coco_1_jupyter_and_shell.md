@@ -4,7 +4,7 @@
 
 In this lesson,
 we'll learn about Project Jupyter and the tools it provides for scientific coding.
-We'll also learn how to use one old but very efficient tool,
+We'll also learn how to use one old but very effective tool,
 the terminal, to execute commands on a computer.
 
 ---
