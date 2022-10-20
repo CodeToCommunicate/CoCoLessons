@@ -2,9 +2,6 @@
 
 # Project Jupyter and the shell
 
-In this lesson, we'll set up an environment for scientific coding that you can
-use in CoCo and beyond.
-
 In this lesson,
 we'll learn about Project Jupyter and the tools it provides for scientific coding.
 We'll also learn how to use one old but very efficient tool,
