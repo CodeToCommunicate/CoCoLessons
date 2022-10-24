@@ -143,13 +143,11 @@ https://code.visualstudio.com/
 
 # Summary
 
-The software we've installed---a Python distribution, a terminal application, and a text editor---form the basis of a scientific coding environment.
-
+The software we've installed--a Python distribution, a terminal application, and a text editor--form the basis of a scientific coding environment.
 We will do more work to configure this scientific coding environment as we progress through CoCo.
-
-By the end of CoCo,
+By the end,
 you will be able to use these tools in your research,
-and they'll live on your computer long after CoCo.
+and they'll live on your computer long after the last CoCo lesson.
 
 <!-- Links, by alpha -->
 [anaconda-distribution]: https://www.anaconda.com/products/distribution
