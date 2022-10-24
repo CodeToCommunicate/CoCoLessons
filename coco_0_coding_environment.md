@@ -1,4 +1,6 @@
-<img align="center" style="margin:0 0 20px 0" width="100%" height="100%" src="https://raw.githubusercontent.com/CodeToCommunicate/CoCoLessons/main/media/coco-banner.jpg">
+<a href="https://www.codecommunicate.org/">
+    <img align="center" style="margin:0 0 20px 0" width="100%" height="100%" src="https://raw.githubusercontent.com/CodeToCommunicate/CoCoLessons/main/media/coco-banner.jpg">
+</a>
 
 # Setting up a scientific coding environment / Configurando un entorno de programación científica
 
@@ -50,9 +52,11 @@ with the operating system (OS).
 However, it's best not to work with this distribution
 because changes to it may break things on your computer.
 
-<!-- Todo: update image URL -->
+<!-- Todo: update image src URL -->
 
-<img align="right" style="margin:10px 0 10px 10px" width="20%" src="./media/logo-full-green-anaconda.png">
+<a href="https://www.anaconda.com/products/distribution">
+    <img align="right" style="margin:10px 0 10px 10px" width="20%" src="./media/logo-full-green-anaconda.png">
+</a>
 
 Instead,
 we recommend installing a scientific Python distribution.
@@ -62,9 +66,7 @@ a number of important scientific libraries,
 and a package manager, `conda`.
 
 The Anaconda Distribution is available for Linux, macOS, and Windows.
-Please follow the link below to download, then install, the Anaconda Distribution on your computer.
-
-https://www.anaconda.com/products/distributino
+Please click the Anaconda logo on the right to download, then install, the Anaconda Distribution on your computer.
 
 The Anaconda Distribution comes with many tools for working with Python.
 We'll explore some of these as we progress through CoCo.
