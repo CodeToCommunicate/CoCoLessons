@@ -48,7 +48,7 @@ However, it's best not to work with this distribution because changes to it may 
 
 <!-- Todo: update image URL -->
 
-<img align="right" style="margin:10px 0 10px 10px" width="25%" src="./media/anaconda-logo.png">
+<img align="right" style="margin:10px 0 10px 10px" width="20%" src="./media/logo-full-green-anaconda.png">
 
 Instead,
 we recommend installing a scientific Python distribution.
@@ -72,7 +72,7 @@ but they're still popular and widely used because they're very efficient.
 
 <!-- Todo: update image URL -->
 
-<img align="right" style="margin:10px 0 10px 10px" width="25%" src="./media/git_logo.png">
+<img align="right" style="margin:10px 0 10px 10px" width="20%" src="./media/git_logo.png">
 
 https://gitforwindows.org/
 
@@ -83,7 +83,7 @@ is a *text editor*.
 
 <!-- Todo: update image URL -->
 
-<img align="right" style="margin:10px 0 10px 10px" width="25%" src="./media/Visual_Studio_Code_1.35_icon.svg.png">
+<img align="right" style="margin:10px 0 10px 10px" width="20%" src="./media/Visual_Studio_Code_1.35_icon.svg.png">
 
 https://code.visualstudio.com/
 
