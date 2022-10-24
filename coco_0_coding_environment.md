@@ -87,7 +87,9 @@ or one may be installed already.
 
 <!-- Todo: update image URL -->
 
-<img align="right" style="margin:10px 0 10px 10px" width="20%" src="./media/git_logo.png">
+<a href="https://gitforwindows.org/">
+    <img align="right" style="margin:10px 0 10px 10px" width="20%" src="./media/git_logo.png">
+</a>
 
 If your computer is running Windows,
 you'll need to install a terminal application.
@@ -97,9 +99,7 @@ Not only does it emulate a terminal on Windows,
 but it includes Git software,
 which we'll learn about and use later.
 
-Please follow this link to download Git for Windows on your computer:
-
-https://gitforwindows.org/
+Please click the logo on the right to download Git for Windows to your computer.
 
 When installing Git for Windows,
 please carefully follow the [instructions][git-install-instructions]
@@ -136,17 +136,17 @@ it's not the best choice.
 
 <!-- Todo: update image URL -->
 
-<img align="right" style="margin:10px 0 10px 10px" width="20%" src="./media/Visual_Studio_Code_1.35_icon.svg.png">
+<a href="https://code.visualstudio.com/">
+    <img align="right" style="margin:10px 0 10px 10px" width="20%" src="./media/Visual_Studio_Code_1.35_icon.svg.png">
+</a>
 
 There are a wide variety of free and open source text editors available
 for download.
 We recommend [Visual Studio Code][vs-code] (VS Code) from Microsoft.
 
 VS Code is available for Linux, macOS, and Windows.
-Please follow the link below to download, then install,
+Please click the logo image on the right to download, then install,
 VS Code on your computer.
-
-https://code.visualstudio.com/
 
 Once installed,
 you can run VS Code from the Start menu on Windows,
