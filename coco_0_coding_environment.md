@@ -66,6 +66,9 @@ Please follow the link below to download, then install, the Anaconda Distributio
 
 https://www.anaconda.com/products/distributino
 
+The Anaconda Distribution comes with many tools for working with Python.
+We'll explore some of these as we progress through CoCo.
+
 ## Terminal application
 
 The second application we need for our scientific coding environment
@@ -92,12 +95,14 @@ Not only does it emulate a terminal on Windows,
 but it includes Git software,
 which we'll learn about and use later.
 
-Please follow the link below to download, then install, Git for Windows on your computer.
+Please follow this link to download Git for Windows on your computer:
 
 https://gitforwindows.org/
 
-<!-- Todo: Note install instructions--include in path. -->
-<!-- https://carpentries.github.io/workshop-template/#shell -->
+When installing Git for Windows,
+please carefully follow the [instructions][git-install-instructions]
+provided by Software Carpentry.
+This will ensure Git and Anaconda work together correctly.
 
 Once installed,
 you can run the program Git Bash from the Start menu.
@@ -141,6 +146,12 @@ VS Code on your computer.
 
 https://code.visualstudio.com/
 
+Once installed,
+you can run VS Code from the Start menu on Windows,
+from the Applications directory on macOS,
+and from the applications menu on
+a Linux distribution.
+
 # Summary
 
 The software we've installed--a Python distribution, a terminal application, and a text editor--form the basis of a scientific coding environment.
@@ -152,4 +163,5 @@ and they'll live on your computer long after the last CoCo lesson.
 <!-- Links, by alpha -->
 [anaconda-distribution]: https://www.anaconda.com/products/distribution
 [git-for-windows]: https://gitforwindows.org/
+[git-install-instructions]: https://carpentries.github.io/workshop-template/#shell
 [vs-code]: https://code.visualstudio.com/
