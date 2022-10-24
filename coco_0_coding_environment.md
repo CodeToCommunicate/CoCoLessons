@@ -97,6 +97,7 @@ Please follow the link below to download, then install, Git for Windows on your 
 https://gitforwindows.org/
 
 <!-- Todo: Note install instructions--include in path. -->
+<!-- https://carpentries.github.io/workshop-template/#shell -->
 
 Once installed,
 you can run the program Git Bash from the Start menu.
@@ -113,10 +114,30 @@ a terminal application is already installed by default.
 
 The final application we need to complete our scientific coding environment
 is a *text editor*.
+Text editors are applications that help you write code.
+
+It's important to note the difference between a text editor
+and a word processor, like Microsoft Word or Google Docs.
+Text editors are designed to work with plain text,
+like code and markup languages.
+Word processors are designed to work with rich text
+that may include fonts, colors, and graphics.
+It's difficult (but not impossible)
+to create one type of text with the tool designed for the other,
+but just as a screwdriver can sometimes be used as a hammer,
+it's not the best choice.
 
 <!-- Todo: update image URL -->
 
 <img align="right" style="margin:10px 0 10px 10px" width="20%" src="./media/Visual_Studio_Code_1.35_icon.svg.png">
+
+There are a wide variety of free and open source text editors available
+for download.
+We recommend [Visual Studio Code][vs-code] (VS Code) from Microsoft.
+
+VS Code is available for Linux, macOS, and Windows.
+Please follow the link below to download, then install,
+VS Code on your computer.
 
 https://code.visualstudio.com/
 
@@ -133,3 +154,4 @@ and they'll live on your computer long after CoCo.
 <!-- Links, by alpha -->
 [anaconda-distribution]: https://www.anaconda.com/products/distribution
 [git-for-windows]: https://gitforwindows.org/
+[vs-code]: https://code.visualstudio.com/
