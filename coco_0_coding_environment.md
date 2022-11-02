@@ -44,8 +44,9 @@ form a basic scientific coding environment.
 
 ## Python distribution
 
-The most important application we will need for our scientific coding
-environment is a *Python distribution*.
+The first application we need for our scientific coding
+environment is a *Python distribution*,
+the set of tools and libraries for developing code in Python.
 
 Most computers already have a Python distribution installed
 with the operating system (OS).
@@ -66,7 +67,8 @@ a number of important scientific libraries,
 and a package manager, `conda`.
 
 The Anaconda Distribution is available for Linux, macOS, and Windows.
-Please click the Anaconda logo on the right to download, then install, the Anaconda Distribution on your computer.
+Please click the Anaconda logo on the right (or use the link above)
+to download, then install, the Anaconda Distribution on your computer.
 
 The Anaconda Distribution comes with many tools for working with Python.
 We'll explore some of these as we progress through CoCo.
@@ -96,10 +98,10 @@ you'll need to install a terminal application.
 There are a few options to do so;
 we currently recommend [Git for Windows][git-for-windows].
 Not only does it emulate a terminal on Windows,
-but it includes Git software,
+but it also includes Git software,
 which we'll learn about and use later.
 
-Please click the logo on the right to download Git for Windows to your computer.
+Please click the logo on the right (or use the link above) to download Git for Windows to your computer.
 
 When installing Git for Windows,
 please carefully follow the [instructions][git-install-instructions]
@@ -145,7 +147,7 @@ for download.
 We recommend [Visual Studio Code][vs-code] (VS Code) from Microsoft.
 
 VS Code is available for Linux, macOS, and Windows.
-Please click the logo image on the right to download, then install,
+Please click the logo image on the right (or use the link above) to download, then install,
 VS Code on your computer.
 
 Once installed,
