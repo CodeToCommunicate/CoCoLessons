@@ -35,7 +35,7 @@ para aprender sobre Bash, Git/GitHub y Python.
 | 3°              | Start to work with Git: from configuration to create a repository in GitHub | What is? - Set up - How to use it?                                                                           |
 | 4°              | Introduction to Python an Numpy                                             | Variables - Types of data and structures - Numpy arrays                                                      |
 | 5°              | Data visualization with matplotlib                                          | How can we open a file? - How can we plot our data? - Plots types - How can we save our plot for publishing? |
-| 6°              | Mor about Python                                                            | For loops - Conditional statements - Write our own functions                                                 |
+| 6°              | More about Python                                                            | For loops - Conditional statements - Write our own functions                                                 |
 |                 |
 | 7°              | Pandas                                                                      | How to create and store a DataFrame - How to open a file - Some way to work with a DataFrame - Plots         |
 |                 |
@@ -54,8 +54,8 @@ para aprender sobre Bash, Git/GitHub y Python.
 
 - Computadora personal con conexión a internet y navegador.
 - Tener instalada una distribución de Python (ver instrucciones a continuación).
-- ~No es necesario tener cámara y micrófono, aunque sería beneficioso para poder
-  intercambiar ideas.~
+- No es necesario tener cámara y micrófono, aunque sería beneficioso para poder
+  intercambiar ideas.
 - No es necesario tener conocimientos de programación.
 
 ## Installing Python Using Anaconda | Instalación de Python con Anaconda
