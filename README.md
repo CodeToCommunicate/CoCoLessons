@@ -1,75 +1,105 @@
 ![CoCo banner](./media/coco-banner.jpg)
 
-# First Semester Course / Primer semestre del curso
+<p align="center">
+<a href="https://doi.org/10.5281/zenodo.7102509">
+<img
+src="https://img.shields.io/badge/doi-10.5281%2Fzenodo.7102509-blue.svg?style=flat-square"
+alt="Digital Object Identifier for the Zenodo archive"
+/>
+</a>
 
-## Requirements / Requisitos
+<a href="https://www.codecommunicate.org/">
+<img
+src="https://img.shields.io/badge/website-www.codecomunicate.org-blue.svg?style=flat-square"
+alt="Code to communicate website"
+/>
+</a>
+</p>
+
+# Material for the Coding lesson | Material para las lecciones de coding
+
+This repository contains the material that we will use in the coding lessons to
+learn about Bash, Git/GitHub and Python.
+
+---
+
+Este repositorio contiene el material que se usará en las lecciones de coding
+para aprender sobre Bash, Git/GitHub y Python.
+
+## Schedule | Cronograma
+
+| Week | Material                                                                    | Topics                                                                                                       |
+| ---- | --------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
+| 1°   | Installation                                                                | Check installation - Login to a JupyterHub - Get familiar with JupyterLab and Jupyter Notebook               |
+| 2°   | The shell                                                                   | What is a command shell and why would I use one? - Files, directories and locations                          |
+| 3°   | Start to work with Git: from configuration to create a repository in GitHub | What is? - Set up - How to use it?                                                                           |
+| 4°   | Introduction to Python and Numpy                                            | Variables - Types of data and structures - Numpy arrays                                                      |
+| 5°   | Data visualization with matplotlib                                          | How can we open a file? - How can we plot our data? - Plots types - How can we save our plot for publishing? |
+| 6°   | More about Python                                                           | For loops - Conditional statements - Write our own functions                                                 |
+| 7°   | Pandas                                                                      | How to create and store a DataFrame - How to open a file - Some way to work with a DataFrame - Plots         |
+| 8°   | Collaborative work with Git                                                 | How to work collaboratively - Solve conflicts                                                                |
+| 9°   | Geo-package                                                                 |                                                                                                              |
+| 10°  | Geo-package                                                                 |                                                                                                              |
+
+## Requirements | Requisitos
 
 - Personal computer with internet connection and browser.
 - Have a Python distribution installed (see instructions below).
-- ~It isn't necessary to have a camera and microphone, although it would be beneficial to
-   exchange ideas.~
+- It isn't necessary to have a camera and microphone, although it would be
+  beneficial to exchange ideas.
 - It is not necessary to have programming knowledge.
+- Have your scientific coding environment configurated.
 
 ---
+
 - Computadora personal con conexión a internet y navegador.
 - Tener instalada una distribución de Python (ver instrucciones a continuación).
-- ~No es necesario tener cámara y micrófono, aunque sería beneficioso para poder
-  intercambiar ideas.~
+- No es necesario tener cámara y micrófono, aunque sería beneficioso para poder
+  intercambiar ideas.
 - No es necesario tener conocimientos de programación.
+- Tener configutado tu entorno para programación cienttífica.
 
-## The CSDMS JupyterHub
+## How to set up your scientific coding environment | Como configurar tu entorno para programación científica
+
+Before you begin the programming lessons given by the CoCo program, you must
+set up your scientific coding environment.
+So, you need to install three pieces of software: a Python distribution, a
+terminal application, and a text editor.
+The instructions to do this are in the following file:
+
+[Setting up a scientific coding environment](https://github.com/CodeToCommunicate/CoCoLessons/blob/main/01_setup_coding_environment.md)
+
+---
+
+Antes de empezar con las lecciones de programación del programa de CoCo, debes
+configurar tu entorno de programación científica.
+Para ello tienes que instalar tres softwares: una distribución de Python, una
+aplicación de terminal y un editor de texto. Para ello sigue las instrucciones
+que están en el siguiente archivo:
+
+[Configurando un entorno de programación científica](https://github.com/CodeToCommunicate/CoCoLessons/blob/main/01_setup_coding_environment.md)
+
+### The CSDMS JupyterHub
 
 The [Community Surface Dynamics Modeling System][csdms] (CSDMS)
 provides a [JupyterHub][jhub] where the notebooks in this repository can be run.
 Click this button [![Run on CSDMS JupyterHub][badge]][nbgitpuller-link]
 to open this repository directly on the CSDMS JupyterHub!
 
-## Installing Python Using Anaconda / Instalación de Python con Anaconda
-
-Python is a popular language for research computing, and great for general-purpose programming as well.
-Installing all of its research packages individually can be a bit difficult, so we recommend Anaconda, an all-in-one installer.
-
-Regardless of how you choose to install it, please make sure you install Python version 3.9.
-
-We will teach Python using the JupyterLab, a programming environment that runs in a web browser (JupyterLab will be installed by Anaconda).
-For this to work you will need a reasonably up-to-date browser.
-The current versions of the Chrome, Safari and Firefox browsers are all supported (some older browsers, including Internet Explorer version 9 and below, are not).
-
-Please follow the instructions designed by [Software Carpentry](https://software-carpentry.org) to install Python:
-https://swcarpentry.github.io/python-novice-gapminder/setup.html.
-
----
-Python es un lenguaje popular para la informática de investigación y también es excelente para la programación de propósito general.
-Instalar todos sus paquetes de investigación individualmente puede ser un poco difícil, por lo que recomendamos Anaconda, un instalador todo en uno.
-
-Independientemente de cómo elija instalarlo, asegúrese de instalar Python versión 3.9.
-
-Enseñaremos Python usando JupyterLab, un entorno de programación que se ejecuta en un navegador web (JupyterLab será instalado por Anaconda).
-Para que esto funcione, necesitará un navegador razonablemente actualizado.
-Las versiones actuales de los navegadores Chrome, Safari y Firefox son compatibles (algunos navegadores más antiguos, incluido Internet Explorer versión 9 y anteriores, no lo son).
-
-Por favor siga las instrucciones diseñada por [Software Carpentry](https://software-carpentry.org) para instalar Python:
-https://swcarpentry.github.io/python-novice-gapminder/setup.html.
-
-
-## License / Licencia
+## License | Licencia
 
 [![CC BY 4.0][cc-by-image]][cc-by]
 
 All Code to Communicate (CoCo) instructional material is made available under
 the [Creative Commons Attribution 4.0 International License][cc-by].
 
-## Acknowledgment / Reconocimiento
+## Acknowledgment | Reconocimiento
 
-Code to Communicate is supported by the National Science Foundation
-under Award Nos. [2118272][nsf-award-nicole], [2117519][nsf-award-julie], and [2118171][nsf-award-mark],
-*Collaborative Research: CyberTraining: Pilot: A Cybertraining Program to Advance Knowledge and Equity in the Geosciences*.
-
-Portions of the Code to Communicate setup and  shell lessons
-are derived from material that is copyright
-[Software Carpentry][swc]
-and remixed under their [license][swc-license].
-
+This work is supported by the National Science Foundation
+under Award Nos. [2118272][nsf-award-nicole], [2117519][nsf-award-julie], and
+[2118171][nsf-award-mark],
+_Collaborative Research: CyberTraining: Pilot: A Cybertraining Program to
+Advance Knowledge and Equity in the Geosciences_.
 
 <!-- Links -->
 
