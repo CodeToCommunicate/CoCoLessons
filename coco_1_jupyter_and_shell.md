@@ -1,14 +1,14 @@
 <img align="center" style="margin:0 0 20px 0" width="100%" height="100%" src="https://raw.githubusercontent.com/CodeToCommunicate/CoCoLessons/main/media/coco-banner.jpg">
 
-# Setting up a scientific coding environment / Configurando un entorno de programación científica
+# Project Jupyter and the shell
 
-In this lesson, we'll set up an environment for scientific coding that you can
-use in CoCo and beyond.
+In this lesson,
+we'll learn about Project Jupyter and the tools it provides for scientific coding.
+We'll also learn how to use one old but very effective tool,
+the terminal, to execute commands on a computer.
 
 ---
 
-En Esta lección configuraremos un entorno para realizar programación científica
-que puedes usar en CoCo y para otras cosas también.
 
 ## Topics
 
@@ -33,37 +33,6 @@ que puedes usar en CoCo y para otras cosas también.
 1. Familiarizarse con JupyterLab
 1. Usar un Jupyter Notebook
 1. Abrir una terminal y usar comandos básicos de shell
-
-## Homework /Tarea
-
-After completing this lesson, please try the following:
-
-- Create a short Jupyter Notebook that includes Python code and Markdown text,
-  then run it on the JupyterHub
-- Skim over the Software Carpentry shell lesson
-  ([English](https://swcarpentry.github.io/shell-novice/),
-  [Spanish](https://swcarpentry.github.io/shell-novice-es/))
-
-These are open-ended assignments: you can do as much or as little as you'd like,
-you will not be graded.
-The important thing is to try them;
-they're tools that we'll be using throughout CoCo, so the work you put in now
-will pay off later!
-
----
-
-Después de completar esta lección, realiza las siguiente tareas:
-
-- Crea un Jupyter Notebook corto que incluya código Python y texto Markdown,
-  luego ejecútalo en JupyterHub
-- Lee la lección de shell de Software Carpentry
-  ([inglés](https://swcarpentry.github.io/shell-novice/),
-  [español](https://swcarpentry.github.io/shell-novice-es/))
-
-Estas son tareas sugeridas de forma abierta: puedes hacer tanto como quieras;
-no serás calificado o calificada. Lo importante es intentarlo.
-Estas son herramientas que usaremos en todo CoCo,
-¡así que el trabajo que haces ahora valdrá la pena más tarde!
 
 # Project Jupyter / Proyecto Jupyter
 
@@ -667,6 +636,38 @@ La siguiente tabla resume los comandos y caracteres especiales descritos en esta
   [Bash Guide for Beginners](http://www.tldp.org/LDP/Bash-Beginners-Guide/html/)
   from the Linux Documentation Project, as well as the
   [GNU Bash Manual](https://www.gnu.org/software/bash/manual/)
+
+
+# Homework / Tarea
+
+After completing this lesson, please try the following:
+
+- Create a short Jupyter Notebook that includes Python code and Markdown text,
+  then run it on the JupyterHub
+- Skim over the Software Carpentry shell lesson
+  ([English](https://swcarpentry.github.io/shell-novice/),
+  [Spanish](https://swcarpentry.github.io/shell-novice-es/))
+
+These are open-ended assignments: you can do as much or as little as you'd like,
+you will not be graded.
+The important thing is to try them;
+they're tools that we'll be using throughout CoCo, so the work you put in now
+will pay off later!
+
+---
+
+Después de completar esta lección, realiza las siguiente tareas:
+
+- Crea un Jupyter Notebook corto que incluya código Python y texto Markdown,
+  luego ejecútalo en JupyterHub
+- Lee la lección de shell de Software Carpentry
+  ([inglés](https://swcarpentry.github.io/shell-novice/),
+  [español](https://swcarpentry.github.io/shell-novice-es/))
+
+Estas son tareas sugeridas de forma abierta: puedes hacer tanto como quieras;
+no serás calificado o calificada. Lo importante es intentarlo.
+Estas son herramientas que usaremos en todo CoCo,
+¡así que el trabajo que haces ahora valdrá la pena más tarde!
 
 <!-- Links, by alpha -->
 
