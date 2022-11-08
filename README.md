@@ -67,7 +67,7 @@ So, you need to install three pieces of software: a Python distribution, a
 terminal application, and a text editor.
 The instructions to do this are in the following file:
 
-[Setting up a scientific coding environment ](hola)
+[Setting up a scientific coding environment](https://github.com/CodeToCommunicate/CoCoLessons/blob/main/01_setup_coding_environment.md)
 
 ---
 
@@ -77,7 +77,7 @@ Para ello tienes que instalar tres softwares: una distribución de Python, una
 aplicación de terminal y un editor de texto. Para ello sigue las instrucciones
 que están en el siguiente archivo:
 
-[Configurando un entorno de programación científica](hola)
+[Configurando un entorno de programación científica](https://github.com/CodeToCommunicate/CoCoLessons/blob/main/01_setup_coding_environment.md)
 
 ### The CSDMS JupyterHub
 
