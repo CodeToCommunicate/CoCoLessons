@@ -79,7 +79,7 @@ que están en el siguiente archivo:
 
 [Configurando un entorno de programación científica](https://github.com/CodeToCommunicate/CoCoLessons/blob/main/01_setup_coding_environment.md)
 
-### The CSDMS JupyterHub
+## The CSDMS JupyterHub
 
 The [Community Surface Dynamics Modeling System][csdms] (CSDMS)
 provides a [JupyterHub][jhub] where the notebooks in this repository can be run.
