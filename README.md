@@ -28,27 +28,27 @@ para aprender sobre Bash, Git/GitHub y Python.
 
 ## Schedule | Cronograma
 
-| Week            | Material                                                                    | Topics                                                                                                       |
-| --------------- | --------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
-| 1°              | Installation                                                                | Check installation - Login to a JupyterHub - Get familiar with JupyterLab and Jupyter Notebook               |
-| 2°              | The shell                                                                   | What is a command shell and why would I use one? - Files, directories and locations                          |
-| 3°              | Start to work with Git: from configuration to create a repository in GitHub | What is? - Set up - How to use it?                                                                           |
-| 4°              | Introduction to Python an Numpy                                             | Variables - Types of data and structures - Numpy arrays                                                      |
-| 5°              | Data visualization with matplotlib                                          | How can we open a file? - How can we plot our data? - Plots types - How can we save our plot for publishing? |
-| 6°              | More about Python                                                            | For loops - Conditional statements - Write our own functions                                                 |
-|                 |
-| 7°              | Pandas                                                                      | How to create and store a DataFrame - How to open a file - Some way to work with a DataFrame - Plots         |
-|                 |
-| 8°              | Collaborative work with Git                                                 | How to work collaboratively - Solve conflicts                                                                |
-| 9°              | Rasterio/GDAL                                                               | ???                                                                                                          |
-| 10°             | rioxarray/xarray                                                            | ???                                                                                                          |
-| ## Requirements | Requisitos                                                                  |
+| Week | Material                                                                    | Topics                                                                                                       |
+| ---- | --------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
+| 1°   | Installation                                                                | Check installation - Login to a JupyterHub - Get familiar with JupyterLab and Jupyter Notebook               |
+| 2°   | The shell                                                                   | What is a command shell and why would I use one? - Files, directories and locations                          |
+| 3°   | Start to work with Git: from configuration to create a repository in GitHub | What is? - Set up - How to use it?                                                                           |
+| 4°   | Introduction to Python and Numpy                                            | Variables - Types of data and structures - Numpy arrays                                                      |
+| 5°   | Data visualization with matplotlib                                          | How can we open a file? - How can we plot our data? - Plots types - How can we save our plot for publishing? |
+| 6°   | More about Python                                                           | For loops - Conditional statements - Write our own functions                                                 |
+| 7°   | Pandas                                                                      | How to create and store a DataFrame - How to open a file - Some way to work with a DataFrame - Plots         |
+| 8°   | Collaborative work with Git                                                 | How to work collaboratively - Solve conflicts                                                                |
+| 9°   | Geo-package                                                                 |                                                                                                              |
+| 10°  | Geo-package                                                                 |                                                                                                              |
+
+## Requirements | Requisitos
 
 - Personal computer with internet connection and browser.
 - Have a Python distribution installed (see instructions below).
 - It isn't necessary to have a camera and microphone, although it would be
   beneficial to exchange ideas.
 - It is not necessary to have programming knowledge.
+- Have your scientific coding environment configurated.
 
 ---
 
@@ -57,48 +57,27 @@ para aprender sobre Bash, Git/GitHub y Python.
 - No es necesario tener cámara y micrófono, aunque sería beneficioso para poder
   intercambiar ideas.
 - No es necesario tener conocimientos de programación.
+- Tener configutado tu entorno para programación cienttífica.
 
-## Installing Python Using Anaconda | Instalación de Python con Anaconda
+## How to set up your scientific coding environment | Como configurar tu entorno para programación científica
 
-Python is a popular language for research computing, and great for
-general-purpose programming as well.
-Installing all of its research packages individually can be a bit difficult,
-so we recommend Anaconda, an all-in-one installer.
+Before you begin the programming lessons given by the CoCo program, you must
+set up your scientific coding environment.
+So, you need to install three pieces of software: a Python distribution, a
+terminal application, and a text editor.
+The instructions to do this are in the following file:
 
-Regardless of how you choose to install it, please make sure you install Python
-version 3.
-
-We will teach Python using the JupyterLab, a programming environment that runs
-in a web browser (JupyterLab will be installed by Anaconda).
-For this to work you will need a reasonably up-to-date browser.
-The current versions of the Chrome, Safari and Firefox browsers are all
-supported (some older browsers, including Internet Explorer version 9 and
-below, are not).
-
-Please follow the instructions designed by
-[Software Carpentry](https://software-carpentry.org) to install Python:
-https://swcarpentry.github.io/python-novice-gapminder/setup.html.
+[Setting up a scientific coding environment ](hola)
 
 ---
 
-Python es un lenguaje popular para la informática de investigación y también
-es excelente para la programación de propósito general.
-Instalar todos sus paquetes de investigación individualmente puede ser un poco
-difícil, por lo que recomendamos Anaconda, un instalador todo en uno.
+Antes de empezar con las lecciones de programación del programa de CoCo, debes
+configurar tu entorno de programación científica.
+Para ello tienes que instalar tres softwares: una distribución de Python, una
+aplicación de terminal y un editor de texto. Para ello sigue las instrucciones
+que están en el siguiente archivo:
 
-Independientemente de cómo elija instalarlo, asegúrese de instalar Python
-versión 3.
-
-Enseñaremos Python usando JupyterLab, un entorno de programación que se
-ejecuta en un navegador web (JupyterLab será instalado por Anaconda).
-Para que esto funcione, necesitará un navegador razonablemente actualizado.
-Las versiones actuales de los navegadores Chrome, Safari y Firefox son
-compatibles (algunos navegadores más antiguos, incluido Internet Explorer
-versión 9 y anteriores, no lo son).
-
-Por favor siga las instrucciones diseñada por
-[Software Carpentry](https://software-carpentry.org) para instalar Python:
-https://swcarpentry.github.io/python-novice-gapminder/setup.html.
+[Configurando un entorno de programación científica](hola)
 
 ### The CSDMS JupyterHub
 
