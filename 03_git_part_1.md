@@ -49,7 +49,7 @@ que hizo una persona y cuándo.
 Los sistemas de control de versiones nos permiten hacer lo mismo que en la
 historieta pero de forma mas eficiente, limpia y ordenada.
 
-<img src="media/git/phdcomics.png" alt="" style="height: 10vh">
+<img src="data/git/phdcomics.png" alt="" style="height: 10vh">
 
 ### Version control workflow | Flujo de trabajo de control de versiones
 
@@ -146,7 +146,7 @@ en el staging area), y `git commit` entonces realmente toma la instantánea, y
 genera un registro permanente de esto como un `commit` que guardara en el
 directorio `.git`.
 
-<img src="media/git/git-staging-area.svg" alt="" style="height: 85vh">
+<img src="data/git/git-staging-area.svg" alt="" style="height: 85vh">
 
 #### Git command | Comandos de git
 
@@ -196,7 +196,7 @@ archivo modificado `myfile.txt` en el repositorio creado previamente?
 
 ### Exploring History | Explorando el historial
 
-<img src="media/git/git-checkout.svg" alt="" style="height: 85vh">
+<img src="data/git/git-checkout.svg" alt="" style="height: 85vh">
 
 #### Git commands | Comandos de git
 
@@ -275,12 +275,12 @@ llamado `script.py`?
 
 **Estado de nuestro repostorio local**
 
-<img src="media/git/git-staging-area.svg" style="width: 100%;">
+<img src="data/git/git-staging-area.svg" style="width: 100%;">
 
 **Estado de nuesto**
 
-<img src="media/git/git-freshly-made-github-repo.svg" style="width: 55%;">
+<img src="data/git/git-freshly-made-github-repo.svg" style="width: 55%;">
 
 **Luego del primer `git push`:**
 
-<img src="media/git/github-repo-after-first-push.svg" style="width: 65%;">
+<img src="data/git/github-repo-after-first-push.svg" style="width: 65%;">
