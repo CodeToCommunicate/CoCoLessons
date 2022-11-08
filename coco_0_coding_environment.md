@@ -25,7 +25,7 @@ que puedes usar en CoCo y para otras cosas también.
 1. Terminal
 1. Editor de texto
 
-## Goals / Objetivos
+## Goals | Objetivos
 
 1. Install Anaconda Distribution
 1. Locate a terminal application (Linux or macOS), or install Git for Windows
@@ -41,7 +41,7 @@ que puedes usar en CoCo y para otras cosas también.
 
 # A scientific coding environment | Entorno para programación científica
 
-We will install three pieces of software--a Python distribution, a terminal
+We will install three pieces of software: a Python distribution, a terminal
 application, and a text editor--that together form a basic scientific coding
 environment.
 
