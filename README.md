@@ -73,11 +73,16 @@ the [Creative Commons Attribution 4.0 International License][cc-by].
 
 ## Acknowledgment | Reconocimiento
 
-This work is supported by the National Science Foundation
+Code to Communicate is supported by the National Science Foundation
 under Award Nos. [2118272][nsf-award-nicole], [2117519][nsf-award-julie], and
 [2118171][nsf-award-mark],
 _Collaborative Research: CyberTraining: Pilot: A Cybertraining Program to
 Advance Knowledge and Equity in the Geosciences_.
+
+Portions of the Code to Communicate setup and shell lessons
+are derived from material that is copyright
+[Software Carpentry][swc]
+and remixed under their [license][swc-license].
 
 <!-- Links -->
 
@@ -91,5 +96,7 @@ Advance Knowledge and Equity in the Geosciences_.
 [nsf-award-nicole]: https://www.nsf.gov/awardsearch/showAward?AWD_ID=2118272
 [nsf-award-julie]: https://www.nsf.gov/awardsearch/showAward?AWD_ID=2117519
 [nsf-award-mark]: https://www.nsf.gov/awardsearch/showAward?AWD_ID=2118171
+[swc]: http://software-carpentry.org
+[swc-license]: https://github.com/swcarpentry/python-novice-inflammation/blob/gh-pages/LICENSE.md
 [swc]: http://software-carpentry.org
 [swc-license]: https://github.com/swcarpentry/python-novice-inflammation/blob/gh-pages/LICENSE.md
