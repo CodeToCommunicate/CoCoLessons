@@ -44,7 +44,6 @@ para aprender sobre Bash, Git/GitHub y Python.
 ## Requirements | Requisitos
 
 - Personal computer with internet connection and browser.
-- Have a Python distribution installed (see instructions below).
 - It isn't necessary to have a camera and microphone, although it would be
   beneficial to exchange ideas.
 - It is not necessary to have programming knowledge.
@@ -53,7 +52,6 @@ para aprender sobre Bash, Git/GitHub y Python.
 ---
 
 - Computadora personal con conexión a internet y navegador.
-- Tener instalada una distribución de Python (ver instrucciones a continuación).
 - No es necesario tener cámara y micrófono, aunque sería beneficioso para poder
   intercambiar ideas.
 - No es necesario tener conocimientos de programación.
