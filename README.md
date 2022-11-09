@@ -57,26 +57,6 @@ para aprender sobre Bash, Git/GitHub y Python.
 - No es necesario tener conocimientos de programación.
 - Tener configutado tu entorno para programación cienttífica.
 
-## How to set up your scientific coding environment | Como configurar tu entorno para programación científica
-
-Before you begin the programming lessons given by the CoCo program, you must
-set up your scientific coding environment.
-So, you need to install three pieces of software: a Python distribution, a
-terminal application, and a text editor.
-The instructions to do this are in the following file:
-
-[Setting up a scientific coding environment](https://github.com/CodeToCommunicate/CoCoLessons/blob/main/01_setup_coding_environment.md)
-
----
-
-Antes de empezar con las lecciones de programación del programa de CoCo, debes
-configurar tu entorno de programación científica.
-Para ello tienes que instalar tres softwares: una distribución de Python, una
-aplicación de terminal y un editor de texto. Para ello sigue las instrucciones
-que están en el siguiente archivo:
-
-[Configurando un entorno de programación científica](https://github.com/CodeToCommunicate/CoCoLessons/blob/main/01_setup_coding_environment.md)
-
 ## The CSDMS JupyterHub
 
 The [Community Surface Dynamics Modeling System][csdms] (CSDMS)
