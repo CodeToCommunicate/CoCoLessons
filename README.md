@@ -47,7 +47,6 @@ para aprender sobre Bash, Git/GitHub y Python.
 - It isn't necessary to have a camera and microphone, although it would be
   beneficial to exchange ideas.
 - It is not necessary to have programming knowledge.
-- Have your scientific coding environment configurated.
 
 ---
 
@@ -55,7 +54,6 @@ para aprender sobre Bash, Git/GitHub y Python.
 - No es necesario tener cámara y micrófono, aunque sería beneficioso para poder
   intercambiar ideas.
 - No es necesario tener conocimientos de programación.
-- Tener configutado tu entorno para programación cienttífica.
 
 ## The CSDMS JupyterHub
 
