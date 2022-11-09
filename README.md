@@ -30,7 +30,7 @@ para aprender sobre Bash, Git/GitHub y Python.
 
 | Week | Material                                                                    | Topics                                                                                                       |
 | ---- | --------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
-| 1°   | Installation                                                                | Check installation - Login to a JupyterHub - Get familiar with JupyterLab and Jupyter Notebook               |
+| 1°   | Setting up a scientific coding environment                                  | Install software - Login to a JupyterHub - Get familiar with JupyterLab and Jupyter Notebook                 |
 | 2°   | The shell                                                                   | What is a command shell and why would I use one? - Files, directories and locations                          |
 | 3°   | Start to work with Git: from configuration to create a repository in GitHub | What is? - Set up - How to use it?                                                                           |
 | 4°   | Introduction to Python and Numpy                                            | Variables - Types of data and structures - Numpy arrays                                                      |
