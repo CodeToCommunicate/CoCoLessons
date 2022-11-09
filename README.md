@@ -60,7 +60,7 @@ para aprender sobre Bash, Git/GitHub y Python.
 ## The CSDMS JupyterHub
 
 The [Community Surface Dynamics Modeling System][csdms] (CSDMS)
-provides a [JupyterHub][jhub] where the notebooks in this repository can be run.
+provides a JupyterHub where the notebooks in this repository can be run.
 Click this button [![Run on CSDMS JupyterHub][badge]][nbgitpuller-link]
 to open this repository directly on the CSDMS JupyterHub!
 
@@ -90,7 +90,6 @@ and remixed under their [license][swc-license].
 [cc-by]: http://creativecommons.org/licenses/by/4.0/
 [cc-by-image]: https://i.creativecommons.org/l/by/4.0/88x31.png
 [csdms]: https://csdms.colorado.edu
-[jhub]: https://lab.openearthscape.org
 [nbgitpuller-link]: https://lab.openearthscape.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FCodeToCommunicate%2FCoCoLessons&urlpath=lab%2Ftree%2FCoCoLessons%2F%3Fautodecode&branch=main
 [notebook]: ./lessons/jupyter/general_jupyter_notebook_tutorial.ipynb
 [nsf-award-nicole]: https://www.nsf.gov/awardsearch/showAward?AWD_ID=2118272
