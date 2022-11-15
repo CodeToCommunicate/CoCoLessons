@@ -8,7 +8,7 @@ the terminal, to execute commands on a computer.
 
 ---
 
-## Topics
+## Topics | Temas
 
 1. The terminal application and shell commands
 
@@ -16,7 +16,7 @@ the terminal, to execute commands on a computer.
 
 1. Uso de la terminal y comandos de shell
 
-## Goals / Objetivos
+## Goals | Objetivos
 
 1. Open a terminal and use basic shell commands
 
@@ -24,7 +24,7 @@ the terminal, to execute commands on a computer.
 
 1. Abrir una terminal y usar comandos básicos de shell
 
-# Introduction to the shell / Introducción a shell
+# Introduction to the shell | Introducción a shell
 
 Here, we'll learn about the _shell_, a command-based interface for interacting
 with the operating system of a computer.
@@ -34,7 +34,7 @@ with the operating system of a computer.
 Aquí, aprenderemos sobre el _shell_, que es una interfaz basada en comandos para
 interactuar con el sistema operativo de una computadora.
 
-## Open a terminal / Abrir una terminal
+## Open a terminal | Abrir una terminal
 
 A _terminal_ is an application that allows a user to communicate with the
 operating system of a computer through terse text commands.
@@ -58,7 +58,7 @@ sistema operativo de una computadora a través de comandos de texto concisos.
 
 En este momento, si aún no lo has hecho, abre una terminal.
 
-## Why are we using a terminal? / ¿Por qué usamos la terminal?
+## Why are we using a terminal? | ¿Por qué usamos la terminal?
 
 Because it works. Really well.
 
@@ -109,7 +109,7 @@ No cubriremos la creación de scripts aquí, pero hay más información en Softw
 Carpentry's [The Unix Shell lección](https://swcarpentry.github.io/shell-novice/),
 en que se basa esta lección.
 
-## Enter commands, get results / Ingrese comandos, obtenga resultados
+## Enter commands, get results | Ingrese comandos, obtenga resultados
 
 The command prompt (or shell prompt) is where we enter commands into a terminal.
 It's typically denoted with a dollar sign `$`.
@@ -139,7 +139,7 @@ esto quiere decir que cuando ingresamos un comando el interprete:
 
 Este proceso se repite cada vez que ingresamos un comando.
 
-## Files and directories / Archivos y directorios
+## Files and directories | Archivos y directorios
 
 Information on a computer is stored in files and directories.
 The part of an operating system that handles this information is called the
@@ -189,7 +189,7 @@ Tenga en cuenta que en este caso se ejecuta este comando en JupyterHub,
 que ejecuta Linux; la carpeta de usuario en una máquina macOS o Windows será
 ligeramente diferente.
 
-## Directory listings / Listados de directorios
+## Directory listings | Listados de directorios
 
 Next, let's look at the contents of this directory:
 
@@ -239,7 +239,7 @@ RPC_4_lithologies_Messy.csv  south-africa-topography.nc.xz  temperature-central-
 hawaii-profile.csv           temperature-berkeley.dat       winemag-data-130k-v2.csv
 ```
 
-## Changing directories / Cambiando directorios
+## Changing directories | Cambiando directorios
 
 Although we've peered into the directory of sample files, we remain in the home directory.
 To change directories, use the `cd` command:
@@ -320,7 +320,7 @@ $ pwd
 /home/jupyter-mpiper
 ```
 
-## Making a directory
+## Making a directory | Hacer un directorio
 
 From your home directory, use the `mkdir` command to make a new directory:
 
@@ -352,7 +352,7 @@ The new directory is empty.
 
 El nuevo directorio está vacío.
 
-## Copying, moving, and removing / Copiar, mover y eliminar
+## Copying, moving, and removing | Copiar, mover y eliminar
 
 Let's copy a file from the **CoCoLessons** directory to our **new** directory:
 
@@ -446,7 +446,7 @@ Once a file is removed, it's gone, irrevocably.
 No existe el concepto de "papelera" o "papelera de reciclaje" en el shell.
 Una vez que se elimina un archivo, desaparece irrevocablemente.
 
-## Removing a directory / Eliminar un directorio
+## Removing a directory | Eliminar un directorio
 
 As a last step, let's delete the **new** directory:
 
@@ -469,7 +469,7 @@ However, the directory must be empty before it can be removed.
 Como `rm` elimina archivos, el comando `rmdir` elimina directorios.
 Sin embargo, el directorio debe estar vacío antes de poder eliminarlo.
 
-## Summary / Resumen
+## Summary | Resumen
 
 The table below summarizes the commands and special characters described in this lesson.
 
@@ -494,7 +494,7 @@ La siguiente tabla resume los comandos y caracteres especiales descritos en esta
 | mkdir           | creates a directory / crea un directorio                                  |
 | rmdir           | deletes a directory (permanently) / elimina un directorio permanentemente |
 
-## Resources / Recursos
+## Resources | Recursos
 
 - This lesson is loosely based on the Software Carpentry shell lesson, available in
   [English](https://swcarpentry.github.io/shell-novice/) and
@@ -505,7 +505,7 @@ La siguiente tabla resume los comandos y caracteres especiales descritos en esta
   [GNU Bash Manual](https://www.gnu.org/software/bash/manual/)
 
 
-# Homework / Tarea
+# Homework | Tarea
 
 After completing this lesson, please try the following:
 
