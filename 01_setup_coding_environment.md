@@ -7,6 +7,7 @@
 
 In this lesson, we'll set up an environment for scientific coding that you can
 use in CoCo and beyond.
+We'll also learn about Project Jupyter and the tools it provides for scientific coding.
 
 ---
 
@@ -18,12 +19,14 @@ que puedes usar en CoCo y para otras cosas también.
 1. Python distribution
 1. Terminal application
 1. Text editor
+1. Project Jupyter: JupyterHub, JupyterLab, and Jupyter Notebook
 
 ---
 
 1. Distribuciones de Python
 1. Terminal
 1. Editor de texto
+1. Proyecto Jupyter: JupyterHub, JupyterLab y Jupyter Notebook
 
 ## Goals | Objetivos
 
@@ -31,6 +34,9 @@ que puedes usar en CoCo y para otras cosas también.
 1. Locate a terminal application (Linux or macOS), or install Git for Windows
    (Windows)
 1. Install VS Code
+1. Login to a JupyterHub
+1. Get familiar with JupyterLab
+1. Use a Jupyter Notebook
 
 ---
 
@@ -38,6 +44,9 @@ que puedes usar en CoCo y para otras cosas también.
 1. Localizar la terminal (en Linux o macOS) o istalar Git para Windows
    (Wisndows)
 1. Instalar VS Code
+1. Iniciar una sesión en JupyterHub
+1. Familiarizarse con JupyterLab
+1. Usar un Jupyter Notebook
 
 # A scientific coding environment | Entorno para programación científica
 
@@ -246,6 +255,129 @@ Una vez instalado, puede ejecutar VS Code desde el menú Inicio en Windows,
 desde el directorio de aplicaciones en macOS y desde el menú de aplicaciones en
 una distribución de Linux.
 
+# Project Jupyter | Proyecto Jupyter
+
+<img align="right" width="150" height="150" src="https://jupyter.org/assets/homepage/main-logo.svg">
+
+[Project Jupyter][jupyter] is a non-profit, open-source, community-driven
+organization that oversees the development of a software ecosystem for
+interactive scientific coding, learning, and discovery.
+Project Jupyter grew out of the [IPython project][ipython] started by Fernando
+P&eacute;rez when we was a graduate student in physics at the University of
+Colorado Boulder.
+
+In CoCo, we'll use three tools from the Project Jupyter ecosystem:
+JupyterHub, JupyterLab, and Jupyter Notebook.
+
+---
+
+[Project Jupyter][jupyter] es una organización sin fines de lucro, de código
+abierto e impulsada por la comunidad, que supervisa el desarrollo de un
+ecosistema de software para programación científica interactiva, el aprendizaje
+y el descubrimiento.
+El proyecto Jupyter surgió del [proyecto IPython][ipython] iniciado por Fernando
+Pérez cuando era estudiante de posgrado en física en la Universidad de
+Colorado Boulder.
+
+En CoCo, usaremos tres herramientas del ecosistema Jupyter:
+JupyterHub, JupyterLab y Jupyter Notebook.
+
+## JupyterHub
+
+A [JupyterHub](https://jupyter.org/hub) is a server system that allows multiple
+users access to a computational resource, where each user can run Jupyter
+Notebook and other software in their own workspace.
+A JupyterHub can be installed in the cloud or locally.
+
+Through the NSF-funded [OpenEarthscape][oes] project,
+the [Community Surface Dynamics Modeling System][csdms] (CSDMS)
+provides a [JupyterHub][csdms-jhub] where CoCo notebooks can be run.
+Click this button [![Run on CSDMS JupyterHub][badge]][csdms-jhub-link]
+to open the CoCo lessons directly on the CSDMS JupyterHub!
+
+---
+
+[JupyterHub](https://jupyter.org/hub) es un servicio que permite que
+múltiples usuarios accedan a recursos computacionales, donde cada usuario
+puede ejecutar Jupyter Notebook y otro software en su propio espacio de trabajo.
+Un JupyterHub se puede instalar en la nube o localmente.
+
+A través del proyecto [OpenEarthscape][oes] financiado por la NSF,
+el [Community Surface Dynamics Modeling System][csdms] (CSDMS) proporciona un
+[JupyterHub][csdms-jhub] donde se pueden ejecutar los Notebooks de CoCo.
+Haga clic en este botón [![Ejecutar en CSDMS JupyterHub][badge]][csdms-jhub-link]
+para abrir las lecciones de CoCo directamente en CSDMS JupyterHub.
+
+## JupyterLab
+
+JupyterLab is a browser-based interactive development environment.
+It provides tools for writing code and creating notebooks, including
+
+- a file browser,
+- launchers for notebooks, data files, and images,
+- terminal, text editor, and code console applications, and
+- keyboard shortcuts to speed your work.
+
+JupyterLab is the default user interface for JupyterHub.
+Like JupyterHub, JupyterLab can be installed in the cloud or locally.
+
+---
+
+JupyterLab es un entorno de desarrollo interactivo que se utiliza desde el navegador.
+Proporciona herramientas para escribir código y crear notebooks, como también:
+
+- un explorador de archivos,
+- lanzadores para notebooks, archivos de datos e imágenes,
+- aplicaciones de terminal, editor de texto, y
+- atajos de teclado para acelerar su trabajo.
+
+JupyterLab es la interfaz predeterminada de JupyterHub.
+Al igual que JupyterHub, JupyterLab se puede instalar en la nube o localmente.
+
+## Jupyter Notebook
+
+A Jupyter Notebook is an interactive document for writing, explaining, and
+running code, and for communicating results.
+
+Notebooks are live documents, with the ability to display graphics and tabular data,
+as well as interactive displays with widgets.
+A notebook is made of cells.
+Each cell can hold code, text (using Markdown), equations, or visualizations.
+
+To get a sense of their popularity,
+by [one estimate](https://github.com/parente/nbestimate/blob/master/estimate.ipynb),
+there are currently over 7.5 million notebooks currently hosted on GitHub.
+The estimate is presented, of course, in a notebook.
+
+---
+
+Un Jupyter Notebook es un documento interactivo para escribir, explicar y ejecutar
+código, y para comunicar resultados.
+
+Los notebooks son documentos dinámicos, con la capacidad de mostrar gráficos y
+datos tabulares, así como pantallas interactivas con widgets.
+Un notebook está hecho de celdas.
+Cada celda puede contener código, texto (usando Markdown), ecuaciones o
+visualizaciones.
+
+Para tener una idea de su popularidad,
+[se estima](https://github.com/parente/nbestimate/blob/master/estimate.ipynb)
+que actualmente hay más de 7,5 millones de notebooks alojados en GitHub.
+La estimación se presenta, por supuesto, en un notebook.
+
+## Resources | Recursos
+
+- [Project Jupyter][jupyter]
+- JupyterHub [documentation][jupyterhub-docs]
+- JupyterLab [documentation][jupyterlab-docs] and
+  [an entertaining demonstration](https://youtu.be/A5YyoCKxEOU) on YouTube
+- Jupyter Notebook [documentation][jupyter-notebook-docs]
+- The [first section][swc-ppp-1] of the Software Carpentry
+  [Plotting and Programming in Python][swc-ppp] lesson has a great section on
+  JupyterLab and Jupyter Notebook
+- A collection of [notable Jupyter Notebooks](https://github.com/jupyter/jupyter/wiki)
+  and a comprehensive [tutorial](https://www.dataquest.io/blog/jupyter-notebook-tutorial/)
+
 # Summary | Resumen
 
 The software we've installed--a Python distribution, a terminal application,
@@ -267,7 +399,19 @@ su computadora mucho después de la última lección de CoCo.
 
 <!-- Links, by alpha -->
 
+[badge]: https://img.shields.io/badge/CSDMS-JupyterHub-orange.svg
 [anaconda-distribution]: https://www.anaconda.com/products/distribution
+[csdms]: https://csdms.colorado.edu
+[csdms-jhub]: https://lab.openearthscape.org
+[csdms-jhub-link]: https://lab.openearthscape.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FCodeToCommunicate%2FCoCoLessons&urlpath=lab%2Ftree%2FCoCoLessons%2F%3Fautodecode&branch=main
 [git-for-windows]: https://gitforwindows.org/
 [git-install-instructions]: https://carpentries.github.io/workshop-template/#shell
+[ipython]: https://ipython.org/
+[jupyter]: https://jupyter.org/
+[jupyterhub-docs]: (https://jupyterhub.readthedocs.io)
+[jupyterlab-docs]: (https://jupyterlab.readthedocs.io)
+[jupyter-notebook-docs]: https://jupyter-notebook.readthedocs.io
+[oes]: https://openearthscape.org/
+[swc-ppp]: https://swcarpentry.github.io/python-novice-gapminder/
+[swc-ppp-1]: https://swcarpentry.github.io/python-novice-gapminder/01-run-quit/index.html
 [vs-code]: https://code.visualstudio.com/
