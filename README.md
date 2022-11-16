@@ -30,7 +30,7 @@ para aprender sobre Bash, Git/GitHub y Python.
 
 | Week | Material                                                                    | Topics                                                                                                       |
 | ---- | --------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
-| 1°   | Installation                                                                | Check installation - Login to a JupyterHub - Get familiar with JupyterLab and Jupyter Notebook               |
+| 1°   | Setting up a scientific coding environment                                  | Install software - Login to a JupyterHub - Get familiar with JupyterLab and Jupyter Notebook                 |
 | 2°   | The shell                                                                   | What is a command shell and why would I use one? - Files, directories and locations                          |
 | 3°   | Start to work with Git: from configuration to create a repository in GitHub | What is? - Set up - How to use it?                                                                           |
 | 4°   | Introduction to Python and Numpy                                            | Variables - Types of data and structures - Numpy arrays                                                      |
@@ -44,45 +44,21 @@ para aprender sobre Bash, Git/GitHub y Python.
 ## Requirements | Requisitos
 
 - Personal computer with internet connection and browser.
-- Have a Python distribution installed (see instructions below).
 - It isn't necessary to have a camera and microphone, although it would be
   beneficial to exchange ideas.
 - It is not necessary to have programming knowledge.
-- Have your scientific coding environment configurated.
 
 ---
 
 - Computadora personal con conexión a internet y navegador.
-- Tener instalada una distribución de Python (ver instrucciones a continuación).
 - No es necesario tener cámara y micrófono, aunque sería beneficioso para poder
   intercambiar ideas.
 - No es necesario tener conocimientos de programación.
-- Tener configutado tu entorno para programación cienttífica.
-
-## How to set up your scientific coding environment | Como configurar tu entorno para programación científica
-
-Before you begin the programming lessons given by the CoCo program, you must
-set up your scientific coding environment.
-So, you need to install three pieces of software: a Python distribution, a
-terminal application, and a text editor.
-The instructions to do this are in the following file:
-
-[Setting up a scientific coding environment](https://github.com/CodeToCommunicate/CoCoLessons/blob/main/01_setup_coding_environment.md)
-
----
-
-Antes de empezar con las lecciones de programación del programa de CoCo, debes
-configurar tu entorno de programación científica.
-Para ello tienes que instalar tres softwares: una distribución de Python, una
-aplicación de terminal y un editor de texto. Para ello sigue las instrucciones
-que están en el siguiente archivo:
-
-[Configurando un entorno de programación científica](https://github.com/CodeToCommunicate/CoCoLessons/blob/main/01_setup_coding_environment.md)
 
 ## The CSDMS JupyterHub
 
 The [Community Surface Dynamics Modeling System][csdms] (CSDMS)
-provides a [JupyterHub][jhub] where the notebooks in this repository can be run.
+provides a JupyterHub where the notebooks in this repository can be run.
 Click this button [![Run on CSDMS JupyterHub][badge]][nbgitpuller-link]
 to open this repository directly on the CSDMS JupyterHub!
 
@@ -95,11 +71,16 @@ the [Creative Commons Attribution 4.0 International License][cc-by].
 
 ## Acknowledgment | Reconocimiento
 
-This work is supported by the National Science Foundation
+Code to Communicate is supported by the National Science Foundation
 under Award Nos. [2118272][nsf-award-nicole], [2117519][nsf-award-julie], and
 [2118171][nsf-award-mark],
 _Collaborative Research: CyberTraining: Pilot: A Cybertraining Program to
 Advance Knowledge and Equity in the Geosciences_.
+
+Portions of the Code to Communicate setup and shell lessons
+are derived from material that is copyright
+[Software Carpentry][swc]
+and remixed under their [license][swc-license].
 
 <!-- Links -->
 
@@ -107,11 +88,12 @@ Advance Knowledge and Equity in the Geosciences_.
 [cc-by]: http://creativecommons.org/licenses/by/4.0/
 [cc-by-image]: https://i.creativecommons.org/l/by/4.0/88x31.png
 [csdms]: https://csdms.colorado.edu
-[jhub]: https://lab.openearthscape.org
 [nbgitpuller-link]: https://lab.openearthscape.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FCodeToCommunicate%2FCoCoLessons&urlpath=lab%2Ftree%2FCoCoLessons%2F%3Fautodecode&branch=main
 [notebook]: ./lessons/jupyter/general_jupyter_notebook_tutorial.ipynb
 [nsf-award-nicole]: https://www.nsf.gov/awardsearch/showAward?AWD_ID=2118272
 [nsf-award-julie]: https://www.nsf.gov/awardsearch/showAward?AWD_ID=2117519
 [nsf-award-mark]: https://www.nsf.gov/awardsearch/showAward?AWD_ID=2118171
+[swc]: http://software-carpentry.org
+[swc-license]: https://github.com/swcarpentry/python-novice-inflammation/blob/gh-pages/LICENSE.md
 [swc]: http://software-carpentry.org
 [swc-license]: https://github.com/swcarpentry/python-novice-inflammation/blob/gh-pages/LICENSE.md
