@@ -320,7 +320,7 @@ $ pwd
 /home/jupyter-mpiper
 ```
 
-## Making a directory | Hacer un directorio
+## Making a directory | Crear un directorio
 
 From your home directory, use the `mkdir` command to make a new directory:
 
