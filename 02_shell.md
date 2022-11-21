@@ -1,163 +1,30 @@
 <img align="center" style="margin:0 0 20px 0" width="100%" height="100%" src="https://raw.githubusercontent.com/CodeToCommunicate/CoCoLessons/main/media/coco-banner.jpg">
 
-# Project Jupyter and the shell
+# The terminal and shell commands
 
 In this lesson,
-we'll learn about Project Jupyter and the tools it provides for scientific coding.
-We'll also learn how to use one old but very effective tool,
+we'll learn how to use one old but very effective tool,
 the terminal, to execute commands on a computer.
 
 ---
 
+## Topics | Temas
 
-## Topics
-
-1. Project Jupyter: JupyterHub, JupyterLab, and Jupyter Notebook
 1. The terminal application and shell commands
 
 ---
 
-1. Proyecto Jupyter: JupyterHub, JupyterLab y Jupyter Notebook
 1. Uso de la terminal y comandos de shell
 
-## Goals / Objetivos
+## Goals | Objetivos
 
-1. Login to a JupyterHub
-1. Get familiar with JupyterLab
-1. Use a Jupyter Notebook
 1. Open a terminal and use basic shell commands
 
 ---
 
-1. Iniciar una sesión en JupyterHub
-1. Familiarizarse con JupyterLab
-1. Usar un Jupyter Notebook
 1. Abrir una terminal y usar comandos básicos de shell
 
-# Project Jupyter / Proyecto Jupyter
-
-<img align="right" width="150" height="150" src="https://jupyter.org/assets/homepage/main-logo.svg">
-
-[Project Jupyter][jupyter] is a non-profit, open-source, community-driven
-organization that oversees the development of a software ecosystem for
-interactive scientific coding, learning, and discovery.
-Project Jupyter grew out of the [IPython project][ipython] started by Fernando
-P&eacute;rez when we was a graduate student in physics at the University of
-Colorado Boulder.
-
-In CoCo, we'll use three tools from the Project Jupyter ecosystem:
-JupyterHub, JupyterLab, and Jupyter Notebook.
-
----
-
-[Project Jupyter][jupyter] es una organización sin fines de lucro, de código
-abierto e impulsada por la comunidad, que supervisa el desarrollo de un
-ecosistema de software para programación científica interactiva, el aprendizaje
-y el descubrimiento.
-El proyecto Jupyter surgió del [proyecto IPython][ipython] iniciado por Fernando
-Pérez cuando era estudiante de posgrado en física en la Universidad de
-Colorado Boulder.
-
-En CoCo, usaremos tres herramientas del ecosistema Jupyter:
-JupyterHub, JupyterLab y Jupyter Notebook.
-
-## JupyterHub
-
-A [JupyterHub](https://jupyter.org/hub) is a server system that allows multiple
-users access to a computational resource, where each user can run Jupyter
-Notebook and other software in their own workspace.
-A JupyterHub can be installed in the cloud or locally.
-
-Through the NSF-funded [OpenEarthscape][oes] project,
-the [Community Surface Dynamics Modeling System][csdms] (CSDMS)
-provides a [JupyterHub][csdms-jhub] where CoCo notebooks can be run.
-Click this button [![Run on CSDMS JupyterHub][badge]][csdms-jhub-link]
-to open the CoCo lessons directly on the CSDMS JupyterHub!
-
----
-
-[JupyterHub](https://jupyter.org/hub) es un servicio que permite que
-múltiples usuarios accedan a recursos computacionales, donde cada usuario
-puede ejecutar Jupyter Notebook y otro software en su propio espacio de trabajo.
-Un JupyterHub se puede instalar en la nube o localmente.
-
-A través del proyecto [OpenEarthscape][oes] financiado por la NSF,
-el [Community Surface Dynamics Modeling System][csdms] (CSDMS) proporciona un
-[JupyterHub][csdms-jhub] donde se pueden ejecutar los Notebooks de CoCo.
-Haga clic en este botón [![Ejecutar en CSDMS JupyterHub][badge]][csdms-jhub-link]
-para abrir las lecciones de CoCo directamente en CSDMS JupyterHub.
-
-## JupyterLab
-
-JupyterLab is a browser-based interactive development environment.
-It provides tools for writing code and creating notebooks, including
-
-- a file browser,
-- launchers for notebooks, data files, and images,
-- terminal, text editor, and code console applications, and
-- keyboard shortcuts to speed your work.
-
-JupyterLab is the default user interface for JupyterHub.
-Like JupyterHub, JupyterLab can be installed in the cloud or locally.
-
----
-
-JupyterLab es un entorno de desarrollo interactivo que se utiliza desde el navegador.
-Proporciona herramientas para escribir código y crear notebooks, como también:
-
-- un explorador de archivos,
-- lanzadores para notebooks, archivos de datos e imágenes,
-- aplicaciones de terminal, editor de texto, y
-- atajos de teclado para acelerar su trabajo.
-
-JupyterLab es la interfaz predeterminada de JupyterHub.
-Al igual que JupyterHub, JupyterLab se puede instalar en la nube o localmente.
-
-## Jupyter Notebook
-
-A Jupyter Notebook is an interactive document for writing, explaining, and
-running code, and for communicating results.
-
-Notebooks are live documents, with the ability to display graphics and tabular data,
-as well as interactive displays with widgets.
-A notebook is made of cells.
-Each cell can hold code, text (using Markdown), equations, or visualizations.
-
-To get a sense of their popularity,
-by [one estimate](https://github.com/parente/nbestimate/blob/master/estimate.ipynb),
-there are currently over 7.5 million notebooks currently hosted on GitHub.
-The estimate is presented, of course, in a notebook.
-
----
-
-Un Jupyter Notebook es un documento interactivo para escribir, explicar y ejecutar
-código, y para comunicar resultados.
-
-Los notebooks son documentos dinámicos, con la capacidad de mostrar gráficos y
-datos tabulares, así como pantallas interactivas con widgets.
-Un notebook está hecho de celdas.
-Cada celda puede contener código, texto (usando Markdown), ecuaciones o
-visualizaciones.
-
-Para tener una idea de su popularidad,
-[se estima](https://github.com/parente/nbestimate/blob/master/estimate.ipynb)
-que actualmente hay más de 7,5 millones de notebooks alojados en GitHub.
-La estimación se presenta, por supuesto, en un notebook.
-
-## Resources / Recursos
-
-- [Project Jupyter][jupyter]
-- JupyterHub [documentation][jupyterhub-docs]
-- JupyterLab [documentation][jupyterlab-docs] and
-  [an entertaining demonstration](https://youtu.be/A5YyoCKxEOU) on YouTube
-- Jupyter Notebook [documentation][jupyter-notebook-docs]
-- The [first section][swc-ppp-1] of the Software Carpentry
-  [Plotting and Programming in Python][swc-ppp] lesson has a great section on
-  JupyterLab and Jupyter Notebook
-- A collection of [notable Jupyter Notebooks](https://github.com/jupyter/jupyter/wiki)
-  and a comprehensive [tutorial](https://www.dataquest.io/blog/jupyter-notebook-tutorial/)
-
-# Introduction to the shell / Introducción a shell
+# Introduction to the shell | Introducción a shell
 
 Here, we'll learn about the _shell_, a command-based interface for interacting
 with the operating system of a computer.
@@ -167,7 +34,7 @@ with the operating system of a computer.
 Aquí, aprenderemos sobre el _shell_, que es una interfaz basada en comandos para
 interactuar con el sistema operativo de una computadora.
 
-## Open a terminal / Abrir una terminal
+## Open a terminal | Abrir una terminal
 
 A _terminal_ is an application that allows a user to communicate with the
 operating system of a computer through terse text commands.
@@ -191,7 +58,7 @@ sistema operativo de una computadora a través de comandos de texto concisos.
 
 En este momento, si aún no lo has hecho, abre una terminal.
 
-## Why are we using a terminal? / ¿Por qué usamos la terminal?
+## Why are we using a terminal? | ¿Por qué usamos la terminal?
 
 Because it works. Really well.
 
@@ -242,7 +109,7 @@ No cubriremos la creación de scripts aquí, pero hay más información en Softw
 Carpentry's [The Unix Shell lección](https://swcarpentry.github.io/shell-novice/),
 en que se basa esta lección.
 
-## Enter commands, get results / Ingrese comandos, obtenga resultados
+## Enter commands, get results | Ingrese comandos, obtenga resultados
 
 The command prompt (or shell prompt) is where we enter commands into a terminal.
 It's typically denoted with a dollar sign `$`.
@@ -272,7 +139,7 @@ esto quiere decir que cuando ingresamos un comando el interprete:
 
 Este proceso se repite cada vez que ingresamos un comando.
 
-## Files and directories / Archivos y directorios
+## Files and directories | Archivos y directorios
 
 Information on a computer is stored in files and directories.
 The part of an operating system that handles this information is called the
@@ -322,7 +189,7 @@ Tenga en cuenta que en este caso se ejecuta este comando en JupyterHub,
 que ejecuta Linux; la carpeta de usuario en una máquina macOS o Windows será
 ligeramente diferente.
 
-## Directory listings / Listados de directorios
+## Directory listings | Listados de directorios
 
 Next, let's look at the contents of this directory:
 
@@ -372,7 +239,7 @@ RPC_4_lithologies_Messy.csv  south-africa-topography.nc.xz  temperature-central-
 hawaii-profile.csv           temperature-berkeley.dat       winemag-data-130k-v2.csv
 ```
 
-## Changing directories / Cambiando directorios
+## Changing directories | Cambiando directorios
 
 Although we've peered into the directory of sample files, we remain in the home directory.
 To change directories, use the `cd` command:
@@ -453,7 +320,7 @@ $ pwd
 /home/jupyter-mpiper
 ```
 
-## Making a directory
+## Making a directory | Crear un directorio
 
 From your home directory, use the `mkdir` command to make a new directory:
 
@@ -485,7 +352,7 @@ The new directory is empty.
 
 El nuevo directorio está vacío.
 
-## Copying, moving, and removing / Copiar, mover y eliminar
+## Copying, moving, and removing | Copiar, mover y eliminar
 
 Let's copy a file from the **CoCoLessons** directory to our **new** directory:
 
@@ -579,7 +446,7 @@ Once a file is removed, it's gone, irrevocably.
 No existe el concepto de "papelera" o "papelera de reciclaje" en el shell.
 Una vez que se elimina un archivo, desaparece irrevocablemente.
 
-## Removing a directory / Eliminar un directorio
+## Removing a directory | Eliminar un directorio
 
 As a last step, let's delete the **new** directory:
 
@@ -602,7 +469,7 @@ However, the directory must be empty before it can be removed.
 Como `rm` elimina archivos, el comando `rmdir` elimina directorios.
 Sin embargo, el directorio debe estar vacío antes de poder eliminarlo.
 
-## Summary / Resumen
+## Summary | Resumen
 
 The table below summarizes the commands and special characters described in this lesson.
 
@@ -627,7 +494,7 @@ La siguiente tabla resume los comandos y caracteres especiales descritos en esta
 | mkdir           | creates a directory / crea un directorio                                  |
 | rmdir           | deletes a directory (permanently) / elimina un directorio permanentemente |
 
-## Resources / Recursos
+## Resources | Recursos
 
 - This lesson is loosely based on the Software Carpentry shell lesson, available in
   [English](https://swcarpentry.github.io/shell-novice/) and
@@ -638,12 +505,10 @@ La siguiente tabla resume los comandos y caracteres especiales descritos en esta
   [GNU Bash Manual](https://www.gnu.org/software/bash/manual/)
 
 
-# Homework / Tarea
+# Homework | Tarea
 
 After completing this lesson, please try the following:
 
-- Create a short Jupyter Notebook that includes Python code and Markdown text,
-  then run it on the JupyterHub
 - Skim over the Software Carpentry shell lesson
   ([English](https://swcarpentry.github.io/shell-novice/),
   [Spanish](https://swcarpentry.github.io/shell-novice-es/))
@@ -658,8 +523,6 @@ will pay off later!
 
 Después de completar esta lección, realiza las siguiente tareas:
 
-- Crea un Jupyter Notebook corto que incluya código Python y texto Markdown,
-  luego ejecútalo en JupyterHub
 - Lee la lección de shell de Software Carpentry
   ([inglés](https://swcarpentry.github.io/shell-novice/),
   [español](https://swcarpentry.github.io/shell-novice-es/))
@@ -670,16 +533,3 @@ Estas son herramientas que usaremos en todo CoCo,
 ¡así que el trabajo que haces ahora valdrá la pena más tarde!
 
 <!-- Links, by alpha -->
-
-[badge]: https://img.shields.io/badge/CSDMS-JupyterHub-orange.svg
-[csdms]: https://csdms.colorado.edu
-[csdms-jhub]: https://lab.openearthscape.org
-[csdms-jhub-link]: https://lab.openearthscape.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FCodeToCommunicate%2FCoCoLessons&urlpath=lab%2Ftree%2FCoCoLessons%2F%3Fautodecode&branch=main
-[ipython]: https://ipython.org/
-[jupyter]: https://jupyter.org/
-[jupyterhub-docs]: (https://jupyterhub.readthedocs.io)
-[jupyterlab-docs]: (https://jupyterlab.readthedocs.io)
-[jupyter-notebook-docs]: https://jupyter-notebook.readthedocs.io
-[oes]: https://openearthscape.org/
-[swc-ppp]: https://swcarpentry.github.io/python-novice-gapminder/
-[swc-ppp-1]: https://swcarpentry.github.io/python-novice-gapminder/01-run-quit/index.html
