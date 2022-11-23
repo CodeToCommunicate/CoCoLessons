@@ -2,7 +2,7 @@
 
 # Introduction to Git and GitHub | Introducción a Git y GitHub
 
-In this opportunity we will learn the basics of what Git and Github are.
+In this lesson we will learn the basics of what Git and Github are.
 You will understand what version control is and why it is important to use it.
 
 This lesson is based on the [Version Control with
@@ -11,7 +11,7 @@ Carpentry](https://software-carpentry.org/).
 
 ---
 
-En esta oportunidad aprenderemos las bases de lo que es Git y Github.
+En esta lección aprenderemos las bases de lo que es Git y Github.
 Comprenderás qué es el control de versiones y por qué es importante usarlo.
 
 El material de esta lección esta basado en la lección [Control de versiones con
@@ -31,20 +31,20 @@ Carpentry](https://software-carpentry.org/).
   Versiones?
 - Git configuration | Configuración Git
 - How to create a repository | Cómo crear un repositorio
-- How to register the changes | Cómo registrar los cambios
+- How to register changes | Cómo registrar cambios
 - Remote repositories on GitHub | Repositorios remotos en GitHub
 
 ## Automated Version Control | Control Automatizado de Versiones
 
-The version control can be used to keep track of what one person did and when.
+Version control keeps track of what a person did and when.
 
 Version control systems allow us to do the same thing as in the comic but in a
 more efficient, clean and orderly way.
 
 ---
 
-El control de versiones se puede utilizar para realizar un seguimiento de lo
-que hizo una persona y cuándo.
+El control de versiones se utiliza para realizar un seguimiento de lo que hizo
+una persona y cuándo.
 
 Los sistemas de control de versiones nos permiten hacer lo mismo que en la
 historieta pero de forma mas eficiente, limpia y ordenada.
