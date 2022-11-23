@@ -49,7 +49,7 @@ una persona y cuándo.
 Los sistemas de control de versiones nos permiten hacer lo mismo que en la
 historieta pero de forma mas eficiente, limpia y ordenada.
 
-<img src="data/git/phdcomics.png" alt="" style="height: 10vh">
+<img src="data/git/phdcomics.png" alt="" style="height: 85vh">
 
 ### Version control workflow | Flujo de trabajo de control de versiones
 
