@@ -1,4 +1,4 @@
-![CoCo banner](./media/coco-banner.jpg)
+[CoCo banner](./media/coco-banner.jpg)
 
 # Introduction to Git and GitHub | Introducción a Git y GitHub
 
@@ -146,8 +146,6 @@ en el staging area), y `git commit` entonces realmente toma la instantánea, y
 genera un registro permanente de esto como un `commit` que guardara en el
 directorio `.git`.
 
-<img src="data/git/git-staging-area.svg" alt="" style="height: 85vh">
-
 #### Git command | Comandos de git
 
 - `git add`: add one or more files to the _staging area_ | añade uno o más
@@ -162,6 +160,8 @@ directorio `.git`.
   in the staging area and the version of the most recent commit | muestra las
   diferencias entre el estado de los archivos en el staging area y la versión
   del commit más reciente.
+
+<img src="data/git/git-staging-area.svg" alt="" style="height: 85vh">
 
 #### Formative assessment 1
 
@@ -196,8 +196,6 @@ archivo modificado `myfile.txt` en el repositorio creado previamente?
 
 ### Exploring History | Explorando el historial
 
-<img src="data/git/git-checkout.svg" alt="" style="height: 85vh">
-
 #### Git commands | Comandos de git
 
 - `HEAD`: symbolizes the most recent commit | simboliza el commit más reciente.
@@ -211,6 +209,8 @@ archivo modificado `myfile.txt` en el repositorio creado previamente?
   commits anteriores.
 - **Never commit if you are not in `HEAD` | Nunca hay que hacer commits si no
   estamos en `HEAD`.**
+
+<img src="data/git/git-checkout.svg" alt="" style="height: 85vh">
 
 #### Formative assessment 2
 
@@ -271,16 +271,198 @@ llamado `script.py`?
 <!-- discussed above, you are left in a detached HEAD state, and you don’t want to -->
 <!-- be there.  -->
 
-### Remotes in GitHub | Repositorio remoto in GitHub
+### Remote repository in GitHub | Repositorio remoto en GitHub
 
-**Estado de nuestro repostorio local**
+GitHub allows us to storage copies of our repositories to shear them with
+others or hold them as main copies.
+These copies are called **remote repository**.
 
-<img src="data/git/git-staging-area.svg" style="width: 100%;">
+---
 
-**Estado de nuesto**
+GitHub nos permite almacenar copias de nuestros repositorios para compartirlas
+con otras personas o mantenerlas como copias principales.
+Estas copias se denominan **repositorio remoto**.
+
+#### Create a remote reposotory | Crear un reposotorio remoto
+
+Now, let's create a remote repository in our GitHub account.
+So, let's go to `Repositories` page and click on the green button called `New`.
+
+---
+
+Ahora, creemos un repositorio remoto en nuestra cuenta de GitHub.
+Entonces, vayamos a la página `Repositorios` y hagamos clic en el botón verde
+llamado `Nuevo`.
+
+**Status of our reposotory | Estado de nuestro repositorio**
 
 <img src="data/git/git-freshly-made-github-repo.svg" style="width: 55%;">
 
-**Luego del primer `git push`:**
+#### SSH setup | Configurar el SSH
+
+Before we can connect our local repository to a remote repository, we need to
+set up a way for our computer to authenticate with GitHub so it knows it’s us
+trying to connect to our remote repository.
+
+We are going to set up the method that is commonly used by many different
+services to authenticate access on the command line.
+This method is called **Secure Shell Protocol (SSH)**.
+SSH is a cryptographic network protocol that allows secure communication
+between computers using an otherwise insecure network.
+
+SSH uses what is called a _key pair_.
+This is two keys that work together to validate access.
+One key is publicly known and called the _public key_, and the other key called
+the _private key_ is kept private.
+We use the _public key_ where we want a secure method of communication, such
+as our GitHub account.
+
+1. To create an SSH key pair, run:
+
+   ```
+   ssh-keygen -t ed25519 -C <your mail>
+   ```
+
+1. Check if GitHub can read our authentication:
+
+   ```
+   ssh -T git@github.com
+   ```
+
+1. Copy the public key:
+
+   ```
+   cat ~/.ssh/id_ed25519.pub
+   ```
+
+1. Now, going to GitHub.com, click on our profile icon in the top right corner
+   to get the drop-down menu.
+   Click “Settings,” then on the settings page, click “SSH and GPG keys,” on
+   the left side “Account settings” menu.
+   Click the “New SSH key” button on the right side.
+   Now, you can add the title (for example “Lab Laptop” so we can remember
+   where the original key pair files are located), paste your SSH key into the
+   field, and click the “Add SSH key” to complete the setup.
+
+1. Run again the command to check authentication:
+   ```
+   ssh -T git@github.com
+   ```
+
+---
+
+Antes de que podamos conectar nuestro repositorio local a un repositorio
+remoto, debemos configurar una forma para que nuestra computadora se autentique
+con GitHub para que sepa que somos nosotros tratando de conectarnos a nuestro
+repositorio remoto.
+
+Vamos a configurar el método que comúnmente utilizan muchos servicios
+diferentes para autenticar el acceso en la línea de comandos. Este método se
+llama **Protocolo de shell seguro (SSH)**.
+SSH es un protocolo de red criptográfico que permite la comunicación segura
+entre computadoras que utilizan una red que de otro modo sería insegura.
+
+SSH usa lo que se llama un _par de claves_.
+Se trata de dos claves que trabajan juntas para validar el acceso.
+Una clave se conoce públicamente y se denomina _clave pública_, y la otra
+clave, denominada _clave privada_, se mantiene privada. Usamos la _clave
+pública_ donde queremos un método seguro de comunicación, como nuestra cuenta
+de GitHub.
+
+1. Para crear un par de claves SSH, ejecutemos:
+
+   ```
+   ssh-keygen -t ed25519 -C <your mail>
+   ```
+
+1. Comprobemos si GitHub puede leer nuestra autentificación:
+
+   ```
+   ssh -T git@github.com
+   ```
+
+1. Copiemos la clave publica:
+
+   ```
+   cat ~/.ssh/id_ed25519.pub
+   ```
+
+1. Ahora, vayamos a GitHub.com, hagamos clic en nuestro ícono de perfil en la
+   esquina superior derecha para obtener el menú desplegable.
+   Haga clic en "Configuración", luego en la página de configuración, haga clic
+   en "Claves SSH y GPG", en el menú del lado izquierdo "Configuración de la
+   cuenta".
+   Haga clic en el botón "Nueva clave SSH" en el lado derecho.
+   Ahora, puede agregar el título (por ejemplo, "Lab Laptop" para que podamos
+   recordar donde se encuentran los archivos del par de claves originales),
+   pegue su clave SSH en el y haga clic en "Agregar clave SSH" para completar
+   la configuración.
+
+1. Vuelva a ejecutar el comando para verificar la autentificación:
+   ```
+   ssh -T git@github.com
+   ```
+
+#### Push local change to a remote | Subir los cambios locales al remoto
+
+**Status of our repository after the first `git push` | Estado de nuestro
+reposotorio luego del primer `git push`:**
 
 <img src="data/git/github-repo-after-first-push.svg" style="width: 65%;">
+
+#### Git commands | Comandos de git
+
+- `git remote add origin <URL>`: Add a remote named `origin` for the repository
+  at `URL` | Agrega el remoto llamado `origin` localizado en `URL`.
+- `git remote -v`: Show all the remotes | Muestra los remotos.
+- `git push origin main`: Update the remote repository | Actualiza el
+  reposotorio remoto.
+
+## Homework | Tarea
+
+After completing this lesson, please try to create a repository.
+We will use this repository to save and share future homework with the coaches
+to get feedback.
+
+1. Create in your computer a directory called `coco_coding_homework`.
+1. Initialise this directory as a repository.
+1. Create a file called `README.md`.
+1. Add a title in the Readme file, for example: "CoCo coding homework".
+   Remember to add `#` to indicate that it is a title.
+   Then commit the change.
+1. Add a short description of what this repository is going to be use for, for
+   example: "This repo contains all the assessments proposed by the CoCo
+   coding coaches.".
+   Then, commit the changes.
+1. Create a remote repository in your GitHub account and push your local
+   changes to the remote.
+
+---
+
+Después de completar esta lección, intente crear un repositorio.
+Usaremos este repositorio para guardar y compartir los futuros deberes los
+entrenadores para obtener feedback.
+
+1. Cree en su computadora un directorio llamado `coco_coding_homework`.
+1. Inicialice este directorio como repositorio.
+1. Cree un archivo llamado `README.md`.
+1. Agregue un título en el archivo Readme, por ejemplo: "Tarea de programación
+   de CoCo".
+   Recuerda agregar `#` para indicar que es un título.
+   Luego confirme (commit) el cambio.
+1. Agregue una breve descripción al archivo Readme indicando para qué se
+   utilizará este repositorio, por ejemplo: "Este repositorio contiene todas
+   las tareas propuestas por los coding coaches de CoCo.".
+   Luego, confirme (commit) los cambios.
+1. Cree un repositorio remoto en su cuenta de GitHub y suba (push) su cambios
+   locales en el repositorio remoto.
+
+## Recursos para seguir aprendiendo
+
+This lesson is base on the Software Carpentry lesson called
+_[Version Control with Git](https://swcarpentry.github.io/git-novice/)_.
+
+---
+
+Esta lección esta basada en el material de Software Carmeptry llamado
+_[El Control de Versiones con Git](https://swcarpentry.github.io/git-novice-es/)_
