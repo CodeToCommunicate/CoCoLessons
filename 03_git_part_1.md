@@ -273,9 +273,9 @@ llamado `script.py`?
 
 ### Remote repository in GitHub | Repositorio remoto en GitHub
 
-GitHub allows us to storage copies of our repositories to shear them with
-others or hold them as main copies.
-These copies are called **remote repository**.
+GitHub allows us to store copies of our repositories to share them with others
+or hold them as main copies.
+These copies are called **remote repositories**.
 
 ---
 
