@@ -324,6 +324,19 @@ $ pwd
 /home/jupyter-mpiper
 ```
 
+### Formative assessment 1
+
+If your current directory is the **CoCoLessons** directory,
+how can you get a directory listing for the **data** subdirectory?
+
+1. `ls data`
+1. `ls ./data`
+1. `ls ../CoCoLessons/data`
+1. `ls ~/CoCoLessons/data`
+1. All of the above
+
+Can you explain your answer?
+
 ## Making a directory | Crear un directorio
 
 From your home directory, use the `mkdir` command to make a new directory:
