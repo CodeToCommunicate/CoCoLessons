@@ -397,6 +397,18 @@ medida que avanzamos en CoCo.
 Al final, podrá usar estas herramientas en su investigación y permanecerán en
 su computadora mucho después de la última lección de CoCo.
 
+# Homework | Tarea
+
+After completing this lesson,
+please try to install
+
+* Anaconda,
+* Git for Windows (Windows only), and
+* VS Code
+
+on your computer using the information above.
+
+
 <!-- Links, by alpha -->
 
 [badge]: https://img.shields.io/badge/CSDMS-JupyterHub-orange.svg
