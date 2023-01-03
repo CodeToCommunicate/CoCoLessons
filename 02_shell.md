@@ -463,6 +463,12 @@ Once a file is removed, it's gone, irrevocably.
 No existe el concepto de "papelera" o "papelera de reciclaje" en el shell.
 Una vez que se elimina un archivo, desaparece irrevocablemente.
 
+### Formative assessment 2
+
+The **data** subdirectory of the **CoCoLessons** directory
+contains several files.
+Can you think of a way to copy all of the files in a directory?
+
 ## Removing a directory | Eliminar un directorio
 
 As a last step, let's delete the **new** directory:
@@ -485,6 +491,13 @@ However, the directory must be empty before it can be removed.
 
 Como `rm` elimina archivos, el comando `rmdir` elimina directorios.
 Sin embargo, el directorio debe estar vacío antes de poder eliminarlo.
+
+### Formative assessment 3
+
+Given that directory must be empty before it can be removed,
+can you think of a way to remove all the files in a directory?
+Alternately,
+is there a way to remove a directory even if it contains files?
 
 ## Summary | Resumen
 
