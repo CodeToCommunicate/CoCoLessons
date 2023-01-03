@@ -219,10 +219,14 @@ Por ejemplo, para ver el contenido del directorio **CoCoLessons**, escriba:
 
 ```
 $ ls CoCoLessons
-data                          coco_3_matplotlib.ipynb          CONTRIBUTING.md   README.md
-media                         coco_4_functions_and_more.ipynb  CREDITS.md
-coco_1_coding_environment.md  coco_5_pandas.ipynb              environment.yaml
-coco_2_python_basics.ipynb    CODE-OF-CONDUCT.md               LICENSE.md
+01_coding_environment.md       CONTRIBUTING.md
+02_shell.md                    CREDITS.md
+03_git_part_1.md               LICENSE
+04_intro_to_python_numpy.ipynb README.md
+05_matplotlib.ipynb            data
+06_loops_if_functions.ipynb    environment.yml
+07_pandas.ipynb                media
+CODE-OF-CONDUCT.md
 ```
 
 You can see the CoCo lesson files that have been added to the JupyterHub.
