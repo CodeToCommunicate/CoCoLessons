@@ -245,9 +245,11 @@ Puede ver los archivos de las lecciones de CoCo se agregaron a JupyterHub.
 Podemos indagar más; por ejemplo, para ver el contenido del directorio llamado
 `data`:
 
-````$ ls CoCoLessons/data RPC_4_lithologies_Messy.csv
+```
+$ ls CoCoLessons/data RPC_4_lithologies_Messy.csv
 south-africa-topography.nc.xz  temperature-central-park.dat hawaii-profile.csv
-temperature-berkeley.dat       winemag-data-130k-v2.csv ```
+temperature-berkeley.dat       winemag-data-130k-v2.csv
+```
 
 ## Changing directories | Cambiando directorios
 
@@ -260,12 +262,10 @@ Aunque hemos mirado en el directorio de archivos de muestra, permanecemos en la
 carpeta de usuario.
 Para cambiar de directorio, use el comando `cd`:
 
-````
-
+```
 $ cd CoCoLessons
 $ pwd
 /home/jupyter-mpiper/CoCoLessons
-
 ```
 
 The `pwd` command shows that we've switched to the **CoCoLessons** directory.
@@ -281,11 +281,9 @@ El comando `cd` puede tomar un nombre de directorio como argumento.
 También se puede usar sin argumentos:
 
 ```
-
 $ cd
 $ pwd
 /home/jupyter-mpiper
-
 ```
 
 With no arguments, `cd` always returns to your home directory.
@@ -301,10 +299,8 @@ El comando `cd` también puede tomar un conjunto de caracteres especiales como
 argumentos. Para cambiar al directorio anterior, use un guión `-`:
 
 ```
-
 $ cd -
 /home/jupyter-mpiper/CoCoLessons
-
 ```
 
 When working with directories, a dot `.` is a shortcut for the current
@@ -317,14 +313,12 @@ actual, mientras que dos puntos `..` son un atajo para el directorio-padre
 (_parent directory_):
 
 ```
-
 $ cd .
 $ pwd
 /home/jupyter-mpiper/CoCoLessons
 $ cd ..
 $ pwd
 /home/jupyter-mpiper
-
 ```
 
 Likewise, the tilde `~` is a shortcut for the user's home directory:
@@ -334,11 +328,9 @@ Likewise, the tilde `~` is a shortcut for the user's home directory:
 Asimismo, la tilde `~` es un atajo para la carpeta de usuario:
 
 ```
-
 $ cd ~
 $ pwd
 /home/jupyter-mpiper
-
 ```
 
 ### Formative assessment 1
@@ -377,12 +369,10 @@ Desde tu carpeta de usuario, usa el comando `mkdir` para crear un nuevo
 directorio:
 
 ```
-
 $ mkdir new
 $ ls
 CoCoLessons bin bmi-topography espin projects tmp
 README.md bmi-geotiff data new scratch
-
 ```
 
 Change to the new directory and get a listing:
@@ -392,10 +382,8 @@ Change to the new directory and get a listing:
 Cambia al nuevo directorio y obtén su contenido:
 
 ```
-
 $ cd new
 $ ls
-
 ```
 
 The new directory is empty.
@@ -413,11 +401,9 @@ Let's copy a file from the **CoCoLessons** directory to our **new** directory:
 Copiemos un archivo del directorio **CoCoLessons** a nuestro **new** directorio:
 
 ```
-
 $ cp ../CoCoLessons/README.md .
 $ ls
 README.md
-
 ```
 
 Here, we instructed the `cp` command to go up a directory and over to the
@@ -432,10 +418,8 @@ actual. Tenga en cuenta que la copia y el original existen y tiene el mismo
 contenido:
 
 ```
-
 $ $ diff -s README.md ../CoCoLessons/README.md
 Files README.md and ../CoCoLessons/README.md are identical
-
 ```
 
 The `diff` command compares files and reports how they differ.
@@ -449,11 +433,9 @@ El comando `diff` compara archivos e informa en qué se diferencian.
 El comando `mv` se puede utilizar para cambiar el nombre de un archivo.
 
 ```
-
 $ mv README.md readme.md
 $ ls
 readme.md
-
 ```
 
 The `mv` command can also be used to move a file from one location to another.
@@ -465,13 +447,11 @@ El comando `mv` también se puede usar para mover un archivo de una ubicación a
 otra. Movamos **readme.md** hasta la carpeta de usuario:
 
 ```
-
 $ mv readme.md ~
 $ ls
 $ ls ~
 CoCoLessons bin bmi-topography espin projects scratch
 README.md bmi-geotiff data new readme.md tmp
-
 ```
 
 Note that the **new** directory is now empty because **readme.md** has been
@@ -496,10 +476,8 @@ Los archivos se pueden eliminar con el comando `rm`.
 Elimina nuestro archivo **readme.md** con:
 
 ```
-
 $ cd
 $ rm readme.md
-
 ```
 
 There is no concept of a "trash" or "recycle" bin in the shell.
@@ -531,12 +509,10 @@ As a last step, let's delete the **new** directory:
 Como último paso, eliminemos el directorio **new**:
 
 ```
-
 $ rmdir new
 $ ls
 CoCoLessons bin bmi-topography espin scratch
 README.md bmi-geotiff data projects tmp
-
 ```
 
 As `rm` removes files, the `rmdir` command removes directories.
