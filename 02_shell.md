@@ -31,8 +31,8 @@ with the operating system of a computer.
 
 ---
 
-Aquí, aprenderemos sobre el _shell_, que es una interfaz basada en comandos para
-interactuar con el sistema operativo de una computadora.
+Aquí, aprenderemos sobre el _shell_, que es una interfaz basada en comandos
+para interactuar con el sistema operativo de una computadora.
 
 ## Open a terminal | Abrir una terminal
 
@@ -72,13 +72,14 @@ if you want to change from one application to another, it's much faster to hit
 to go find the other application window.
 
 Commands tend to be terse to the point of being cryptic, not that different
-from texting shorthand: instead of brb or ttyl, it's `cd` (change directory) or `rm` (remove).
-And it's done for the same reason: speed.
+from texting shorthand: instead of brb or ttyl, it's `cd` (change directory) or
+`rm` (remove). And it's done for the same reason: speed.
 
-Commands can also be gathered into _scripts_ that can be executed as a single unit.
-With a script, you can automate a repetitive task.
-Scripts are marvelous for data processing pipelines, and can improve reproducibility.
-We won't cover scripting here, but there's more information in Software Carpentry's
+Commands can also be gathered into _scripts_ that can be executed as a single
+unit. With a script, you can automate a repetitive task.
+Scripts are marvelous for data processing pipelines, and can improve
+reproducibility. We won't cover scripting here, but there's more information in
+Software Carpentry's
 [The Unix Shell](https://swcarpentry.github.io/shell-novice/) lesson, on which
 this lesson is based.
 
@@ -87,17 +88,18 @@ this lesson is based.
 Porque funciona realmente bien.
 
 Cuando utilizas los comandos de shell en una terminal, puedes realizar tareas
-específicas del sistema de archivos (mover, copiar, renombrar, eliminar archivos
-y directorios) mucho más rápido y eficientemente que con una aplicación gráfica.
+específicas del sistema de archivos (mover, copiar, renombrar, eliminar
+archivos y directorios) mucho más rápido y eficientemente que con una
+aplicación gráfica.
 
 Por analogía, piensa en los atajos de teclado en su computadora:
 si desea cambiar de una aplicación a otra, es mucho más rápido presionar
-`Cmd-Tab` (en macOS; `Alt-Tab` en Linux y Windows) que usar un mouse para buscar
-la ventana de la otra aplicación.
+`Cmd-Tab` (en macOS; `Alt-Tab` en Linux y Windows) que usar un mouse para
+buscar la ventana de la otra aplicación.
 
 Los comandos tienden a ser concisos hasta el punto de ser crípticos, no tan
-diferentes de los mensajes de texto abreviados: en lugar de tkm (te quiero mucho)
-o tmb (también), es `cd` (cambiar de directorio) o `rm` (remover).
+diferentes de los mensajes de texto abreviados: en lugar de tkm (te quiero
+mucho) o tmb (también), es `cd` (cambiar de directorio) o `rm` (remover).
 Y se hace por la misma razón: la velocidad.
 
 Los comandos también se pueden agrupar en _scripts_ que se pueden ejecutar como
@@ -144,7 +146,8 @@ Este proceso se repite cada vez que ingresamos un comando.
 Information on a computer is stored in files and directories.
 The part of an operating system that handles this information is called the
 _filesystem_.
-Think of the filesystem as a tree with branches (directories) and leaves (files).
+Think of the filesystem as a tree with branches (directories) and leaves
+(files).
 
 Let's find out where we are in the filesystem when we start a terminal:
 
@@ -153,9 +156,11 @@ Let's find out where we are in the filesystem when we start a terminal:
 La información en una computadora se almacena en archivos y directorios.
 La parte del sistema operativo que maneja esta información se llama
 _sistema de archivos_ (filesystem).
-Piense en el sistema de archivos como un árbol con ramas (directorios) y hojas (archivos).
+Piense en el sistema de archivos como un árbol con ramas (directorios) y hojas
+(archivos).
 
-Averigüemos dónde estamos en el sistema de archivos cuando iniciamos una terminal:
+Averigüemos dónde estamos en el sistema de archivos cuando iniciamos una
+terminal:
 
 ```
 $ pwd
@@ -163,8 +168,8 @@ $ pwd
 ```
 
 The `pwd` command prints the current directory to the terminal.
-You can see that I'm in the directory `jupyter-mpiper` under the directory `home`.
-The forward slash `/` is used as a delimiter between directory names.
+You can see that I'm in the directory `jupyter-mpiper` under the directory
+`home`. The forward slash `/` is used as a delimiter between directory names.
 
 This directory, `/home/jupyter-mpiper`, is special--it's the _home directory_
 for the user `jupyter-mpiper`.
@@ -176,14 +181,15 @@ the home directory on a macOS or Windows machine will be slightly different.
 
 ---
 
-El comando `pwd` imprime en la terminal el directorio donde se encuentra actualmente.
-Puedes ver que estamos en el directorio `jupyter-mpiper` debajo del directorio `home`.
-La barra inclinada `/` se utiliza como delimitador entre los nombres de los directorios.
+El comando `pwd` imprime en la terminal el directorio donde se encuentra
+actualmente. Puedes ver que estamos en el directorio `jupyter-mpiper` debajo
+del directorio `home`. La barra inclinada `/` se utiliza como delimitador entre
+los nombres de los directorios.
 
 Este directorio `/home/jupyter-mpiper` es especial. Éste es la
 _carpeta de usuario_ para el usuario `jupyter-mpiper`.
-Cada usuario tiene una _carpeta de usuario_ propia, que es la ubicación predeterminada
-para crear y almacenar información.
+Cada usuario tiene una _carpeta de usuario_ propia, que es la ubicación
+predeterminada para crear y almacenar información.
 
 Tenga en cuenta que en este caso se ejecuta este comando en JupyterHub,
 que ejecuta Linux; la carpeta de usuario en una máquina macOS o Windows será
@@ -229,24 +235,24 @@ $ ls CoCoLessons
 CODE-OF-CONDUCT.md
 ```
 
-You can see the CoCo lesson files that have been added to the JupyterHub.
-We can drill further; for example, to see into the directory containing data files:
+You can see the CoCo lesson files that have been added to the JupyterHub. We
+can drill further; for example, to see into the directory containing data
+files:
 
 ---
 
 Puede ver los archivos de las lecciones de CoCo se agregaron a JupyterHub.
-Podemos indagar más; por ejemplo, para ver el contenido del directorio llamado `data`:
+Podemos indagar más; por ejemplo, para ver el contenido del directorio llamado
+`data`:
 
-```
-$ ls CoCoLessons/data
-RPC_4_lithologies_Messy.csv  south-africa-topography.nc.xz  temperature-central-park.dat
-hawaii-profile.csv           temperature-berkeley.dat       winemag-data-130k-v2.csv
-```
+````$ ls CoCoLessons/data RPC_4_lithologies_Messy.csv
+south-africa-topography.nc.xz  temperature-central-park.dat hawaii-profile.csv
+temperature-berkeley.dat       winemag-data-130k-v2.csv ```
 
 ## Changing directories | Cambiando directorios
 
-Although we've peered into the directory of sample files, we remain in the home directory.
-To change directories, use the `cd` command:
+Although we've peered into the directory of sample files, we remain in the home
+directory. To change directories, use the `cd` command:
 
 ---
 
@@ -254,10 +260,12 @@ Aunque hemos mirado en el directorio de archivos de muestra, permanecemos en la
 carpeta de usuario.
 Para cambiar de directorio, use el comando `cd`:
 
-```
+````
+
 $ cd CoCoLessons
 $ pwd
 /home/jupyter-mpiper/CoCoLessons
+
 ```
 
 The `pwd` command shows that we've switched to the **CoCoLessons** directory.
@@ -273,9 +281,11 @@ El comando `cd` puede tomar un nombre de directorio como argumento.
 También se puede usar sin argumentos:
 
 ```
+
 $ cd
 $ pwd
 /home/jupyter-mpiper
+
 ```
 
 With no arguments, `cd` always returns to your home directory.
@@ -287,29 +297,34 @@ To switch to the previous directory, use a dash `-`:
 
 Sin argumentos, `cd` siempre regresa a su carpeta de usuario.
 
-El comando `cd` también puede tomar un conjunto de caracteres especiales como argumentos.
-Para cambiar al directorio anterior, use un guión `-`:
+El comando `cd` también puede tomar un conjunto de caracteres especiales como
+argumentos. Para cambiar al directorio anterior, use un guión `-`:
 
 ```
+
 $ cd -
 /home/jupyter-mpiper/CoCoLessons
+
 ```
 
-When working with directories, a dot `.` is a shortcut for the current directory,
-while two dots `..` are a shortcut for the parent directory:
+When working with directories, a dot `.` is a shortcut for the current
+directory, while two dots `..` are a shortcut for the parent directory:
 
 ---
 
 Cuando se trabaja con directorios, un punto `.` es un atajo para el directorio
-actual, mientras que dos puntos `..` son un atajo para el directorio-padre (_parent directory_):
+actual, mientras que dos puntos `..` son un atajo para el directorio-padre
+(_parent directory_):
 
 ```
+
 $ cd .
 $ pwd
 /home/jupyter-mpiper/CoCoLessons
 $ cd ..
 $ pwd
 /home/jupyter-mpiper
+
 ```
 
 Likewise, the tilde `~` is a shortcut for the user's home directory:
@@ -319,9 +334,11 @@ Likewise, the tilde `~` is a shortcut for the user's home directory:
 Asimismo, la tilde `~` es un atajo para la carpeta de usuario:
 
 ```
+
 $ cd ~
 $ pwd
 /home/jupyter-mpiper
+
 ```
 
 ### Formative assessment 1
@@ -337,19 +354,35 @@ how can you get a directory listing for the **data** subdirectory?
 
 Can you explain your answer?
 
+---
+
+Si su directorio actual es el directorio **CoCoLessons**,
+¿Cómo puede obtener una lista de directorios para el subdirectorio **datos**?
+
+1. `ls datos`
+1. `ls./datos`
+1. `ls ../CoCoLessons/datos`
+1. `ls ~/CoCoLessons/datos`
+1. Todo lo anterior
+
+¿Puedes explicar tu respuesta?
+
 ## Making a directory | Crear un directorio
 
 From your home directory, use the `mkdir` command to make a new directory:
 
 ---
 
-Desde tu carpeta de usuario, usa el comando `mkdir` para crear un nuevo directorio:
+Desde tu carpeta de usuario, usa el comando `mkdir` para crear un nuevo
+directorio:
 
 ```
+
 $ mkdir new
 $ ls
-CoCoLessons  bin          bmi-topography  espin  projects  tmp
-README.md    bmi-geotiff  data            new    scratch
+CoCoLessons bin bmi-topography espin projects tmp
+README.md bmi-geotiff data new scratch
+
 ```
 
 Change to the new directory and get a listing:
@@ -359,8 +392,10 @@ Change to the new directory and get a listing:
 Cambia al nuevo directorio y obtén su contenido:
 
 ```
+
 $ cd new
 $ ls
+
 ```
 
 The new directory is empty.
@@ -378,9 +413,11 @@ Let's copy a file from the **CoCoLessons** directory to our **new** directory:
 Copiemos un archivo del directorio **CoCoLessons** a nuestro **new** directorio:
 
 ```
+
 $ cp ../CoCoLessons/README.md .
 $ ls
 README.md
+
 ```
 
 Here, we instructed the `cp` command to go up a directory and over to the
@@ -390,12 +427,15 @@ Note that the copy and the original both exist, and are the same:
 ---
 
 Aquí, le indicamos al comando `cp` que subiera un directorio y fuera al
-directorio **CoCoLessons** para obtener un archivo y copiarlo en el directorio actual.
-Tenga en cuenta que la copia y el original existen y tiene el mismo contenido:
+directorio **CoCoLessons** para obtener un archivo y copiarlo en el directorio
+actual. Tenga en cuenta que la copia y el original existen y tiene el mismo
+contenido:
 
 ```
+
 $ $ diff -s README.md ../CoCoLessons/README.md
 Files README.md and ../CoCoLessons/README.md are identical
+
 ```
 
 The `diff` command compares files and reports how they differ.
@@ -409,9 +449,11 @@ El comando `diff` compara archivos e informa en qué se diferencian.
 El comando `mv` se puede utilizar para cambiar el nombre de un archivo.
 
 ```
+
 $ mv README.md readme.md
 $ ls
 readme.md
+
 ```
 
 The `mv` command can also be used to move a file from one location to another.
@@ -419,15 +461,17 @@ Let's move **readme.md** up to the home directory:
 
 ---
 
-El comando `mv` también se puede usar para mover un archivo de una ubicación a otra.
-Movamos **readme.md** hasta la carpeta de usuario:
+El comando `mv` también se puede usar para mover un archivo de una ubicación a
+otra. Movamos **readme.md** hasta la carpeta de usuario:
 
 ```
+
 $ mv readme.md ~
 $ ls
 $ ls ~
-CoCoLessons  bin          bmi-topography  espin  projects   scratch
-README.md    bmi-geotiff  data            new    readme.md  tmp
+CoCoLessons bin bmi-topography espin projects scratch
+README.md bmi-geotiff data new readme.md tmp
+
 ```
 
 Note that the **new** directory is now empty because **readme.md** has been
@@ -445,14 +489,17 @@ Ten en cuenta que el directorio **new** ahora está vacío porque **readme.md**
 se ha movido a la carpeta de usuario.
 ¡También ten en cuenta que **README.md** y **readme.md** en la carpeta de
 usuario son archivos diferentes!
-Los sistemas de archivos en Linux y macOS distinguen entre mayúsculas y minúsculas.
+Los sistemas de archivos en Linux y macOS distinguen entre mayúsculas y
+minúsculas.
 
 Los archivos se pueden eliminar con el comando `rm`.
 Elimina nuestro archivo **readme.md** con:
 
 ```
+
 $ cd
 $ rm readme.md
+
 ```
 
 There is no concept of a "trash" or "recycle" bin in the shell.
@@ -467,7 +514,13 @@ Una vez que se elimina un archivo, desaparece irrevocablemente.
 
 The **data** subdirectory of the **CoCoLessons** directory
 contains several files.
-Can you think of a way to copy all of the files in a directory?
+Can you think of a way to copy all the files in a directory?
+
+---
+
+El subdirectorio **data** del directorio **CoCoLessons** contiene varios
+archivos. ¿Puedes pensar en una manera de copiar todos los archivos en un
+directorio?
 
 ## Removing a directory | Eliminar un directorio
 
@@ -478,10 +531,12 @@ As a last step, let's delete the **new** directory:
 Como último paso, eliminemos el directorio **new**:
 
 ```
+
 $ rmdir new
 $ ls
-CoCoLessons  bin          bmi-topography  espin     scratch
-README.md    bmi-geotiff  data            projects  tmp
+CoCoLessons bin bmi-topography espin scratch
+README.md bmi-geotiff data projects tmp
+
 ```
 
 As `rm` removes files, the `rmdir` command removes directories.
@@ -496,16 +551,24 @@ Sin embargo, el directorio debe estar vacío antes de poder eliminarlo.
 
 Given that directory must be empty before it can be removed,
 can you think of a way to remove all the files in a directory?
-Alternately,
-is there a way to remove a directory even if it contains files?
-
-## Summary | Resumen
-
-The table below summarizes the commands and special characters described in this lesson.
+Alternately, is there a way to remove a directory even if it contains files?
 
 ---
 
-La siguiente tabla resume los comandos y caracteres especiales descritos en esta lección.
+Dado que el directorio debe estar vacío antes de poder eliminarlo,
+¿Se te ocurre alguna forma de eliminar todos los archivos de un directorio?
+Alternativamente, ¿hay alguna forma de eliminar un directorio incluso si
+contiene archivos?
+
+## Summary | Resumen
+
+The table below summarizes the commands and special characters described in
+this lesson.
+
+---
+
+La siguiente tabla resume los comandos y caracteres especiales descritos en
+esta lección.
 
 | Command/Comando | Description / Descripción                                                 |
 | --------------- | ------------------------------------------------------------------------- |
@@ -563,3 +626,4 @@ Estas son herramientas que usaremos en todo CoCo,
 ¡así que el trabajo que haces ahora valdrá la pena más tarde!
 
 <!-- Links, by alpha -->
+```
