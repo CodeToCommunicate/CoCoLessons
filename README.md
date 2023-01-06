@@ -55,12 +55,20 @@ para aprender sobre Bash, Git/GitHub y Python.
   intercambiar ideas.
 - No es necesario tener conocimientos de programación.
 
-## The CSDMS JupyterHub
+The CoCo lessons can be run locally
+if you install Anaconda and a `git` client
+(covered in [lesson 1](./01_coding_environment.md)).
+All lessons are also available
+on the [OpenEarthscape JupyterHub][jhub].
+Click this button:
 
-The [Community Surface Dynamics Modeling System][csdms] (CSDMS)
-provides a JupyterHub where the notebooks in this repository can be run.
-Click this button [![Run on CSDMS JupyterHub][badge]][nbgitpuller-link]
-to open this repository directly on the CSDMS JupyterHub!
+[![Run on OpenEarthscape JupyterHub][badge]][jhub-link]
+
+to open the lessons directly on the OpenEarthscape JupyterHub!
+
+> **Note:** The OpenEarthscape JupyterHub is password-protected.
+  Please contact your instructor about obtaining a login,
+  or visit [this page][jhub-info] for more information.
 
 ## License | Licencia
 
@@ -84,11 +92,12 @@ and remixed under their [license][swc-license].
 
 <!-- Links -->
 
-[badge]: https://img.shields.io/badge/CSDMS-JupyterHub-orange.svg
+[badge]: https://img.shields.io/badge/OpenEarthscape-JupyterHub-orange
 [cc-by]: http://creativecommons.org/licenses/by/4.0/
 [cc-by-image]: https://i.creativecommons.org/l/by/4.0/88x31.png
-[csdms]: https://csdms.colorado.edu
-[nbgitpuller-link]: https://lab.openearthscape.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FCodeToCommunicate%2FCoCoLessons&urlpath=lab%2Ftree%2FCoCoLessons%2F%3Fautodecode&branch=main
+[jhub]: https://csdms.colorado.edu/wiki/JupyterHub
+[jhub-info]: https://csdms.colorado.edu/wiki/JupyterHub
+[jhub-link]: https://lab.openearthscape.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FCodeToCommunicate%2FCoCoLessons&urlpath=lab%2Ftree%2FCoCoLessons%2F%3Fautodecode&branch=main
 [notebook]: ./lessons/jupyter/general_jupyter_notebook_tutorial.ipynb
 [nsf-award-nicole]: https://www.nsf.gov/awardsearch/showAward?AWD_ID=2118272
 [nsf-award-julie]: https://www.nsf.gov/awardsearch/showAward?AWD_ID=2117519
