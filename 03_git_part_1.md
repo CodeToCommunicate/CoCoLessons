@@ -464,5 +464,5 @@ _[Version Control with Git](https://swcarpentry.github.io/git-novice/)_.
 
 ---
 
-Esta lección esta basada en el material de Software Carmeptry llamado
+Esta lección esta basada en el material de Software Carpentry llamado
 _[El Control de Versiones con Git](https://swcarpentry.github.io/git-novice-es/)_
