@@ -88,7 +88,7 @@ metadatos _conforman un repositorio_.
 Los repositorios se pueden mantener sincronizados en diferentes computadoras,
 lo que facilita la colaboración entre diferentes personas.
 
-### Set up git | Configurando git
+## Set up git | Configurando git
 
 Set up the name with which the activity you do in `git` will be registered.
 | Configuramos el nombre con el que quedará registrada la actividad que se
@@ -113,25 +113,25 @@ texto que `git` usará.
 $ git config --global core.editor "text_editor"
 ```
 
-### Creating a repository | Creando un repositorio
+## Creating a repository | Creando un repositorio
 
-#### Useful bash commands | Comandos útiles de bash
+### Useful bash commands | Comandos útiles de bash
 
 - `mkdir`: make a directory (new folder) | crea una nuevo directorio (carpeta).
 - `ls`: list the files and folders in the current directory | lista los
   archivos y carpetas del directorio actual.
 - `cd`: change directory | cambia de directorio.
 
-#### Git commands | Comandos de git
+### Git commands | Comandos de git
 
 - `git init`: create a new repository in the current folder | crea un nuevo
   repositorio en la carpeta actual.
 - `git status`: check the status of the repository | revisamos el estado del
   repositorio.
 
-### Tracking changes | Registrando cambios
+## Tracking changes | Registrando cambios
 
-#### Staging Area
+### Staging Area
 
 If you think of `Git` as taking snapshots of changes over the life of a
 project, `git add` specifies what will go in a snapshot (putting things in the
@@ -146,7 +146,7 @@ en el staging area), y `git commit` entonces realmente toma la instantánea, y
 genera un registro permanente de esto como un `commit` que guardara en el
 directorio `.git`.
 
-#### Git command | Comandos de git
+### Git command | Comandos de git
 
 - `git add`: add one or more files to the _staging area_ | añade uno o más
   archivos al _staging area_.
@@ -163,30 +163,31 @@ directorio `.git`.
 
 <img src="data/git/git-staging-area.svg" alt="" style="height: 85vh">
 
-#### Formative assessment 1
+### Formative assessment 1
 
-What commands would save changes from a modified `myfile.txt` file to the
+Which command(s) below would save changes from a modified `myfile.txt` file to the
 previously created repository? | ¿Qué comandos guardarían los cambios de un
 archivo modificado `myfile.txt` en el repositorio creado previamente?
 
-1. option:
-   ```
-   $ git commit -m "my recent changes"
-   ```
-1. option:
-   ```
-   $ git init myfile.txt
-   $ git commit -m "my recent changes"
-   ```
-1. option:
-   ```
-   $ git add myfile.txt
-   $ git commit -m "my recent changes"
-   ```
-1. option:
-   ```
-   $ git commit -m myfile.txt "my recent changes">
-   ```
+
+1.  ```
+    $ git commit -m "my recent changes"
+    ```
+
+1.  ```
+    $ git init myfile.txt
+    $ git commit -m "my recent changes"
+    ```
+
+1.  ```
+    $ git add myfile.txt
+    $ git commit -m "my recent changes"
+    ```
+
+1.  ```
+    $ git commit -m myfile.txt "my recent changes"
+    ```
+
 
 <!-- Solution -->
 <!-- 1- Would only create a commit if files have already been staged. -->
@@ -194,9 +195,9 @@ archivo modificado `myfile.txt` en el repositorio creado previamente?
 <!-- 3- Is correct: first add the file to the staging area, then commit. -->
 <!-- 4- Would try to commit a file “my recent changes” with the message myfile.txt. -->
 
-### Exploring History | Explorando el historial
+## Exploring History | Explorando el historial
 
-#### Git commands | Comandos de git
+### Git commands | Comandos de git
 
 - `HEAD`: symbolizes the most recent commit | simboliza el commit más reciente.
 - `git diff HEAD~2`: shows us the differences with respect to the last
@@ -212,7 +213,7 @@ archivo modificado `myfile.txt` en el repositorio creado previamente?
 
 <img src="data/git/git-checkout.svg" alt="" style="height: 85vh">
 
-#### Formative assessment 2
+### Formative assessment 2
 
 Jennifer has made changes to the Python script that she has been working on
 for weeks, and the modifications she made this morning “broke” the script and
@@ -227,31 +228,33 @@ Python script called `script.py`?
 
 Jennifer ha realizado cambios en el script en el que ha estado trabajando
 durante semanas, y las modificaciones que hizo esta mañana “corrompieron” el
-script y ya no funciona.
-Por suerte, ha estado usando Git.
+script y ya no funciona.Por suerte, ha estado usando Git.
 
-Si Jennifer todavía no hizo ningún commit ni agrego los cambios al stage area:
+Si Jennifer todavía no hizo ningún commit ni agregó los cambios al stage area:
 ¿Cuáles comandos le permitirán recuperar la última versión estable de su script
 llamado `script.py`?
 
-1. option:
-   ```
-   $ git checkout HEAD
-   ```
-2. option:
-   ```
-   $ git checkout HEAD script.py
-   ```
-3. option:
-   ```
-   $ git checkout HEAD~1 script.py
-   ```
-4. option:
-   ```
-   $ git checkout [ID_last_commit] script.py
-   ```
-5. Both 2 and 4 | Ambas 2 y 4
 
+1.  ```
+    $ git checkout HEAD
+    ```
+
+1.  ```
+    $ git checkout HEAD script.py
+    ```
+
+1.  ```
+    $ git checkout HEAD~1 script.py
+    ```
+
+1.  ```
+    $ git checkout [ID_last_commit] script.py
+    ```
+
+1.  ```
+    Both 2 and 4 | Ambas 2 y 4
+    ```
+    
 <!-- The answer is (5)-Both 2 and 4. -->
 <!---->
 <!-- The checkout command restores files from the repository, overwriting the files -->
@@ -271,7 +274,7 @@ llamado `script.py`?
 <!-- discussed above, you are left in a detached HEAD state, and you don’t want to -->
 <!-- be there.  -->
 
-### Remote repository in GitHub | Repositorio remoto en GitHub
+## Remote repository in GitHub | Repositorio remoto en GitHub
 
 GitHub allows us to store copies of our repositories to share them with others
 or hold them as main copies.
@@ -283,7 +286,7 @@ GitHub nos permite almacenar copias de nuestros repositorios para compartirlas
 con otras personas o mantenerlas como copias principales.
 Estas copias se denominan **repositorio remoto**.
 
-#### Create a remote reposotory | Crear un reposotorio remoto
+### Create a remote repository | Crear un repositorio remoto
 
 Now, let's create a remote repository in our GitHub account.
 So, let's go to `Repositories` page and click on the green button called `New`.
@@ -298,7 +301,7 @@ llamado `Nuevo`.
 
 <img src="data/git/git-freshly-made-github-repo.svg" style="width: 55%;">
 
-#### SSH setup | Configurar el SSH
+### SSH setup | Configurar el SSH
 
 Before we can connect our local repository to a remote repository, we need to
 set up a way for our computer to authenticate with GitHub so it knows it’s us
@@ -403,14 +406,14 @@ de GitHub.
    ssh -T git@github.com
    ```
 
-#### Push local change to a remote | Subir los cambios locales al remoto
+### Push local change to a remote | Subir los cambios locales al remoto
 
 **Status of our repository after the first `git push` | Estado de nuestro
 reposotorio luego del primer `git push`:**
 
 <img src="data/git/github-repo-after-first-push.svg" style="width: 65%;">
 
-#### Git commands | Comandos de git
+### Git commands | Comandos de git
 
 - `git remote add origin <URL>`: Add a remote named `origin` for the repository
   at `URL` | Agrega el remoto llamado `origin` localizado en `URL`.
