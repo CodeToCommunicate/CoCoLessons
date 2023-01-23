@@ -418,7 +418,7 @@ actual. Tenga en cuenta que la copia y el original existen y tiene el mismo
 contenido:
 
 ```
-$ $ diff -s README.md ../CoCoLessons/README.md
+$ diff -s README.md ../CoCoLessons/README.md
 Files README.md and ../CoCoLessons/README.md are identical
 ```
 
