@@ -1,4 +1,4 @@
-[CoCo banner](./media/coco-banner.jpg)
+<img align="center" style="margin:0 0 20px 0" width="100%" height="100%" src="https://raw.githubusercontent.com/CodeToCommunicate/CoCoLessons/main/media/coco-banner.jpg">
 
 # Introduction to Git and GitHub | Introducción a Git y GitHub
 
