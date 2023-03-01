@@ -1,34 +1,21 @@
-# Git part 2
-
-- Recopilacion de lo que aprendieron sobre la rama y los commit
-- como es el flow par acreara una rama y porque se hace
-- como creo una rama
-- trabajar en esta nueva rama
-- volver a la main
-- traer los cambion a la main
-- Subri todo a gitgub
-- Mostrar el mismo flow pero usando github y los PR
-- https://github.com/santisoler/git-intro-geolatinas/blob/main/content.md
-- https://swcarpentry.github.io/git-novice/
-
 <img align="center" style="margin:0 0 20px 0" width="100%" height="100%" src="https://raw.githubusercontent.com/CodeToCommunicate/CoCoLessons/main/media/coco-banner.jpg">
 
 # Working with branches | Trabajando con ramas
 
-## What we know? | ¿Qué sabemos?
+## What we know | Qué sabemos
 
 - We know how to work with the `main` (master) branch | Sabemos como trabajar
   en la rama `main` (master).
 
 - Changes are save it in the repository as _commits_ | Los cambios se guardan
   en el repositorio como _commits_ (`git add` y `git commit`).
-  <img src="data/git/git-staging-area.svg" alt="" style="height: 85vh">
+  <img src="data/git/git-staging-area.svg" alt="" style="height: 65%;">
 
 - We know how to create _remote_ repositories in GitHub and link them with the
   local repositories usng `git push` and `git pull` | Sabemos cómo crear
   repositorios _remote_ en GitHub y vincularlos con los repositorios locales
   usando `git push` y `git pull`.
-  <img src="data/git/github-repo-after-first-push.svg" alt="" style="height: 85vh">
+  <img src="data/git/github-repo-after-first-push.svg" alt="" style="height: 65%;">
 
 **_git_ is at its best when we start working with branches within our repository |
 El máximo esplendor de _git_ se obtiene cuando empezamos a trabajar con ramas
@@ -64,7 +51,7 @@ código/proyecto de forma ordenada y precisa
 For example, suppose our repository has 4 commits on the `main` branch |
 Por ejemplo, supongamos que nuestro repositorio tiene 4 commits en la rama
 `main`:
-<img src="data/git/git-repo-2.svg" alt="" style="height: 85vh">
+<img src="data/git/git-repo-2.svg" alt="" style="height: 25%;">
 
 Then we find a bug in our code/project and we want to fix it, but we are not
 sure how.
@@ -76,7 +63,7 @@ Luego encontramos un error en nuestro código/proyecto y queremos corregirlo,
 pero no estamos seguros de cómo hacerlo.
 Entonces, creamos una nueva rama (`fix-bug`) para probar diferentes formas de
 solucionarlo.
-<img src="data/git/git-repo-3.svg" alt="" style="height: 85vh">
+<img src="data/git/git-repo-3.svg" alt="" style="height: 25%;">
 
 In this new branch, we made several commits to fix bug.
 At the same time, we made other commits in the `main` branch.
@@ -85,7 +72,7 @@ At the same time, we made other commits in the `main` branch.
 
 En esta nueva rama, hacimos varios commits para corregir el error.
 Al mismo tiempo, hicimos otros commits en la rama `main`.
-<img src="data/git/git-repo-5.svg" alt="" style="height: 85vh">
+<img src="data/git/git-repo-5.svg" alt="" style="height: 25%;">
 
 Now that we could fix the bug in the `fix-bug` branch, we want to add these
 commits to the `main` branch using the `git merge` command.
@@ -94,7 +81,7 @@ commits to the `main` branch using the `git merge` command.
 
 Ahora que pudimos arreglar el error en la rama `fix-bug`, queremos agregar
 estos commits a la rama `main` usando el comando `git merge`:
-<img src="data/git/git-repo-6.svg" alt="" style="height: 85vh">
+<img src="data/git/git-repo-6.svg" alt="" style="height: 25%;">
 
 ### Advantages of using branches | Ventajas de usar ramas
 
@@ -121,7 +108,7 @@ No obstante, queremos destacar solo estas 2:
   repositorio.
   **Por ejemplo, una rama estable (`main`), una rama de prueba y una rama de `fig-bug`**.
 
-## How to create a new branch? | ¿Cómo crear una nueva rama?
+## How to create a new branch | Cómo crear una nueva rama
 
 In any _git repository_ we can view all branches by entering the following
 command:
@@ -233,13 +220,13 @@ Para verificar dónde estamos, usamos el comando `git status` y lee el resultado
 será:
 
 ```
-$ git estado
+$ git status
 
 En la rama <nombre-nueva-sucursal>
 Tu rama está actualizada con 'origin/<new-branch-name>'.
 ```
 
-### How to rename a branch? | ¿Cómo eliminar una rama?
+### How to rename a branch | Como renombrar una rama
 
 Mistyping a branch's name or simply changing our mind after the fact is all
 too easy.
@@ -247,18 +234,14 @@ That's why _git_ makes it pretty easy to rename a local branch.
 If we want to rename your current branch, we can use the following command:
 
 ```
-
 $ git branch -m <new-name>
-
 ```
 
 In case we'd like to rename a different local branch (which is NOT currently
 checked out), we'll have to provide the old and the new name:
 
 ```
-
 $ git branch -m <old-name> <new-name>
-
 ```
 
 These commands, again, are used to work with local branches.
@@ -284,7 +267,7 @@ $ git branch -m <nombre-antiguo> <nombre-nuevo>
 
 Estos comandos, de nuevo, se utilizan para trabajar con ramas locales.
 
-## How to merge a branch? | ¿Cómo fusionar ramas?
+## How to merge a branch? | Como fusionar ramas
 
 Finally, there comes a point where we have made many modifications to a
 `<new-branch-name>` branch.
@@ -295,17 +278,13 @@ We will attach the `<new-branch-name>` branch to the `main` branch.
 First, we have to place ourselves in the `main` branch:
 
 ```
-
 $ git swich main
-
 ```
 
 Then, we merge the branches with:
 
 ```
-
 git merge <new-branch-name>
-
 ```
 
 Now, all the modification did in <new-branch-name> are in the main branch.
@@ -336,20 +315,26 @@ Ahora, todas las modificaciones realizadas en `<new-branch-name>` están en la
 rama `main`.
 Usando el comando `git log`, podemos ver los commits.
 
-## How to Delete a Branch in Git
+## How to delete a branch | Como eliminar una rama
 
 Not all branches are meant to live forever.
 In fact, most branches in any repository will be short-lived.
-So if you find yourself wanting to do a little housecleaning, here's how to
-delete a local branch:
+So if we want to do a little housecleaning, the command to delete a local
+branch is:
+
+---
+
+No todas las ramas están destinadas a vivir para siempre.
+De hecho, la mayoría de las ramas en cualquier repositorio serán de corta
+duración.
+Entonces, si se desea hacer una pequeña limpieza, el comando par eliminar una
+rama de nuesto repositorio local es:
 
 ```
-
 $ git branch -d <branch-name>
-
 ```
 
-## How to Track Branches in Git
+## How to track branches | Como traquear ramas
 
 By default, local and remote branches have nothing to do with each other.
 They are stored and managed as independent objects in Git.
@@ -377,11 +362,3 @@ be based on a remote one.
 In other words, when you want to track a remote branch:
 
 $ git branch --track <new-branch> origin/<base-branch>
-
-Alternatively, you could also use the git checkout command to achieve this.
-If you want to name the local branch after the remote one, you only have to
-specify the remote branch's name:
-
-```
-
-```
