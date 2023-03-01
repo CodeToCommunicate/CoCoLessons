@@ -269,6 +269,8 @@ Estos comandos, de nuevo, se utilizan para trabajar con ramas locales.
 
 ## How to merge a branch? | Como fusionar ramas
 
+### In a local machine | En una máquina local
+
 Finally, there comes a point where we have made many modifications to a
 `<new-branch-name>` branch.
 So we want to add all these modifications to the `main` branch.
@@ -308,12 +310,32 @@ Luego, fusionamos las ramas con:
 
 ```
 git merge <new-branch-name>
-
 ```
 
 Ahora, todas las modificaciones realizadas en `<new-branch-name>` están en la
 rama `main`.
 Usando el comando `git log`, podemos ver los commits.
+
+### Using GitHub | Usando GitHub
+
+Another way tho marge a branch to `main` is using the _Pull Request_ in the
+GitHub interface.
+This workflow has some advantages:
+
+- It is more visual
+- You can ask review or opinion of your modifications before merge it to main.
+- It has some tool that help you to not mess up.
+
+---
+
+Otra forma de fisionar una rama a la rama `main` es usado _Pull Request_ en la
+interfaz de GitHub.
+Este flujo de trabajo tiene algunas ventajas:
+
+- Es más visual.
+- Puede solicitar una revisión u opinión de sus modificaciones antes de
+  fusionarlas con la principal.
+- Tiene algunas herramientas que te ayuda a no equivocarte.
 
 ## How to delete a branch | Como eliminar una rama
 
