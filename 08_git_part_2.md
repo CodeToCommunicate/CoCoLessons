@@ -359,28 +359,33 @@ $ git branch -d <branch-name>
 ## How to track branches | Como traquear ramas
 
 By default, local and remote branches have nothing to do with each other.
-They are stored and managed as independent objects in Git.
+They are stored and managed as independent objects in _git_.
 But in real life, of course, local and remote branches often do have a
 relationship with each other.
-**Such a relationship can be modeled in Git: one branch (typically a local one)
-can "track" another one (typically remote)**.
+**Such a relationship can be modelled in _git_: one branch (typically a local
+one) can "track" another one (typically remote)**.
+Therefor to track a remote branch:
 
-Once such a tracking relationship has been established, a couple of things
-will become a lot easier: most notably, when pushing or pulling, you can
-simply use the vanilla commands without any further parameters (for example,
-a simple git push).
+Once such a tracking relationship has been established, a couple of things will
+become a lot easier: most notably, when pushing or pulling.
 
-The tracking connection helps Git fill in the blanks – which branch on which
-remote you want to push to, for example.
+```
+$ git push --set-upstream origin <new-branch-name>
+```
 
-You have already read about one way to establish such a tracking connection:
-using git push with the -u option when publishing a local branch for the first
-time does exactly that.
-After that, you can simply use git push without mentioning the remote or the
-target branch.
+---
 
-This also works the other way around: when creating a local branch that should
-be based on a remote one.
-In other words, when you want to track a remote branch:
+Por default, las ramas locales y remotas no tienen nada que ver entre sí,
+debido a que se almacenan y administran como objetos independientes en _git_.
+Pero en la vida real, por supuesto, las ramas locales y remotas a menudo
+tienen un relación entre sí.
+**Tal relación se puede modelar en _git_: una rama (típicamente local) puede
+"rastrear" a otra (típicamente remota)**.
+Por lo tanto, para rastrear una rama remota:
 
-$ git branch --track <new-branch> origin/<base-branch>
+```
+$ git push --set-upstream origin <new-branch-name>
+```
+
+Una vez que se haya establecido dicha relación de seguimiento, las acciones de
+push and pull serán mucho más fáciles.
