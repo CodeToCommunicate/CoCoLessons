@@ -7,7 +7,7 @@
 - We know how to work with the `main` (master) branch | Sabemos como trabajar
   en la rama `main` (master).
 
-- Changes are save it in the repository as _commits_ | Los cambios se guardan
+- Changes are saved in the repository as _commits_ | Los cambios se guardan
   en el repositorio como _commits_ (`git add` y `git commit`).
   <img src="data/git/git-staging-area.svg" alt="" style="height: 65%;">
 
@@ -27,7 +27,7 @@ Branches are one of the core concepts in _git_.
 And there's an endless amount of things you can do with them.
 One of the most important functions of _git_ is the control of branches to
 achieve a better development of our project.
-The _branches_ help us have multiple versions of an project organized.
+The _branches_ help us have multiple versions of a project in an organized format.
 
 In general, a new branch is a bifurcation of the state of project that creates
 a new path for the evolution of it.
