@@ -23,8 +23,8 @@ dentro de nuestro repositorio.**
 
 ## What is a branch and how do we work with it? | ¿Qué es una rama y cómo trabajamos con ella?
 
-Branches are one of the core concepts in _git_.
-And there's an endless amount of things you can do with them.
+Branches are one of the core concepts in _git_ and there's an endless amount of
+things you can do with them.
 One of the most important functions of _git_ is the control of branches to
 achieve a better development of our project.
 The _branches_ help us have multiple versions of a project in an organized format.
