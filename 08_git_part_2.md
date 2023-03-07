@@ -29,7 +29,7 @@ One of the most important functions of _git_ is the control of branches to
 achieve a better development of our project.
 The _branches_ help us have multiple versions of a project in an organized format.
 
-In general, a new branch is a bifurcation of the state of project that creates
+In general, a new branch is a bifurcation of the current project that creates
 a new path for the evolution of it.
 It is a good way to incorporate new functionalities to our code/project in an
 orderly and precise way.
@@ -93,7 +93,7 @@ However, we want to emphasize the following two:
 
 - It is possible to create different development branches that can converge
   in the same repository.
-  **For example, a stable branch (`main`), a test branch, and an `fix-bug`
+  **For example, a stable branch (`main`), a test branch, and a `fix-bug`
   branch**.
 
 ---
@@ -157,7 +157,7 @@ was added and that we are located in it.
 git branch
 ```
 
-To check where branch we are, use the command `git status` and read the output:
+To check which branch we are, use the command `git status` and read the output:
 
 ```
 $ git status
@@ -289,7 +289,7 @@ Then, we merge the branches with:
 git merge <new-branch-name>
 ```
 
-Now, all the modification did in <new-branch-name> are in the main branch.
+Now, all the modification we made in <new-branch-name> are in the main branch.
 Using the command `git log`, we can see the commits.
 
 ---
@@ -324,7 +324,7 @@ This workflow has some advantages:
 
 - It is more visual
 - You can ask review or opinion of your modifications before merge it to main.
-- It has some tool that help you to not mess up.
+- It has some tools that help you to not make a mistake.
 
 ---
 
@@ -364,7 +364,7 @@ But in real life, of course, local and remote branches often do have a
 relationship with each other.
 **Such a relationship can be modelled in _git_: one branch (typically a local
 one) can "track" another one (typically remote)**.
-Therefor to track a remote branch:
+Therefore, to track a remote branch:
 
 Once such a tracking relationship has been established, a couple of things will
 become a lot easier: most notably, when pushing or pulling.
