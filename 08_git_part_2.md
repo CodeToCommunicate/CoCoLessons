@@ -4,24 +4,28 @@
 
 ## What we know | Qué sabemos
 
-- We know how to work with the `main` (master) branch | Sabemos como trabajar
+- We know how to work with the `main` (master) branch. | Sabemos como trabajar
   en la rama `main` (master).
 
-- Changes are saved in the repository as _commits_ | Los cambios se guardan
+- Changes are saved in the repository as _commits_. | Los cambios se guardan
   en el repositorio como _commits_ (`git add` y `git commit`).
   <img src="data/git/git-staging-area.svg" alt="" style="height: 65%;">
 
 - We know how to create _remote_ repositories in GitHub and link them with the
-  local repositories usng `git push` and `git pull` | Sabemos cómo crear
+  local repositories usng `git push` and `git pull`. | Sabemos cómo crear
   repositorios _remote_ en GitHub y vincularlos con los repositorios locales
   usando `git push` y `git pull`.
   <img src="data/git/github-repo-after-first-push.svg" alt="" style="height: 65%;">
-  
+
 ## What we will learn | Qué aprenderemos
 
-_git_ is at its best when we start working with **branches** within our repository |
-El máximo esplendor de _git_ se obtiene cuando empezamos a trabajar con **ramas**
-dentro de nuestro repositorio.
+_git_ is at its best when we start working with **branches** within our
+repository.
+
+---
+
+El máximo esplendor de _git_ se obtiene cuando empezamos a trabajar con
+**ramas** dentro de nuestro repositorio.
 
 ## What is a branch and how do we work with it? | ¿Qué es una rama y cómo trabajamos con ella?
 
@@ -29,7 +33,8 @@ Branches are one of the core concepts in _git_ and there's an endless amount of
 things you can do with them.
 One of the most important functions of _git_ is the control of branches to
 achieve a better development of our project.
-The _branches_ help us have multiple versions of a project in an organized format.
+The _branches_ help us have multiple versions of a project in an organized
+format.
 
 In general, a new branch is a bifurcation of the current project that creates
 a new path for the evolution of it.
@@ -50,7 +55,7 @@ un nuevo camino para la evolución del mismo.
 Es una buena manera de incorporar nuevas funcionalidades a nuestro
 código/proyecto de forma ordenada y precisa
 
-For example, suppose our repository has 4 commits on the `main` branch |
+For example, suppose our repository has 4 commits on the `main` branch: |
 Por ejemplo, supongamos que nuestro repositorio tiene 4 commits en la rama
 `main`:
 <img src="data/git/git-repo-2.svg" alt="" style="height: 25%;">
@@ -95,8 +100,8 @@ However, we want to emphasize the following two:
 
 - It is possible to create different development branches that can converge
   in the same repository.
-  **For example, a stable branch (`main`), a test branch (`test`), and a `fix-bug`
-  branch**.
+  **For example, a stable branch (`main`), a test branch (`test`), and a
+  `fix-bug` branch**.
 
 ---
 
@@ -108,12 +113,14 @@ No obstante, queremos destacar solo estas 2:
 
 - Es posible crear diferentes ramas que pueden converger en un mismo
   repositorio.
-  **Por ejemplo, una rama estable (`main`), una rama de prueba (`test`)y una rama de `fig-bug`**.
+  **Por ejemplo, una rama estable (`main`), una rama de prueba (`test`) y una
+  rama de `fig-bug`**.
 
 ## How to create a new branch | Cómo crear una nueva rama
 
 In any _git repository_ we can view all branches by entering the following
-command:
+command: | En cualquier _repositorio de git_ podemos ver todas las ramas
+ingresando el siguiente comando:
 
 ```
 git branch
@@ -122,27 +129,34 @@ git branch
 This command lists all the branches and puts a `*` in the name of the branch
 that we are currently located to make the changes.
 
-Creating a branch is really simple :
+---
+
+Este comando enumera todas las ramas y coloca un `*` en el nombre de la rama en
+la que nos encontramos localizados en este momento para realizar los cambios.
+
+Creating a branch is really simple: | Crear una rama es muy simple:
 
 ```
 $ git branch <new-branch-name>
 ```
 
 Next, we need to move to the newly created branch, so run the following
-command:
+command: | Luego, debemos movernos a la rama recién creada, con el siguiente
+comando:
 
 ```
 $ git checkout <new-branch-name>
 ```
 
-or
+or | o
 
 ```
 $ git swich <new-branch-name>
 ```
 
 The output will inform us that we switched to a new branch called
-`<new-branch-name>`.
+`<new-branch-name>`. | La salida nos informará que cambiamos a una nueva rama
+llamada `<new-branch-name>`.
 
 ```
 Switched to branch ‘<new-branch-name>’
@@ -152,14 +166,22 @@ Now, in that new branch, we can create as many modifications as we want without
 having to change anything in the `main` branch.
 As we can see, it keeps the project organized for new modifications inclusions.
 
-If we run the command to list the branches again, we will see that a new branch
-was added and that we are located in it.
+If we run the command to list the branches again (`git branch`), we will see
+that a new branch was added and that we are located in it.
 
-```
-git branch
-```
+---
+
+Ahora, en esa nueva rama, podemos crear tantas modificaciones como queramos
+sin tener que cambiar nada en la rama `main`.
+Como podemos ver, esto mantiene el proyecto organizado para la inclusión de
+nuevas modificaciones.
+
+Si ejecutamos de nuevo el comando para listar las ramas (`git branch`), veremos
+que se agregó la nueva rama y que estamos ubicados en ella.
 
 To check which branch we are, use the command `git status` and read the output:
+| Para verificar dónde estamos, usamos el comando `git status` . El resultado
+será:
 
 ```
 $ git status
@@ -169,57 +191,6 @@ Your branch is up to date with 'origin/<new-branch-name>'.
 ```
 
 ---
-
-En cualquier _repositorio de git_ podemos ver todas las ramas ingresando el
-siguiente comando:
-
-```
-git branch
-```
-
-Este comando enumera todas las ramas y coloca un `*` en el nombre de la rama en
-la que nos encontramos localizados en este momento para realizar los cambios.
-
-Crear una rama es muy simple:
-
-```
-$ git branch <new-branch-name>
-```
-
-Luego, debemos movernos a la rama recién creada, con el siguiente
-comando:
-
-```
-$ git checkout <new-branch-name>
-```
-
-o
-
-```
-$ git swich <new-branch-name>
-```
-
-La salida nos informará que cambiamos a una nueva rama llamada
-`<new-branch-name>`.
-
-```
-Switched to branch ‘<new-branch-name>’
-```
-
-Ahora, en esa nueva rama, podemos crear tantas modificaciones como queramos
-sin tener que cambiar nada en la rama `main`.
-Como podemos ver, esto mantiene el proyecto organizado para la inclusión de nuevas
-modificaciones.
-
-Si ejecutamos de nuevo el comando para listar las ramas, veremos que se agregó
-la nueva rama y que estamos ubicados en ella.
-
-```
-git branch
-```
-
-Para verificar dónde estamos, usamos el comando `git status` . El resultado
-será:
 
 ```
 $ git status
@@ -233,7 +204,16 @@ Tu rama está actualizada con 'origin/<new-branch-name>'.
 Mistyping a branch's name or simply changing our mind after the fact is all
 too easy.
 That's why _git_ makes it pretty easy to rename a local branch.
-If we want to rename your current branch, we can use the following command:
+
+---
+
+Escribir mal el nombre de una rama o simplemente cambiar de opinión sobre su
+nombre después de crearla es algo común.
+Es por eso que _git_ nos permit cambiar el nombre de una rama local fácilmente.
+
+If we want to rename your current branch, we can use the following command: |
+Si deseamos cambiar el nombre de su rama actual, puede usar el siguiente
+comando:
 
 ```
 $ git branch -m <new-name>
@@ -242,34 +222,22 @@ $ git branch -m <new-name>
 In case we'd like to rename a different local branch (which is NOT currently
 checked out), we'll have to provide the old and the new name:
 
-```
-$ git branch -m <old-name> <new-name>
-```
-
-These commands, again, are used to work with local branches.
-
 ---
-
-Escribir mal el nombre de una rama o simplemente cambiar de opinión sobre su
-nombre después de crearla es algo común.
-Es por eso que _git_ nos permit cambiar el nombre de una rama local fácilmente.
-Si deseamos cambiar el nombre de su rama actual, puede usar el siguiente comando:
-
-```
-$ git branch -m <nuevo-nombre>
-```
 
 En caso de que deseeamos cambiar el nombre de una rama local (diferente a la
 que actualmente estamos localizados), debemos proporcionar el nombre antiguo y
 el nuevo:
 
 ```
-$ git branch -m <nombre-antiguo> <nombre-nuevo>
+$ git branch -m <old-name> <new-name>
 ```
 
-Estos comandos, de nuevo, se utilizan para trabajar con ramas locales.
+These commands, again, are used to work with local branches. | Estos comandos,
+de nuevo, se utilizan para trabajar con ramas locales.
 
-## How to merge a branch? | Como fusionar ramas
+---
+
+## How to merge a branch? | Cómo fusionar ramas
 
 ### In a local machine | En una máquina local
 
@@ -278,14 +246,23 @@ Finally, there comes a point where we have made many modifications to a
 So we want to add all these modifications to the `main` branch.
 For that, we use the `git merge` command.
 
+---
+
+Finalmente, llega un punto en el que hemos hecho muchas modificaciones a la
+rama `<new-branch-name>`.
+Entonces queremos fusionar estos cambios a la rama `main`.
+Para eso, existe el comando `git merge`.
+
 We will attach the `<new-branch-name>` branch to the `main` branch.
-First, we have to place ourselves in the `main` branch:
+First, we have to place ourselves in the `main` branch: | Fusionaremos la rama
+`<new-branch-name>` a la rama `main`.
+Primero, tenemos que situarnos en la rama `main`:
 
 ```
 $ git swich main
 ```
 
-Then, we merge the branches with:
+Then, we merge the branches with: | Luego, fusionamos las ramas con:
 
 ```
 git merge <new-branch-name>
@@ -296,27 +273,11 @@ Using the command `git log`, we can see the commits.
 
 ---
 
-Finalmente, llega un punto en el que hemos hecho muchas modificaciones a la
-rama `<new-branch-name>`.
-Entonces queremos fusionar estos cambios a la rama `main`.
-Para eso, existe el comando `git merge`.
-
-Fusionaremos la rama `<new-branch-name>` a la rama `main`.
-Primero, tenemos que situarnos en la rama `main`:
-
-```
-$ git swich main
-```
-
-Luego, fusionamos las ramas con:
-
-```
-git merge <new-branch-name>
-```
-
 Ahora, todas las modificaciones realizadas en `<new-branch-name>` están en la
 rama `main`.
 Usando el comando `git log`, podemos ver los commits.
+
+---
 
 ### Using GitHub | Usando GitHub
 
@@ -366,14 +327,6 @@ But in real life, of course, local and remote branches often do have a
 relationship with each other.
 **Such a relationship can be modelled in _git_: one branch (typically a local
 one) can "track" another one (typically remote)**.
-Therefore, to track a remote branch:
-
-```
-$ git push --set-upstream origin <new-branch-name>
-```
-  
-Once such a tracking relationship has been established, a couple of things will
-become a lot easier: most notably, when pushing or pulling.
 
 ---
 
@@ -383,11 +336,17 @@ Pero en la vida real, por supuesto, las ramas locales y remotas a menudo
 tienen un relación entre sí.
 **Tal relación se puede modelar en _git_: una rama (típicamente local) puede
 "rastrear" a otra (típicamente remota)**.
-Por lo tanto, para rastrear una rama remota:
+
+Therefore, to track a remote branch: | Por lo tanto, para rastrear una rama remota:
 
 ```
 $ git push --set-upstream origin <new-branch-name>
 ```
+
+Once such a tracking relationship has been established, a couple of things will
+become a lot easier: most notably, when pushing or pulling.
+
+---
 
 Una vez que se haya establecido dicha relación de seguimiento, las acciones de
 push and pull serán mucho más fáciles.
