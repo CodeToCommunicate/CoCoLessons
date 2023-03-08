@@ -16,10 +16,12 @@
   repositorios _remote_ en GitHub y vincularlos con los repositorios locales
   usando `git push` y `git pull`.
   <img src="data/git/github-repo-after-first-push.svg" alt="" style="height: 65%;">
+  
+## What we will learn | Qué aprenderemos
 
-**_git_ is at its best when we start working with branches within our repository |
-El máximo esplendor de _git_ se obtiene cuando empezamos a trabajar con ramas
-dentro de nuestro repositorio.**
+_git_ is at its best when we start working with **branches** within our repository |
+El máximo esplendor de _git_ se obtiene cuando empezamos a trabajar con **ramas**
+dentro de nuestro repositorio.
 
 ## What is a branch and how do we work with it? | ¿Qué es una rama y cómo trabajamos con ella?
 
@@ -37,9 +39,9 @@ orderly and precise way.
 ---
 
 Las ramas son uno de los conceptos centrales en _git_ y hay un sinfín de cosas
-que puedes hacer con ellos.
+que puedes hacer con ellas.
 Una de las funciones más importantes de _git_ es el control de las ramas para
-logran un mejor desarrollo de nuestro projecto.
+lograr un mejor desarrollo de nuestro projecto.
 Las _ramas_ nos ayudan a tener múltiples versiones de un mismo proyecto
 organizado.
 
@@ -93,7 +95,7 @@ However, we want to emphasize the following two:
 
 - It is possible to create different development branches that can converge
   in the same repository.
-  **For example, a stable branch (`main`), a test branch, and a `fix-bug`
+  **For example, a stable branch (`main`), a test branch (`test`), and a `fix-bug`
   branch**.
 
 ---
@@ -106,7 +108,7 @@ No obstante, queremos destacar solo estas 2:
 
 - Es posible crear diferentes ramas que pueden converger en un mismo
   repositorio.
-  **Por ejemplo, una rama estable (`main`), una rama de prueba y una rama de `fig-bug`**.
+  **Por ejemplo, una rama estable (`main`), una rama de prueba (`test`)y una rama de `fig-bug`**.
 
 ## How to create a new branch | Cómo crear una nueva rama
 
@@ -162,8 +164,8 @@ To check which branch we are, use the command `git status` and read the output:
 ```
 $ git status
 
-En la rama <new-branch-name>
-Tu rama está actualizada con 'origin/<new-branch-name>'.
+In the branch <new-branch-name>
+Your branch is up to date with 'origin/<new-branch-name>'.
 ```
 
 ---
@@ -176,7 +178,7 @@ git branch
 ```
 
 Este comando enumera todas las ramas y coloca un `*` en el nombre de la rama en
-la que nos encuentramos localizados en este momento para realizar los cambios.
+la que nos encontramos localizados en este momento para realizar los cambios.
 
 Crear una rama es muy simple:
 
@@ -184,7 +186,7 @@ Crear una rama es muy simple:
 $ git branch <new-branch-name>
 ```
 
-Luego, debemos movernos a la rama recién creada, así que ejecute el siguiente
+Luego, debemos movernos a la rama recién creada, con el siguiente
 comando:
 
 ```
@@ -206,17 +208,17 @@ Switched to branch ‘<new-branch-name>’
 
 Ahora, en esa nueva rama, podemos crear tantas modificaciones como queramos
 sin tener que cambiar nada en la rama `main`.
-Como podemos ver, mantiene el proyecto organizado para la inclusión de nuevas
+Como podemos ver, esto mantiene el proyecto organizado para la inclusión de nuevas
 modificaciones.
 
-Si ejecutamos de nuevo el comando para listar las ramas, veremos que se agrego
-una la nueva rama y que estamos ubicados en ella.
+Si ejecutamos de nuevo el comando para listar las ramas, veremos que se agregó
+la nueva rama y que estamos ubicados en ella.
 
 ```
 git branch
 ```
 
-Para verificar dónde estamos, usamos el comando `git status` y lee el resultado
+Para verificar dónde estamos, usamos el comando `git status` . El resultado
 será:
 
 ```
@@ -226,7 +228,7 @@ En la rama <nombre-nueva-sucursal>
 Tu rama está actualizada con 'origin/<new-branch-name>'.
 ```
 
-### How to rename a branch | Como renombrar una rama
+### How to rename a branch | Cómo renombrar una rama
 
 Mistyping a branch's name or simply changing our mind after the fact is all
 too easy.
@@ -249,16 +251,16 @@ These commands, again, are used to work with local branches.
 ---
 
 Escribir mal el nombre de una rama o simplemente cambiar de opinión sobre su
-nombre después de crearla es fácil.
-Es por eso que _git_ nos permit cambiar el nombre de una rama local facilmente.
+nombre después de crearla es algo común.
+Es por eso que _git_ nos permit cambiar el nombre de una rama local fácilmente.
 Si deseamos cambiar el nombre de su rama actual, puede usar el siguiente comando:
 
 ```
 $ git branch -m <nuevo-nombre>
 ```
 
-En caso de que deseeamos cambiar el nombre de una rama local diferente en la
-que actualmente NO está localizados, debemos proporcionar el nombre antiguo y
+En caso de que deseeamos cambiar el nombre de una rama local (diferente a la
+que actualmente estamos localizados), debemos proporcionar el nombre antiguo y
 el nuevo:
 
 ```
@@ -274,7 +276,7 @@ Estos comandos, de nuevo, se utilizan para trabajar con ramas locales.
 Finally, there comes a point where we have made many modifications to a
 `<new-branch-name>` branch.
 So we want to add all these modifications to the `main` branch.
-For that, there is the `git merge` command.
+For that, we use the `git merge` command.
 
 We will attach the `<new-branch-name>` branch to the `main` branch.
 First, we have to place ourselves in the `main` branch:
@@ -296,7 +298,7 @@ Using the command `git log`, we can see the commits.
 
 Finalmente, llega un punto en el que hemos hecho muchas modificaciones a la
 rama `<new-branch-name>`.
-Entonces queremos fucionar estos cambios a la rama `main`.
+Entonces queremos fusionar estos cambios a la rama `main`.
 Para eso, existe el comando `git merge`.
 
 Fusionaremos la rama `<new-branch-name>` a la rama `main`.
@@ -318,24 +320,24 @@ Usando el comando `git log`, podemos ver los commits.
 
 ### Using GitHub | Usando GitHub
 
-Another way tho marge a branch to `main` is using the _Pull Request_ in the
+Another way to marge a branch to `main` is using the _Pull Request_ in the
 GitHub interface.
 This workflow has some advantages:
 
 - It is more visual
 - You can ask review or opinion of your modifications before merge it to main.
-- It has some tools that help you to not make a mistake.
+- It has some tools that help you not to make a mistake.
 
 ---
 
-Otra forma de fisionar una rama a la rama `main` es usado _Pull Request_ en la
+Otra forma de fusionar una rama a la rama `main` es usado _Pull Request_ en la
 interfaz de GitHub.
 Este flujo de trabajo tiene algunas ventajas:
 
 - Es más visual.
-- Puede solicitar una revisión u opinión de sus modificaciones antes de
-  fusionarlas con la principal.
-- Tiene algunas herramientas que te ayuda a no equivocarte.
+- Puedes solicitar una revisión u opinión de tus modificaciones antes de
+  fusionarlas con la rama principal.
+- Tiene algunas herramientas que te ayudan a no equivocarte.
 
 ## How to delete a branch | Como eliminar una rama
 
@@ -366,12 +368,12 @@ relationship with each other.
 one) can "track" another one (typically remote)**.
 Therefore, to track a remote branch:
 
-Once such a tracking relationship has been established, a couple of things will
-become a lot easier: most notably, when pushing or pulling.
-
 ```
 $ git push --set-upstream origin <new-branch-name>
 ```
+  
+Once such a tracking relationship has been established, a couple of things will
+become a lot easier: most notably, when pushing or pulling.
 
 ---
 
