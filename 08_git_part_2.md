@@ -321,32 +321,32 @@ $ git branch -d <branch-name>
 
 ## How to track branches | Como traquear ramas
 
-By default, local and remote branches have nothing to do with each other.
-They are stored and managed as independent objects in _git_.
-But in real life, of course, local and remote branches often do have a
-relationship with each other.
-**Such a relationship can be modelled in _git_: one branch (typically a local
-one) can "track" another one (typically remote)**.
+By default, local branches don't aitomatically "appear" in the remote
+repository on GitHub.
+_git_ will track all chances made in a local branch after we type:
 
 ---
 
-Por default, las ramas locales y remotas no tienen nada que ver entre sí,
-debido a que se almacenan y administran como objetos independientes en _git_.
-Pero en la vida real, por supuesto, las ramas locales y remotas a menudo
-tienen un relación entre sí.
-**Tal relación se puede modelar en _git_: una rama (típicamente local) puede
-"rastrear" a otra (típicamente remota)**.
-
-Therefore, to track a remote branch: | Por lo tanto, para rastrear una rama remota:
+Por defecto, las ramas que se crean de forma local no "aparecen"
+automáticamente en el repositorio remoto en GitHub.
+_git_ traqueará los cambios hechos en la rama local después de tipear:
 
 ```
 $ git push --set-upstream origin <new-branch-name>
 ```
 
+With the `--set-upstream` option, we are telling to _git_ to connect the
+branch `<new-branc>` with to the _origin_ which is the remote repository on
+GitHub.
+
 Once such a tracking relationship has been established, a couple of things will
-become a lot easier: most notably, when pushing or pulling.
+become a lot easier: most notably, when _pushing_ or _pulling_.
 
 ---
 
+Entonces, con la opción `--set-upstream`, estamos diciéndole a _git_ que
+conecte la rama `<new-branch>` con el _origin_ que es el repositorio remoto en
+GitHub.
+
 Una vez que se haya establecido dicha relación de seguimiento, las acciones de
-push and pull serán mucho más fáciles.
+_push_ and _pull_ serán mucho más fáciles.
