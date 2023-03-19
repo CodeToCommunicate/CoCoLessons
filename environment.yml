@@ -6,7 +6,6 @@
 
 name: coco
 channels:
-  - defaults
   - conda-forge
 dependencies:
   - python =3
@@ -19,7 +18,4 @@ dependencies:
   - rasterio
   - xarray
   - rioxarray
-  - pip:
-    - planetary computer
-    - pystac_client
-    - odc
+
