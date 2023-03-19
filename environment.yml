@@ -15,3 +15,7 @@ dependencies:
   - pandas
   - matplotlib
   - jupyterlab
+  - rasterio
+  - xarray
+  - rioxarray
+
