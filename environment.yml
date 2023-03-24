@@ -10,6 +10,7 @@ channels:
 dependencies:
   - python =3
   - pip
+  - netcdf4
   - numpy
   - scipy
   - pandas
