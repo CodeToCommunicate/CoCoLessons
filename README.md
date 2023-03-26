@@ -37,9 +37,9 @@ para aprender sobre Bash, Git/GitHub y Python.
 | 5°   | Data visualization with matplotlib                                          | How can we open a file? - How can we plot our data? - Plots types - How can we save our plot for publishing? |
 | 6°   | More about Python                                                           | For loops - Conditional statements - Write our own functions                                                 |
 | 7°   | Pandas                                                                      | How to create and store a DataFrame - How to open a file - Some way to work with a DataFrame - Plots         |
-| 8°   | Collaborative work with Git                                                 | How to work collaboratively - Solve conflicts                                                                |
-| 9°   | Geo-package                                                                 |                                                                                                              |
-| 10°  | Geo-package                                                                 |                                                                                                              |
+| 8°   | Git part 2                                                                  | How to work with branch                                                                                      |
+| 9°   | Introduction to Rasterio and Xaray                                          | Import a raster file - Manipulate the data - Visualize the data - Export data                                |
+| 10°  | Introduction to Rioxarray | How to scale analysis with lots of images using Microsoft's Planetary Computer - How Geopandas and Xarray work together - Examine how NDVI changes over time |
 
 ## Requirements | Requisitos
 
