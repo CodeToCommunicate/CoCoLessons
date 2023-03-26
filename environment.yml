@@ -19,4 +19,7 @@ dependencies:
   - rasterio
   - xarray
   - rioxarray
-
+  - geopandas
+  - pip:
+    - planetary-computer
+    - odc-stac
