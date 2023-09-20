@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: >-
+  If you use these lessons, please cite them as below.
+type: misc
+title: "CoCo Coding Lessons"
+authors:
+  - family-names: Pesce
+    given-names: Agustina
+    orcid: https://orcid.org/0000-0002-5538-8845
+  - family-names: Piper
+    given-names: Mark
+    orcid: https://orcid.org/0000-0001-6418-277X
+  - family-names: Soler
+    given-names: Santiago
+    orcid: https://orcid.org/0000-0001-9202-5317
+  - family-names: Cortez
+    given-names: Isamar
+    orcid: https://orcid.org/0000-0002-5270-0864
+  - family-names: Gomez
+    given-names: Mariana
+  - family-names: Balza
+    given-names: Andrea
+url: 'https://github.com/CodeToCommunicate/CoCoLessons'
+abstract: >-
+  Course material for the bilingual (Spanish, English) Code to Communicate program.
+keywords:
+  - python
+  - git
+  - shell
+  - education
+  - jupyter
+  - geoscience
+license: CC-BY-4.0 License
+version: 2023.1
+doi: https://doi.org/10.5281/zenodo.7102509
+date-released: 2023-01-20
