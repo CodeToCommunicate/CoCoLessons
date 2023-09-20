@@ -59,16 +59,16 @@ The CoCo lessons can be run locally
 if you install Anaconda and a `git` client
 (covered in [lesson 1](./01_coding_environment.md)).
 All lessons are also available
-on the [OpenEarthscape JupyterHub][jhub].
+on [EarthscapeHub][jhub].
 Click this button:
 
-[![Run on OpenEarthscape JupyterHub][badge]][jhub-link]
+[![Run on EarthscapeHub][badge]][jhub-link]
 
-to open the lessons directly on the OpenEarthscape JupyterHub!
+to open the lessons directly on the EarthscapeHub *lab* instance!
 
-> **Note:** The OpenEarthscape JupyterHub is password-protected.
+> **Note:** The EarthscapeHub *lab* instance is password-protected.
   Please contact your instructor about obtaining a login,
-  or visit [this page][jhub-info] for more information.
+  or visit [this][jhub-info] CSDMS wiki page for more information.
 
 ## License | Licencia
 
@@ -92,7 +92,7 @@ and remixed under their [license][swc-license].
 
 <!-- Links -->
 
-[badge]: https://img.shields.io/badge/OpenEarthscape-JupyterHub-orange
+[badge]: https://img.shields.io/badge/Run%20on-EarthscapeHub-orange
 [cc-by]: http://creativecommons.org/licenses/by/4.0/
 [cc-by-image]: https://i.creativecommons.org/l/by/4.0/88x31.png
 [jhub]: https://csdms.colorado.edu/wiki/JupyterHub
