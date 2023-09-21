@@ -32,14 +32,14 @@ para aprender sobre Bash, Git/GitHub y Python.
 | ---- | --------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
 | 1°   | Setting up a scientific coding environment                                  | Install software - Login to a JupyterHub - Get familiar with JupyterLab and Jupyter Notebook                 |
 | 2°   | The shell                                                                   | What is a command shell and why would I use one? - Files, directories and locations                          |
-| 3°   | Start to work with Git: from configuration to create a repository in GitHub | What is? - Set up - How to use it?                                                                           |
-| 4°   | Introduction to Python and Numpy                                            | Variables - Types of data and structures - Numpy arrays                                                      |
-| 5°   | Data visualization with matplotlib                                          | How can we open a file? - How can we plot our data? - Plots types - How can we save our plot for publishing? |
+| 3°   | Start to work with Git: from configuration to create a repository in GitHub | What is Git? - Set up - How to use it?                                                                           |
+| 4°   | Introduction to Python and NumPy                                            | Variables - Types of data and structures - NumPy arrays                                                      |
+| 5°   | Data visualization with Matplotlib                                          | How can we open a file? - How can we plot our data? - Plot types - How can we save our plot for publishing? |
 | 6°   | More about Python                                                           | For loops - Conditional statements - Write our own functions                                                 |
-| 7°   | Pandas                                                                      | How to create and store a DataFrame - How to open a file - Some way to work with a DataFrame - Plots         |
-| 8°   | Git part 2                                                                  | How to work with branch                                                                                      |
-| 9°   | Introduction to Rasterio and Xaray                                          | Import a raster file - Manipulate the data - Visualize the data - Export data                                |
-| 10°  | Introduction to Rioxarray | How to scale analysis with lots of images using Microsoft's Planetary Computer - How Geopandas and Xarray work together - Examine how NDVI changes over time |
+| 7°   | Pandas                                                                      | How to create and store a DataFrame - How to open a file - Some ways to work with a DataFrame - Plots         |
+| 8°   | Git, Part 2                                                                  | How to work with a branch                                                                                      |
+| 9°   | Introduction to Rasterio and Xarray                                          | Import a raster file - Manipulate the data - Visualize the data - Export data                                |
+| 10°  | Introduction to Rioxarray | How to do scale analysis with lots of images using Microsoft's Planetary Computer - How Geopandas and Xarray work together - Examine how NDVI changes over time |
 
 ## Requirements | Requisitos
 
