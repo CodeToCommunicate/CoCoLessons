@@ -42,7 +42,7 @@ que puedes usar en CoCo y para otras cosas también.
 
 1. Instalar la distribución Anaconda
 1. Localizar la terminal (en Linux o macOS) o istalar Git para Windows
-   (Wisndows)
+   (Windows)
 1. Instalar VS Code
 1. Iniciar una sesión en JupyterHub
 1. Familiarizarse con JupyterLab
