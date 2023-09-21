@@ -1,7 +1,6 @@
 cff-version: 1.2.0
 message: >-
   If you use these lessons, please cite them as below.
-type: misc
 title: "CoCo Coding Lessons"
 authors:
   - family-names: Pesce
@@ -36,5 +35,5 @@ keywords:
   - geoscience
 license: CC-BY-4.0
 version: 2023.2
-doi: https://doi.org/10.5281/zenodo.7102509
-date-released: 2023-09-20
+doi: 10.5281/zenodo.7102509
+date-released: "2023-09-20"
